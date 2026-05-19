@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { SchemaType } from "@google/generative-ai";
 import { extractJSON, getGeminiClient, MODELS } from "@/lib/llm";
 
 export const runtime = "nodejs";
@@ -63,7 +64,23 @@ Set "gender" to null when it's not a noun. If the word is a conjugated verb form
       systemInstruction,
       generationConfig: {
         responseMimeType: "application/json",
-        maxOutputTokens: 350,
+        responseSchema: {
+          type: SchemaType.OBJECT,
+          properties: {
+            word: { type: SchemaType.STRING },
+            meaning: { type: SchemaType.STRING },
+            partOfSpeech: { type: SchemaType.STRING },
+            gender: {
+              type: SchemaType.STRING,
+              enum: ["der", "die", "das"],
+              nullable: true,
+            },
+            example: { type: SchemaType.STRING },
+            exampleTranslation: { type: SchemaType.STRING },
+          },
+          required: ["word", "meaning", "partOfSpeech"],
+        },
+        maxOutputTokens: 400,
         temperature: 0.2,
       },
     });
@@ -73,6 +90,7 @@ Set "gender" to null when it's not a noun. If the word is a conjugated verb form
     const parsed = extractJSON<WordTranslation>(text);
 
     if (!parsed || !parsed.meaning) {
+      console.error("Translate: invalid model output:", text);
       return NextResponse.json<WordTranslation>({
         word: body.word,
         meaning: "(no translation available)",

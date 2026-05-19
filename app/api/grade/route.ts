@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { SchemaType } from "@google/generative-ai";
 import { extractJSON, getGeminiClient, MODELS } from "@/lib/llm";
 
 export const runtime = "nodejs";
@@ -104,7 +105,20 @@ Output JSON in this exact shape:
       systemInstruction,
       generationConfig: {
         responseMimeType: "application/json",
-        maxOutputTokens: 400,
+        responseSchema: {
+          type: SchemaType.OBJECT,
+          properties: {
+            status: {
+              type: SchemaType.STRING,
+              enum: ["correct", "close", "incorrect"],
+            },
+            feedback: { type: SchemaType.STRING },
+            correctedAnswer: { type: SchemaType.STRING },
+            encouragement: { type: SchemaType.STRING },
+          },
+          required: ["status", "feedback"],
+        },
+        maxOutputTokens: 600,
         temperature: 0.3,
       },
     });
@@ -114,6 +128,7 @@ Output JSON in this exact shape:
     const parsed = extractJSON<GradeResponse>(text);
 
     if (!parsed || !["correct", "close", "incorrect"].includes(parsed.status)) {
+      console.error("Grade: invalid model output:", text);
       return NextResponse.json<GradeResponse>({
         status: "incorrect",
         feedback: "We couldn't grade that automatically. The expected answer is shown.",
