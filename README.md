@@ -12,10 +12,14 @@ DeutschPath is a structured, recruiter-demoable German practice app with three m
 
 | Mode | What it does |
 | --- | --- |
-| **Translation Drills** | Translate prompts both ways (en↔de). Instant grading by Claude Haiku with grammar notes and graceful exact-match short-circuit. |
-| **Reading with Click-Translate** | Read real German passages — click *any* word for meaning, gender, and a generated example sentence. Aggressive in-memory caching means repeat clicks are instant. |
+| **Translation Drills** | Translate prompts both ways (en↔de). Instant grading by Gemini with grammar notes and an exact-match short-circuit so common answers never hit the API. |
+| **Reading with Click-Translate** | Real German passages — click *any* word for meaning, gender, and a generated example sentence. Passage-level audio playback with per-sentence progress. Aggressive in-memory caching means repeat clicks are instant. |
 | **AI Conversation** | Stream a chat with Gemini in German at your CEFR level. Pick a scenario (restaurant, job interview, day, doctor, or free chat). Subtle `(Tipp: …)` corrections appear after grammar slips. |
-| **Progress dashboard** | Streak, XP, level (A1→C1), looked-up vocabulary, 30-day activity heatmap, daily-goal ring. All in `localStorage` — no signup, no server. |
+| **🆕 Listening (dictation)** | Audio plays a German sentence; type what you hear. LCS-based word diff with color-coded inline corrections. Play, repeat, slow-down (0.65×), or reveal the transcript. |
+| **🆕 Writing practice** | Pick a prompt at A2 or B1, write a short essay in German, get scored 0–10 on Grammar / Vocabulary / Structure / Coherence plus before-and-after corrections and native-style phrasings from Gemini (structured `responseSchema` output). Drafts auto-save locally. |
+| **🆕 Spaced repetition** | Add any looked-up word to a review queue. SM-2 algorithm schedules cards with Again/Hard/Good/Easy buttons. Keyboard-driven, daily streak-aware, with a 7-day forecast on the progress page. |
+| **🆕 Audio everywhere** | Tap-to-pronounce on every German word, example sentence, and review card via the Web Speech API (free, no setup, picks the best installed German voice). |
+| **Progress dashboard** | Streak, XP, level (A1→C1), looked-up vocabulary, 30-day activity heatmap, daily-goal ring, SRS stats with retention rate. All in `localStorage` — no signup, no server. |
 
 ## Tech stack
 
@@ -32,23 +36,31 @@ DeutschPath is a structured, recruiter-demoable German practice app with three m
 
 ```
 app/
-  api/grade/route.ts      → exact-match + Gemini semantic grading, 24h cache
-  api/translate/route.ts  → on-demand word translation, in-memory word cache
-  api/chat/route.ts       → streaming response, last-10-messages window
-  practice/translate     drills
-  practice/read[/[id]]   reading library + reader
-  practice/chat          AI conversation
-  progress               dashboard
+  api/grade/route.ts        → exact-match + Gemini semantic grading, 24h cache
+  api/translate/route.ts    → on-demand word translation, in-memory cache
+  api/chat/route.ts         → streaming response, last-10-messages window
+  api/grade-essay/route.ts  → Gemini structured essay feedback (responseSchema)
+  practice/translate        drills
+  practice/read[/[id]]      reading library + reader with passage audio
+  practice/chat             AI conversation
+  practice/listen           dictation with audio + LCS-based diff
+  practice/write            essay prompts + AI feedback
+  practice/review           SRS daily review (SM-2)
+  progress                  dashboard
 lib/
-  storage.ts             namespaced + SSR-safe localStorage wrapper with pub/sub
-  streaks.ts xp.ts       business logic
-  vocabulary.ts          looked-up word store
-  chatLimit.ts           50 messages/day per browser
-  llm.ts                 lazy-init Gemini client, JSON extractor
+  storage.ts                namespaced SSR-safe localStorage with pub/sub
+  streaks.ts xp.ts          business logic
+  vocabulary.ts             looked-up word store
+  chatLimit.ts              50 messages/day per browser
+  srs.ts                    SM-2 algorithm + due-card scheduling
+  tts.ts                    Web Speech API wrapper (word + passage)
+  writingPrompts.ts         A2/B1 prompt loader
+  llm.ts                    lazy-init Gemini client, JSON extractor
 content/
-  translations/{a1,a2}.json  drills with hints + grammar notes
-  readings/{a1,a2}.json      passages with vocab + comprehension Qs
-  grammar/a1-topics.json     5 grammar primers
+  translations/{a1,a2,b1}.json  drills with hints + grammar notes
+  readings/{a1,a2,b1}.json      passages with vocab + comprehension Qs
+  grammar/{a1,b1}-topics.json   grammar primers
+  writing-prompts/{a2,b1}.json  essay prompts with hints + target length
 ```
 
 ## Quickstart
@@ -88,12 +100,21 @@ Designed to run on the Gemini API free tier for demo-level traffic. Both grader 
 
 ## Roadmap
 
-This is an MVP. Slated for v2:
+**Shipped in v2:**
 
-- B1, B2, C1 seeded content (current scaffold supports them already)
-- Audio playback for readings (TTS for each sentence, not just per-word `speechSynthesis`)
+- ✅ TTS audio on every word + sentence-level passage playback
+- ✅ Spaced-repetition system (SM-2) over looked-up words
+- ✅ B1 content (40 drills, 5 readings, 5 grammar primers)
+- ✅ Listening (dictation) mode with audio + word-level diff
+- ✅ Writing practice with structured AI feedback (Gemini `responseSchema`)
+
+**v3 candidates:**
+
+- More A1/A2/B1 drills + readings (current set covers ~1 week of daily practice)
+- B2 and C1 content
 - Optional accounts so progress syncs across devices
-- Spaced-repetition scheduler over the looked-up-words list
+- Cloud TTS (Google / ElevenLabs) for higher-fidelity audio on devices without German voices
+- Spaced-repetition for grammar concepts, not just words
 - Stripe-backed Pro tier for unlimited chat messages
 
 ## License
