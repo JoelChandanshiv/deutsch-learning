@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
-import { ArrowRight, Award, BookOpen, Flame, MessageCircle, PencilLine, Target, Trash2 } from "lucide-react";
+import { ArrowRight, Award, BookOpen, Brain, Flame, MessageCircle, PencilLine, Target, Trash2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
@@ -14,6 +14,7 @@ import { getStreak } from "@/lib/streaks";
 import { getXP, DAILY_GOAL_XP } from "@/lib/xp";
 import { getVocabulary, removeWord, type SavedWord } from "@/lib/vocabulary";
 import { getChatLimit, DAILY_CHAT_LIMIT } from "@/lib/chatLimit";
+import { getStats as getSRSStats } from "@/lib/srs";
 
 const FALLBACK_STREAK = { current: 0, longest: 0, lastActiveDate: null, history: [] as string[] };
 const FALLBACK_XP = {
@@ -27,11 +28,22 @@ const FALLBACK_XP = {
   dailyDate: null as string | null,
 };
 
+const FALLBACK_SRS = {
+  total: 0,
+  dueToday: 0,
+  reviewedToday: 0,
+  reviewedLast7Days: 0,
+  retentionLast7Days: 0,
+  averageInterval: 0,
+  dueInNext7Days: [0, 0, 0, 0, 0, 0, 0],
+};
+
 export default function ProgressPage() {
   const streak = useStore(getStreak, FALLBACK_STREAK);
   const xp = useStore(getXP, FALLBACK_XP);
   const vocab = useStore<SavedWord[]>(getVocabulary, []);
   const chat = useStore(getChatLimit, { used: 0, remaining: DAILY_CHAT_LIMIT, date: "" });
+  const srs = useStore(getSRSStats, FALLBACK_SRS);
   const [vocabOpen, setVocabOpen] = React.useState(false);
 
   const activeDates = React.useMemo(() => new Set(streak.history ?? []), [streak.history]);
@@ -128,6 +140,70 @@ export default function ProgressPage() {
         </Card>
       </div>
 
+      <Card className="mt-4 border-border/60">
+        <CardHeader className="pb-2">
+          <CardTitle className="flex items-center justify-between gap-2 text-sm font-medium">
+            <span className="flex items-center gap-2 text-muted-foreground">
+              <Brain className="h-4 w-4 text-primary" /> Spaced repetition
+            </span>
+            {srs.dueToday > 0 ? (
+              <Button asChild size="sm" variant="outline">
+                <Link href="/practice/review">
+                  Review {srs.dueToday} <ArrowRight className="ml-1 h-3 w-3" />
+                </Link>
+              </Button>
+            ) : (
+              <span className="text-xs text-muted-foreground">All caught up</span>
+            )}
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
+            <SRSStat label="Total cards" value={srs.total} />
+            <SRSStat label="Due today" value={srs.dueToday} highlight={srs.dueToday > 0} />
+            <SRSStat
+              label="7-day retention"
+              value={srs.reviewedLast7Days > 0 ? `${Math.round(srs.retentionLast7Days * 100)}%` : "—"}
+            />
+            <SRSStat
+              label="Avg interval"
+              value={srs.averageInterval > 0 ? `${srs.averageInterval}d` : "—"}
+            />
+          </div>
+          {srs.total > 0 && (
+            <div className="mt-4">
+              <p className="text-[10px] uppercase tracking-wider text-muted-foreground">
+                Next 7 days
+              </p>
+              <div className="mt-2 flex items-end gap-1.5">
+                {srs.dueInNext7Days.map((n, i) => {
+                  const max = Math.max(1, ...srs.dueInNext7Days);
+                  const h = Math.max(4, Math.round((n / max) * 56));
+                  return (
+                    <div
+                      key={i}
+                      className="flex flex-1 flex-col items-center gap-1"
+                      title={`${n} card${n === 1 ? "" : "s"} due`}
+                    >
+                      <div
+                        className={
+                          "w-full rounded-sm " +
+                          (n === 0 ? "bg-muted/40" : i === 0 ? "bg-primary" : "bg-primary/50")
+                        }
+                        style={{ height: h }}
+                      />
+                      <span className="text-[10px] text-muted-foreground">
+                        {i === 0 ? "Today" : `+${i}`}
+                      </span>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+        </CardContent>
+      </Card>
+
       <div className="mt-4 grid gap-4 md:grid-cols-3">
         <StatTile
           icon={<PencilLine className="h-4 w-4" />}
@@ -221,6 +297,37 @@ export default function ProgressPage() {
           )}
         </CardContent>
       </Card>
+    </div>
+  );
+}
+
+function SRSStat({
+  label,
+  value,
+  highlight,
+}: {
+  label: string;
+  value: string | number;
+  highlight?: boolean;
+}) {
+  return (
+    <div
+      className={
+        "rounded-md border p-3 " +
+        (highlight ? "border-primary/40 bg-primary/5" : "border-border/40 bg-muted/40")
+      }
+    >
+      <div className="text-[10px] uppercase tracking-wider text-muted-foreground">
+        {label}
+      </div>
+      <div
+        className={
+          "mt-1 font-display text-xl font-semibold " +
+          (highlight ? "text-primary" : "")
+        }
+      >
+        {value}
+      </div>
     </div>
   );
 }

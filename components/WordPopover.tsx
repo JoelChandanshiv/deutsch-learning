@@ -1,13 +1,14 @@
 "use client";
 
 import * as React from "react";
-import { Loader2, Plus } from "lucide-react";
+import { Brain, Check, Loader2 } from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { AudioButton } from "@/components/AudioButton";
 import type { VocabularyEntry } from "@/lib/content";
 import { recordLookup } from "@/lib/vocabulary";
+import { addWordToReview, hasCard } from "@/lib/srs";
 import type { WordTranslation } from "@/app/api/translate/route";
 import { cn } from "@/lib/utils";
 
@@ -47,7 +48,12 @@ export function WordPopover({ word, context, vocab, source, children }: Props) {
     vocab ? vocabToTranslation(vocab) : null,
   );
   const [loading, setLoading] = React.useState(false);
+  const [inReview, setInReview] = React.useState(false);
   const fetchedRef = React.useRef(false);
+
+  React.useEffect(() => {
+    if (open) setInReview(hasCard(data?.word ?? word));
+  }, [open, data, word]);
 
   React.useEffect(() => {
     if (!open) return;
@@ -84,17 +90,17 @@ export function WordPopover({ word, context, vocab, source, children }: Props) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open]);
 
-  function handleSave() {
-    if (!data) return;
-    recordLookup({
+  function handleAddToReview() {
+    if (!data || inReview) return;
+    addWordToReview({
       word: data.word,
       meaning: data.meaning,
       partOfSpeech: data.partOfSpeech,
       gender: data.gender,
       example: data.example,
       exampleTranslation: data.exampleTranslation,
-      source,
     });
+    setInReview(true);
   }
 
   return (
@@ -143,13 +149,21 @@ export function WordPopover({ word, context, vocab, source, children }: Props) {
               <Button
                 size="icon"
                 variant="ghost"
-                className={cn("h-7 w-7", !data && "opacity-50")}
-                onClick={handleSave}
-                aria-label="Save to vocabulary"
-                disabled={!data}
-                title="Add to vocabulary"
+                className={cn(
+                  "h-7 w-7",
+                  !data && "opacity-50",
+                  inReview && "text-primary",
+                )}
+                onClick={handleAddToReview}
+                aria-label={inReview ? "Already in review queue" : "Add to review queue"}
+                disabled={!data || inReview}
+                title={inReview ? "Already in your review queue" : "Add to review queue"}
               >
-                <Plus className="h-3.5 w-3.5" />
+                {inReview ? (
+                  <Check className="h-3.5 w-3.5" />
+                ) : (
+                  <Brain className="h-3.5 w-3.5" />
+                )}
               </Button>
             </div>
           </div>

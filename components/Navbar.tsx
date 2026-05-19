@@ -4,6 +4,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 import { StreakDisplay } from "@/components/StreakDisplay";
 import { XPBar } from "@/components/XPBar";
 import { DailyGoalRing } from "@/components/DailyGoalRing";
+import { ReviewQueueIndicator } from "@/components/ReviewQueueIndicator";
 
 export function Navbar() {
   return (
@@ -33,7 +34,8 @@ export function Navbar() {
           </Link>
           <div className="ml-2 flex items-center gap-2">
             <XPBar compact className="hidden md:flex" />
-            <DailyGoalRing className="hidden sm:inline-flex" />
+            <ReviewQueueIndicator className="hidden sm:inline-flex" />
+            <DailyGoalRing className="hidden lg:inline-flex" />
             <StreakDisplay />
             <ThemeToggle />
           </div>
