@@ -1,1 +1,102 @@
-[]
+[
+  {
+    "id": "b1-gram-001",
+    "level": "B1",
+    "title": "Konjunktiv II",
+    "summary": "Konjunktiv II is the German subjunctive used for situations that are not real: hypotheticals, polite requests, wishes, and unreal conditions. In modern German, most verbs form Konjunktiv II analytically with 'würde + infinitive' (similar to English 'would'), but a small set of high-frequency verbs use their own dedicated forms — and you genuinely need to know these by heart, because they are everywhere. The same construction handles 'If I had time...', 'Could you please...', and 'I wish I knew...', which makes it one of the most powerful tools in B1 German.",
+    "examples": [
+      { "de": "Wenn ich Zeit hätte, würde ich kommen.", "en": "If I had time, I would come. (unreal condition in the present)" },
+      { "de": "Könnten Sie mir bitte helfen?", "en": "Could you please help me? (polite request — softer than 'Können Sie...?')" },
+      { "de": "Ich wünschte, ich wäre jetzt am Strand.", "en": "I wish I were at the beach right now. (unreal wish about the present)" },
+      { "de": "An deiner Stelle würde ich das nicht machen.", "en": "If I were you, I wouldn't do that. (idiomatic advice)" },
+      { "de": "Wenn ich das gewusst hätte, wäre ich früher gekommen.", "en": "If I had known that, I would have come earlier. (Konjunktiv II Vergangenheit — past counterfactual)" }
+    ],
+    "tips": [
+      "Use 'würde + infinitive' as your default for most regular verbs. It is grammatically correct, sounds natural, and is what native speakers actually say in everyday conversation.",
+      "Memorize the irregular Konjunktiv II forms of the most common verbs — using 'würde' with them sounds clumsy: 'hätte' (haben), 'wäre' (sein), 'würde' (werden), 'könnte' (können), 'müsste' (müssen), 'wüsste' (wissen), 'käme' (kommen), 'gäbe' (geben), 'ginge' (gehen).",
+      "For past counterfactuals ('would have done X'), build with 'hätte/wäre + Partizip II' — never use 'würde + haben/sein'. So: 'Ich hätte angerufen' ✓, not 'Ich würde angerufen haben' ✗.",
+      "In a 'wenn'-clause, you can drop 'wenn' if you invert: 'Wenn ich Zeit hätte, ...' = 'Hätte ich Zeit, ...'. This sounds more elegant and is common in writing.",
+      "Konjunktiv II is the standard register for polite forms in service contexts — restaurants, shops, customer service. 'Ich hätte gern...' is more polite than 'Ich will...'."
+    ]
+  },
+  {
+    "id": "b1-gram-002",
+    "level": "B1",
+    "title": "Passiv",
+    "summary": "German has two distinct passives that English collapses into one. The Vorgangspassiv ('werden-Passiv') describes an action in progress — 'the bridge is being built'. The Zustandspassiv ('sein-Passiv') describes the resulting state — 'the bridge is built (= finished)'. Choosing the wrong one changes the meaning. The passive is used more often in German than in English, particularly in formal, journalistic, and academic registers where the agent is unknown, irrelevant, or deliberately downplayed.",
+    "examples": [
+      { "de": "Das Haus wird gebaut.", "en": "The house is being built. (Vorgangspassiv Präsens — action in progress)" },
+      { "de": "Das Haus wurde 1985 gebaut.", "en": "The house was built in 1985. (Vorgangspassiv Präteritum — preferred in written narration)" },
+      { "de": "Das Haus ist gebaut worden.", "en": "The house has been built. (Vorgangspassiv Perfekt — note 'worden', not 'geworden')" },
+      { "de": "Das Haus ist gebaut.", "en": "The house is built (= finished, ready). (Zustandspassiv — the resulting state)" },
+      { "de": "Dieses Problem muss schnell gelöst werden.", "en": "This problem must be solved quickly. (modal + passive: modal + Partizip II + werden)" }
+    ],
+    "tips": [
+      "The agent (who did it) is introduced with 'von + Dativ' for people/causes and 'durch + Akkusativ' for means/instruments: 'Der Brief wurde von ihm geschrieben' (by him) vs 'durch einen Boten' (by means of a messenger).",
+      "In Perfekt passive, the past participle of 'werden' is 'worden', NOT 'geworden'. 'Geworden' is reserved for the main verb 'to become': 'Er ist Arzt geworden' vs 'Er ist gerufen worden'.",
+      "German uses passive much more freely than English. When in doubt, the more formal/journalistic the context, the more passive is expected. Spoken German often uses 'man' as an alternative: 'Man baut hier ein Haus' ≈ 'A house is being built here'.",
+      "Dative-object verbs (helfen, danken, gratulieren, folgen) cannot be passivized normally — the dative object stays in dative: 'Mir wurde geholfen' (I was helped), with no nominative subject.",
+      "There is a 'true' future passive ('wird gebaut werden'), but it is rare. Native speakers usually express future passive with the present tense + a time word: 'Das wird morgen entschieden' (That will be decided tomorrow)."
+    ]
+  },
+  {
+    "id": "b1-gram-003",
+    "level": "B1",
+    "title": "Relativsätze",
+    "summary": "Relative clauses ('the woman who lives next door', 'the book that I'm reading') let you add information about a noun. In German, the relative pronoun agrees with the antecedent in gender and number, but its case is determined by its grammatical role inside the relative clause — not the role of the antecedent. The finite verb goes to the end, and relative clauses are always set off by commas. Prepositions stay attached to the relative pronoun and cannot be stranded at the end as in English.",
+    "examples": [
+      { "de": "Der Mann, der dort steht, ist mein Onkel.", "en": "The man who is standing there is my uncle. (masculine + nominative role → 'der')" },
+      { "de": "Das Buch, das ich lese, ist spannend.", "en": "The book that I'm reading is exciting. (neuter + accusative role → 'das')" },
+      { "de": "Die Frau, mit der ich gesprochen habe, war sehr freundlich.", "en": "The woman I spoke with was very friendly. (preposition stays with pronoun — never 'mit ich gesprochen habe... der')" },
+      { "de": "Der Kollege, dessen Auto hier steht, ist im Urlaub.", "en": "The colleague whose car is here is on vacation. (possessive — 'dessen' for masculine/neuter possessor)" },
+      { "de": "Alles, was er sagt, ist wahr.", "en": "Everything that he says is true. (after 'alles', 'nichts', 'etwas', 'vieles' → use 'was', not 'das')" }
+    ],
+    "tips": [
+      "Three-step method to pick the right relative pronoun: (1) gender + number from the noun being described, (2) case from the relative pronoun's job inside the clause, (3) look up the correct form in the table. The forms mostly look like definite articles, except in dative plural ('denen') and genitive ('dessen' / 'deren').",
+      "When a preposition is involved, it ALWAYS comes before the pronoun: 'der Stuhl, auf dem ich sitze' — never 'der Stuhl, dem ich auf sitze' (which is ungrammatical).",
+      "Use 'was' instead of 'das' after indefinite antecedents like 'alles', 'nichts', 'etwas', 'vieles', 'manches', and after neuter superlatives: 'das Beste, was ich gesehen habe' (the best thing I've seen).",
+      "For 'whose': masculine/neuter possessor → 'dessen'; feminine/plural possessor → 'deren'. These forms never change based on what they modify, unlike normal possessives.",
+      "'Welcher/welche/welches' can replace 'der/die/das' as a relative pronoun. It sounds more formal and is often used in writing to avoid two 'der's next to each other: 'der Tag, welcher mir gefiel' instead of 'der Tag, der mir gefiel'."
+    ]
+  },
+  {
+    "id": "b1-gram-004",
+    "level": "B1",
+    "title": "Nominalisierung",
+    "summary": "Nominalisierung means turning a verb (or adjective) into a noun. In German this is extremely common, especially in formal, academic, and journalistic writing. Any infinitive can become a neuter noun — 'lernen' → 'das Lernen' (the act of learning) — and is always capitalized, always neuter, and takes 'das' as its article. Nominalized verbs make sentences more abstract and concise, but they also change the surrounding grammar: prepositions, articles, and adjective endings all need to behave like a normal noun phrase.",
+    "examples": [
+      { "de": "Das Lesen macht mir Spaß.", "en": "Reading is fun for me. (infinitive 'lesen' → noun 'das Lesen', subject)" },
+      { "de": "Beim Kochen höre ich gern Musik.", "en": "While cooking, I like to listen to music. (bei + dem → beim + nominalized infinitive)" },
+      { "de": "Das schnelle Lernen einer Sprache ist nicht einfach.", "en": "Quickly learning a language is not easy. (adjective 'schnell' takes neuter endings agreeing with 'das Lernen')" },
+      { "de": "Sie ist gut im Schwimmen.", "en": "She is good at swimming. (in + dem → im + 'das Schwimmen')" },
+      { "de": "Vor dem Essen sollte man sich die Hände waschen.", "en": "Before eating, one should wash one's hands. (preposition + dative + nominalized infinitive)" }
+    ],
+    "tips": [
+      "Nominalized infinitives are ALWAYS neuter and ALWAYS capitalized. This is a hard rule. 'Das Essen', 'das Trinken', 'das Wandern' — all neuter, no exceptions.",
+      "When a preposition combines with 'das' before a nominalized infinitive, the standard contractions apply: 'in dem Schwimmen' → 'im Schwimmen', 'bei dem Lesen' → 'beim Lesen', 'zu dem Essen' → 'zum Essen'.",
+      "If an adjective modifies a nominalized infinitive, it follows neuter endings: 'das schnelle Lernen', 'gutes Essen', 'fließendes Sprechen'. The article ('das') triggers the weak adjective ending, just like with any other noun.",
+      "Many verbs also have an established noun form that is NOT a nominalized infinitive. Watch for these and prefer the established noun when it exists: 'das Lernen' (the process) vs 'das Wissen' (the knowledge), 'das Essen' (food/eating) vs 'die Speise' (a dish).",
+      "Adjectives can also be nominalized: 'der/die Deutsche' (the German person), 'das Beste' (the best thing), 'das Neue' (the new thing). The gender depends on what you mean (a male person → der; a female person → die; an abstract concept → das), and adjective endings still apply."
+    ]
+  },
+  {
+    "id": "b1-gram-005",
+    "level": "B1",
+    "title": "Modalverben in der Vergangenheit",
+    "summary": "Modal verbs (können, müssen, dürfen, sollen, wollen, mögen) in the past split into two patterns depending on whether they appear alone or with another infinitive. Used alone, they form a normal Perfekt with their own Partizip II ('gekonnt', 'gemusst' etc.), but this construction is rare — Präteritum is overwhelmingly preferred in both speech and writing for modal verbs. When the modal is paired with another infinitive (the usual case), German uses the 'doppelter Infinitiv' construction: 'haben + infinitive + modal-infinitive', with the modal verb staying in its infinitive form at the very end.",
+    "examples": [
+      { "de": "Ich musste gestern lange arbeiten.", "en": "I had to work late yesterday. (Präteritum — the natural choice for modals)" },
+      { "de": "Sie konnte als Kind gut Klavier spielen.", "en": "She could play the piano well as a child. (Präteritum — describing past abilities)" },
+      { "de": "Ich habe gestern lange arbeiten müssen.", "en": "I had to work late yesterday. (Perfekt with double infinitive — note 'müssen' at the very end, not 'gemusst')" },
+      { "de": "Er hat das nicht machen wollen.", "en": "He didn't want to do that. (Perfekt double infinitive — finite verb 'hat' in position 2, both infinitives at the end)" },
+      { "de": "Ich habe das nicht gewusst — das hätte ich wissen müssen.", "en": "I didn't know that — I should have known. (Konjunktiv II + double infinitive — combining past unreality with a modal)" }
+    ],
+    "tips": [
+      "In conversation, ALWAYS prefer Präteritum for modal verbs in the past: 'Ich musste...', 'Sie konnte...', 'Wir wollten...'. This is one of the few cases where Präteritum is the default even in spoken German.",
+      "Use the double-infinitive Perfekt construction mainly in subordinate clauses where the past meaning needs to be unambiguous, or in writing where you want stylistic variation. The structure is: 'haben + main-verb-infinitive + modal-infinitive' (in that order, both at the end).",
+      "The Partizip II forms ('gekonnt', 'gemusst', 'gedurft', 'gesollt', 'gewollt', 'gemocht') are only used when the modal stands alone without another verb: 'Ich habe das nicht gekonnt' (I wasn't able to do that). Whenever there's a second infinitive, you switch to the double-infinitive form.",
+      "In a 'dass'-clause with a double infinitive, the auxiliary 'haben' moves BEFORE both infinitives, not after them: 'Ich weiß, dass er hat arbeiten müssen' — not 'dass er arbeiten müssen hat'. This is an exception to the 'verb-final' rule.",
+      "Konjunktiv II combines with double infinitive for sentences like 'I should have done X': 'Das hätte ich machen sollen' (I should have done that), 'Du hättest anrufen müssen' (You should have called). This pattern is extremely useful for expressing past regrets and is worth drilling specifically."
+    ]
+  }
+]

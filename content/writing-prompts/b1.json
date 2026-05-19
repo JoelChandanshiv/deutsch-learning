@@ -1,0 +1,134 @@
+[
+  {
+    "id": "b1-write-001",
+    "level": "B1",
+    "topic": "opinion-smartphones",
+    "prompt": "Sollten Smartphones in Schulen verboten werden? Diskutieren Sie Vor- und Nachteile und nennen Sie Ihre eigene Meinung.",
+    "suggestedLength": [150, 220],
+    "hints": [
+      "Use connectors: einerseits ... andererseits, jedoch, allerdings.",
+      "Try Konjunktiv II for hypotheticals: 'Wenn Smartphones verboten wären, ...'"
+    ]
+  },
+  {
+    "id": "b1-write-002",
+    "level": "B1",
+    "topic": "environment",
+    "prompt": "Was kann jeder Einzelne tun, um die Umwelt zu schützen? Beschreiben Sie drei konkrete Maßnahmen.",
+    "suggestedLength": [150, 200],
+    "hints": [
+      "Modal verbs for advice: man sollte, man könnte, man müsste.",
+      "Try Passiv: 'Müll sollte getrennt werden.'"
+    ]
+  },
+  {
+    "id": "b1-write-003",
+    "level": "B1",
+    "topic": "city-vs-country",
+    "prompt": "Stadt oder Land — wo lebt man besser? Vergleichen Sie und begründen Sie Ihre Meinung.",
+    "suggestedLength": [160, 220],
+    "hints": [
+      "Comparatives: lebhafter als, ruhiger als, teurer als.",
+      "Use 'während' as a contrasting conjunction: 'Während die Stadt lebhaft ist, ...'"
+    ]
+  },
+  {
+    "id": "b1-write-004",
+    "level": "B1",
+    "topic": "work-from-home",
+    "prompt": "Viele Menschen arbeiten heute im Homeoffice. Welche Vor- und Nachteile sehen Sie?",
+    "suggestedLength": [150, 220],
+    "hints": [
+      "Use Konnektoren: außerdem, dagegen, zudem.",
+      "Try a relative clause: 'Mitarbeiter, die zu Hause arbeiten, ...'"
+    ]
+  },
+  {
+    "id": "b1-write-005",
+    "level": "B1",
+    "topic": "travel-experience",
+    "prompt": "Erzählen Sie von einer Reise, die Ihr Leben verändert hat. Was war besonders? Was haben Sie gelernt?",
+    "suggestedLength": [180, 250],
+    "hints": [
+      "Mix Perfekt (storytelling) with Präteritum (war, hatte, konnte).",
+      "Use 'als' for past one-time events: 'Als ich in Rom war, ...'"
+    ]
+  },
+  {
+    "id": "b1-write-006",
+    "level": "B1",
+    "topic": "media-consumption",
+    "prompt": "Lesen Sie noch Zeitungen oder informieren Sie sich nur online? Beschreiben Sie Ihre Mediennutzung und deren Vor- und Nachteile.",
+    "suggestedLength": [150, 200],
+    "hints": [
+      "Try 'sich informieren über + Akkusativ'.",
+      "Konjunktiv II for unreal: 'Ich würde mehr Zeitung lesen, wenn ich mehr Zeit hätte.'"
+    ]
+  },
+  {
+    "id": "b1-write-007",
+    "level": "B1",
+    "topic": "language-learning",
+    "prompt": "Was ist die beste Methode, eine Fremdsprache zu lernen? Beschreiben Sie Ihre eigene Erfahrung.",
+    "suggestedLength": [160, 220],
+    "hints": [
+      "'um ... zu' for purpose: 'Um Deutsch zu lernen, höre ich Podcasts.'",
+      "Try a 'damit'-clause for purpose with different subjects."
+    ]
+  },
+  {
+    "id": "b1-write-008",
+    "level": "B1",
+    "topic": "social-media",
+    "prompt": "Wie verändern soziale Medien unser Leben? Beschreiben Sie positive und negative Aspekte.",
+    "suggestedLength": [180, 250],
+    "hints": [
+      "Passiv: 'Informationen werden schnell verbreitet.'",
+      "Relative clauses: 'Apps, die süchtig machen, ...'"
+    ]
+  },
+  {
+    "id": "b1-write-009",
+    "level": "B1",
+    "topic": "ideal-job",
+    "prompt": "Wie sieht Ihr idealer Beruf aus? Was ist Ihnen wichtig: Geld, Sinn, Freizeit?",
+    "suggestedLength": [150, 200],
+    "hints": [
+      "Konjunktiv II: 'Ich würde gerne ... werden.'",
+      "Use 'einerseits ... andererseits' to balance."
+    ]
+  },
+  {
+    "id": "b1-write-010",
+    "level": "B1",
+    "topic": "food-culture",
+    "prompt": "Wie wichtig ist Essen in Ihrer Kultur? Vergleichen Sie mit der deutschen Esskultur.",
+    "suggestedLength": [180, 250],
+    "hints": [
+      "Use comparisons: 'Im Gegensatz zu Deutschland ...'",
+      "Try nominalization: 'das gemeinsame Essen', 'das schnelle Frühstück'."
+    ]
+  },
+  {
+    "id": "b1-write-011",
+    "level": "B1",
+    "topic": "ai-impact",
+    "prompt": "Künstliche Intelligenz verändert viele Berufe. Wie sehen Sie die Zukunft der Arbeit?",
+    "suggestedLength": [180, 250],
+    "hints": [
+      "Konjunktiv II for predictions: 'Es könnte sein, dass ...'",
+      "Use 'einerseits ... andererseits', 'obwohl'."
+    ]
+  },
+  {
+    "id": "b1-write-012",
+    "level": "B1",
+    "topic": "childhood-memory",
+    "prompt": "Beschreiben Sie eine wichtige Erinnerung aus Ihrer Kindheit. Warum ist sie für Sie bedeutend?",
+    "suggestedLength": [180, 250],
+    "hints": [
+      "Use Präteritum for narration: war, hatte, ging, konnte.",
+      "Try 'damals' and 'heute' to contrast time periods."
+    ]
+  }
+]

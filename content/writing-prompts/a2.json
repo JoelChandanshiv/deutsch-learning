@@ -1,0 +1,135 @@
+[
+  {
+    "id": "a2-write-001",
+    "level": "A2",
+    "topic": "weekend",
+    "prompt": "Schreiben Sie über Ihr letztes Wochenende. Was haben Sie gemacht? Mit wem? Wie war es?",
+    "suggestedLength": [60, 90],
+    "hints": [
+      "Use Perfekt for completed actions (haben/sein + Partizip II).",
+      "Try to use at least two time expressions: am Samstag, am Sonntag, danach.",
+      "Don't forget capitalization for all nouns."
+    ]
+  },
+  {
+    "id": "a2-write-002",
+    "level": "A2",
+    "topic": "hometown",
+    "prompt": "Beschreiben Sie Ihre Heimatstadt. Was ist dort schön? Was gibt es zu sehen?",
+    "suggestedLength": [60, 100],
+    "hints": [
+      "Useful verbs: liegen, sich befinden, es gibt.",
+      "Try comparatives: größer als, kleiner als."
+    ]
+  },
+  {
+    "id": "a2-write-003",
+    "level": "A2",
+    "topic": "daily-routine",
+    "prompt": "Beschreiben Sie einen typischen Arbeitstag oder Schultag. Wann stehen Sie auf? Was machen Sie?",
+    "suggestedLength": [70, 100],
+    "hints": [
+      "Separable verbs (aufstehen, anfangen, mitnehmen) split in present tense.",
+      "Use 'um ... Uhr' for clock times."
+    ]
+  },
+  {
+    "id": "a2-write-004",
+    "level": "A2",
+    "topic": "vacation",
+    "prompt": "Wo waren Sie im letzten Urlaub? Was haben Sie dort gemacht und gesehen?",
+    "suggestedLength": [80, 120],
+    "hints": [
+      "Movement verbs in Perfekt take 'sein': bin gefahren, bin geflogen.",
+      "Try a 'weil'-clause for at least one reason."
+    ]
+  },
+  {
+    "id": "a2-write-005",
+    "level": "A2",
+    "topic": "food",
+    "prompt": "Was essen Sie gern und was nicht? Beschreiben Sie ein typisches Essen aus Ihrer Familie.",
+    "suggestedLength": [70, 100],
+    "hints": [
+      "'gern' goes after the verb: Ich esse gern Pizza.",
+      "Nouns for foods need their article: der Käse, das Brot, die Milch."
+    ]
+  },
+  {
+    "id": "a2-write-006",
+    "level": "A2",
+    "topic": "future-plans",
+    "prompt": "Was möchten Sie nächstes Wochenende machen? Schreiben Sie über Ihre Pläne.",
+    "suggestedLength": [60, 90],
+    "hints": [
+      "'möchten' is the polite 'want': Ich möchte ins Kino gehen.",
+      "Try 'vielleicht' for 'maybe'."
+    ]
+  },
+  {
+    "id": "a2-write-007",
+    "level": "A2",
+    "topic": "friends",
+    "prompt": "Beschreiben Sie Ihren besten Freund oder Ihre beste Freundin. Wie ist diese Person?",
+    "suggestedLength": [70, 100],
+    "hints": [
+      "Adjective endings change with the article — 'meine beste Freundin', 'mein bester Freund'.",
+      "Use 'weil' to give a reason."
+    ]
+  },
+  {
+    "id": "a2-write-008",
+    "level": "A2",
+    "topic": "hobbies",
+    "prompt": "Welche Hobbys haben Sie? Wie oft machen Sie sie? Warum gefallen sie Ihnen?",
+    "suggestedLength": [70, 100],
+    "hints": [
+      "'gefallen' takes a dative subject: 'Mir gefällt Musik.'",
+      "Frequency words: oft, manchmal, selten, immer."
+    ]
+  },
+  {
+    "id": "a2-write-009",
+    "level": "A2",
+    "topic": "shopping",
+    "prompt": "Beschreiben Sie Ihren letzten Einkauf. Was haben Sie gekauft? Wo? Warum?",
+    "suggestedLength": [60, 90],
+    "hints": [
+      "Perfekt: haben + gekauft, haben + gefunden.",
+      "Try 'weil' for at least one reason."
+    ]
+  },
+  {
+    "id": "a2-write-010",
+    "level": "A2",
+    "topic": "weather",
+    "prompt": "Wie ist das Wetter heute? Welches Wetter mögen Sie am liebsten und warum?",
+    "suggestedLength": [60, 80],
+    "hints": [
+      "'es regnet', 'es schneit', 'die Sonne scheint'.",
+      "Superlative: am liebsten, am schönsten."
+    ]
+  },
+  {
+    "id": "a2-write-011",
+    "level": "A2",
+    "topic": "learning-german",
+    "prompt": "Warum lernen Sie Deutsch? Was ist schwer? Was ist leicht für Sie?",
+    "suggestedLength": [70, 100],
+    "hints": [
+      "Use 'finden + Adjektiv': 'Ich finde die Grammatik schwer.'",
+      "'um ... zu' expresses purpose: 'Ich lerne Deutsch, um in Deutschland zu arbeiten.'"
+    ]
+  },
+  {
+    "id": "a2-write-012",
+    "level": "A2",
+    "topic": "family",
+    "prompt": "Beschreiben Sie Ihre Familie. Wie viele Personen sind Sie? Was machen Sie zusammen?",
+    "suggestedLength": [70, 110],
+    "hints": [
+      "Family vocab: der Bruder, die Schwester, die Eltern, die Großeltern.",
+      "'zusammen' = together. Try 'gemeinsam' for variety."
+    ]
+  }
+]
