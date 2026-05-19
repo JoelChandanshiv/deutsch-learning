@@ -4,8 +4,7 @@
 
 DeutschPath is a structured, recruiter-demoable German practice app with three modes (translation drills, click-to-translate readings, and AI conversation), CEFR-aligned content, and a local-only progress tracker.
 
-**Live demo:** _(set after first Vercel deploy — replace this line)_
-`https://deutschpath.vercel.app`
+**Live demo:** [deutsch-easy.vercel.app](https://deutsch-easy.vercel.app/)
 
 ---
 
@@ -55,8 +54,8 @@ content/
 ## Quickstart
 
 ```bash
-git clone https://github.com/JoelChandanshiv/deutschpath.git
-cd deutschpath
+git clone https://github.com/JoelChandanshiv/deutsch-learning.git
+cd deutsch-learning
 npm install
 cp .env.example .env.local   # paste your Anthropic key
 npm run dev

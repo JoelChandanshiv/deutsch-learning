@@ -16,7 +16,7 @@ export function Footer() {
           </a>
         </p>
         <a
-          href="https://github.com/JoelChandanshiv/deutschpath"
+          href="https://github.com/JoelChandanshiv/deutsch-learning"
           target="_blank"
           rel="noreferrer"
           className="inline-flex items-center gap-2 hover:text-foreground"

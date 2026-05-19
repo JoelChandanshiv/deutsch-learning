@@ -24,12 +24,12 @@ export const metadata: Metadata = {
   },
   description:
     "Structured translation drills, real readings with instant click-to-translate, and AI conversation for serious German learners. Free. No ads. No owl.",
-  metadataBase: new URL("https://deutschpath.vercel.app"),
+  metadataBase: new URL("https://deutsch-easy.vercel.app"),
   openGraph: {
     title: "DeutschPath — Practice German from A1 to C1",
     description:
       "Structured drills, real readings, and AI conversation for serious German learners.",
-    url: "https://deutschpath.vercel.app",
+    url: "https://deutsch-easy.vercel.app",
     siteName: "DeutschPath",
     type: "website",
   },
