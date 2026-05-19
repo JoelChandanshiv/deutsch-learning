@@ -1,0 +1,82 @@
+[
+  {
+    "id": "a1-gram-001",
+    "level": "A1",
+    "title": "Articles: der, die, das",
+    "summary": "Every German noun has a gender: masculine (der), feminine (die), or neuter (das). The article changes based on the noun's case (nominative, accusative, dative, genitive). There are no foolproof rules — gender must usually be learned with the noun. The plural article is always 'die' in nominative/accusative.",
+    "examples": [
+      { "de": "der Mann, die Frau, das Kind", "en": "the man, the woman, the child" },
+      { "de": "Ich sehe den Mann.", "en": "I see the man. (accusative — der → den)" },
+      { "de": "Ich gebe dem Mann ein Buch.", "en": "I give the man a book. (dative — der → dem)" }
+    ],
+    "tips": [
+      "Always learn nouns WITH their article: 'das Buch', not just 'Buch'.",
+      "Diminutives ending in -chen or -lein are always neuter (das Mädchen, das Brötchen).",
+      "Words ending in -ung, -heit, -keit, -schaft, -tät are feminine."
+    ]
+  },
+  {
+    "id": "a1-gram-002",
+    "level": "A1",
+    "title": "Present Tense (Präsens)",
+    "summary": "German present tense covers both 'I do' and 'I am doing'. Regular verbs follow predictable endings; many common verbs (sein, haben, gehen, kommen) are slightly irregular. Some strong verbs change their stem vowel in the du- and er/sie/es-forms.",
+    "examples": [
+      { "de": "ich mache, du machst, er macht", "en": "I do, you do, he does (regular)" },
+      { "de": "ich spreche, du sprichst, er spricht", "en": "I speak, you speak, he speaks (e → i stem change)" },
+      { "de": "ich fahre, du fährst, er fährt", "en": "I drive, you drive, he drives (a → ä stem change)" }
+    ],
+    "tips": [
+      "Standard endings: -e, -st, -t, -en, -t, -en (ich/du/er/wir/ihr/sie).",
+      "If a verb stem ends in -t or -d, add an extra -e before -st/-t (du arbeitest).",
+      "Strong verbs only change stem in 2nd/3rd person singular."
+    ]
+  },
+  {
+    "id": "a1-gram-003",
+    "level": "A1",
+    "title": "sein and haben",
+    "summary": "'sein' (to be) and 'haben' (to have) are the two most important verbs in German. Both are irregular and used constantly — both as full verbs and as auxiliaries to form the Perfekt past tense.",
+    "examples": [
+      { "de": "ich bin, du bist, er ist, wir sind, ihr seid, sie sind", "en": "I am, you are, he is, we are, you (pl) are, they are" },
+      { "de": "ich habe, du hast, er hat, wir haben, ihr habt, sie haben", "en": "I have, you have, he has, we have, you (pl) have, they have" },
+      { "de": "Ich habe gegessen. / Ich bin gegangen.", "en": "I have eaten. / I have gone. (Perfekt auxiliaries)" }
+    ],
+    "tips": [
+      "Memorize the conjugations cold — you'll use them in every conversation.",
+      "Movement verbs (gehen, fahren, kommen) take 'sein' in Perfekt; most others take 'haben'.",
+      "'sein' and 'haben' also have very common Präteritum forms: war, hatte."
+    ]
+  },
+  {
+    "id": "a1-gram-004",
+    "level": "A1",
+    "title": "Pronouns: ich, du, Sie, er, sie, es",
+    "summary": "German distinguishes between informal (du) and formal (Sie) 'you', and has three genders for 'he/she/it' (er, sie, es) that match the noun's grammatical gender — not biological sex. Pronouns also change form across cases.",
+    "examples": [
+      { "de": "Wo ist der Stuhl? — Er steht dort.", "en": "Where is the chair? — It stands there. (der Stuhl → er, not 'es')" },
+      { "de": "Kennst du sie?", "en": "Do you know her? (informal 'du', 'sie' = her in accusative)" },
+      { "de": "Können Sie mir helfen?", "en": "Can you (formal) help me? ('Sie' is always capitalized)" }
+    ],
+    "tips": [
+      "Use 'Sie' with strangers, older people, and in professional settings; 'du' with friends, family, kids.",
+      "Capitalized 'Sie' = formal you (sing. + pl.); lowercase 'sie' = she or they.",
+      "The pronoun for a German noun matches the noun's gender, not English logic."
+    ]
+  },
+  {
+    "id": "a1-gram-005",
+    "level": "A1",
+    "title": "Word Order: Verb-Second Rule",
+    "summary": "In main clauses, the conjugated verb is ALWAYS in second position — but what comes first is flexible. You can start with the subject, a time expression, an object, etc., and the verb still stays in slot two. This gives German much of its rhythm.",
+    "examples": [
+      { "de": "Ich gehe morgen ins Kino.", "en": "I'm going to the cinema tomorrow. (Subject first)" },
+      { "de": "Morgen gehe ich ins Kino.", "en": "Tomorrow I'm going to the cinema. (Time first — verb still second!)" },
+      { "de": "Ins Kino gehe ich morgen.", "en": "I'm going to the cinema tomorrow. (Object first — emphasis)" }
+    ],
+    "tips": [
+      "Count 'positions', not 'words': 'Letzten Sommer' counts as one position.",
+      "Yes/no questions break the rule — verb goes first: 'Gehst du ins Kino?'",
+      "In subordinate clauses (after weil, dass, wenn...), the verb goes to the END instead."
+    ]
+  }
+]

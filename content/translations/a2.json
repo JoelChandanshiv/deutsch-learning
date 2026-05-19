@@ -1,0 +1,222 @@
+[
+  {
+    "id": "a2-001",
+    "level": "A2",
+    "topic": "perfekt",
+    "direction": "en-to-de",
+    "prompt": "Yesterday I bought a new book.",
+    "answer": "Gestern habe ich ein neues Buch gekauft.",
+    "alternatives": ["Ich habe gestern ein neues Buch gekauft."],
+    "hint": "Perfekt with 'haben' + past participle at the end.",
+    "grammarNote": "Most transitive verbs form Perfekt with 'haben'. Past participle 'gekauft' goes to the end of the clause."
+  },
+  {
+    "id": "a2-002",
+    "level": "A2",
+    "topic": "perfekt",
+    "direction": "en-to-de",
+    "prompt": "We went to Hamburg last weekend.",
+    "answer": "Wir sind letztes Wochenende nach Hamburg gefahren.",
+    "alternatives": ["Letztes Wochenende sind wir nach Hamburg gefahren."],
+    "hint": "Movement verbs use 'sein' in Perfekt.",
+    "grammarNote": "Verbs of movement (fahren, gehen, fliegen, kommen) use 'sein' as the auxiliary in Perfekt, not 'haben'."
+  },
+  {
+    "id": "a2-003",
+    "level": "A2",
+    "topic": "perfekt",
+    "direction": "de-to-en",
+    "prompt": "Ich habe meinen Freund seit zwei Jahren nicht gesehen.",
+    "answer": "I haven't seen my friend for two years.",
+    "alternatives": ["I have not seen my friend in two years."],
+    "hint": "'seit' + dative for time duration up to now.",
+    "grammarNote": "German uses 'seit' + present or perfect for ongoing duration. In English we use present perfect ('haven't seen ... for')."
+  },
+  {
+    "id": "a2-004",
+    "level": "A2",
+    "topic": "perfekt",
+    "direction": "en-to-de",
+    "prompt": "She has stayed at home today.",
+    "answer": "Sie ist heute zu Hause geblieben.",
+    "alternatives": ["Heute ist sie zu Hause geblieben."],
+    "hint": "'bleiben' (to stay) takes 'sein' in Perfekt.",
+    "grammarNote": "Besides movement verbs, 'sein', 'bleiben' and 'werden' also take 'sein' in Perfekt. 'zu Hause' = at home."
+  },
+  {
+    "id": "a2-005",
+    "level": "A2",
+    "topic": "modal-verbs",
+    "direction": "en-to-de",
+    "prompt": "I have to work tomorrow.",
+    "answer": "Ich muss morgen arbeiten.",
+    "alternatives": ["Morgen muss ich arbeiten."],
+    "hint": "'müssen' = must / have to; infinitive goes to the end.",
+    "grammarNote": "Modal verbs put the main infinitive at the end: 'Ich muss ... arbeiten'. Modal is conjugated, infinitive is bare."
+  },
+  {
+    "id": "a2-006",
+    "level": "A2",
+    "topic": "modal-verbs",
+    "direction": "en-to-de",
+    "prompt": "Can you help me, please?",
+    "answer": "Kannst du mir bitte helfen?",
+    "alternatives": ["Können Sie mir bitte helfen?"],
+    "hint": "'helfen' takes the dative.",
+    "grammarNote": "'helfen' takes a dative object: 'mir helfen' (help me). With modal 'können', the infinitive 'helfen' goes to the end."
+  },
+  {
+    "id": "a2-007",
+    "level": "A2",
+    "topic": "modal-verbs",
+    "direction": "en-to-de",
+    "prompt": "You should drink more water.",
+    "answer": "Du solltest mehr Wasser trinken.",
+    "alternatives": ["Sie sollten mehr Wasser trinken."],
+    "hint": "'sollten' is the Konjunktiv II of 'sollen' — softer 'should'.",
+    "grammarNote": "'sollst' is direct ('you shall'); 'solltest' is softer and more like English 'should'."
+  },
+  {
+    "id": "a2-008",
+    "level": "A2",
+    "topic": "modal-verbs",
+    "direction": "de-to-en",
+    "prompt": "Ich möchte heute Abend ins Kino gehen.",
+    "answer": "I would like to go to the cinema this evening.",
+    "alternatives": ["I want to go to the movies tonight."],
+    "hint": "'möchten' = would like to.",
+    "grammarNote": "'möchten' is the Konjunktiv II of 'mögen'. It's the polite 'would like'. 'ins Kino' = into the cinema (accusative)."
+  },
+  {
+    "id": "a2-009",
+    "level": "A2",
+    "topic": "conjunctions",
+    "direction": "en-to-de",
+    "prompt": "I'm staying home because I'm tired.",
+    "answer": "Ich bleibe zu Hause, weil ich müde bin.",
+    "alternatives": [],
+    "hint": "'weil' sends the conjugated verb to the end.",
+    "grammarNote": "Subordinating conjunctions (weil, dass, wenn, obwohl) push the conjugated verb to the end of the clause."
+  },
+  {
+    "id": "a2-010",
+    "level": "A2",
+    "topic": "conjunctions",
+    "direction": "en-to-de",
+    "prompt": "I know that he is sick.",
+    "answer": "Ich weiß, dass er krank ist.",
+    "alternatives": [],
+    "hint": "'dass' = that (conjunction). Comma before it.",
+    "grammarNote": "Don't confuse 'dass' (conjunction) with 'das' (article/pronoun). After 'dass', the verb goes to the end."
+  },
+  {
+    "id": "a2-011",
+    "level": "A2",
+    "topic": "conjunctions",
+    "direction": "en-to-de",
+    "prompt": "When I have time, I read a lot.",
+    "answer": "Wenn ich Zeit habe, lese ich viel.",
+    "alternatives": [],
+    "hint": "'wenn' clause first → verb-comma-verb pattern.",
+    "grammarNote": "When a subordinate clause comes first, the main clause starts with the verb (verb-second across both clauses: ',lese ich')."
+  },
+  {
+    "id": "a2-012",
+    "level": "A2",
+    "topic": "conjunctions",
+    "direction": "de-to-en",
+    "prompt": "Obwohl es regnet, gehen wir spazieren.",
+    "answer": "Although it's raining, we're going for a walk.",
+    "alternatives": ["Even though it's raining, we're going for a walk."],
+    "hint": "'obwohl' = although / even though.",
+    "grammarNote": "'obwohl' is subordinating, so 'regnet' goes to the end of the first clause."
+  },
+  {
+    "id": "a2-013",
+    "level": "A2",
+    "topic": "comparatives",
+    "direction": "en-to-de",
+    "prompt": "Berlin is bigger than Munich.",
+    "answer": "Berlin ist größer als München.",
+    "alternatives": [],
+    "hint": "Comparative + 'als' for 'than'.",
+    "grammarNote": "Most German adjectives form comparative with -er and umlaut: groß → größer, alt → älter. 'als' = than."
+  },
+  {
+    "id": "a2-014",
+    "level": "A2",
+    "topic": "comparatives",
+    "direction": "en-to-de",
+    "prompt": "This is the most beautiful city in Germany.",
+    "answer": "Das ist die schönste Stadt in Deutschland.",
+    "alternatives": [],
+    "hint": "Superlative form: die schönste.",
+    "grammarNote": "Adjective superlatives before nouns take -ste/-sten endings: die schönste Stadt. Predicate superlatives use 'am ...sten'."
+  },
+  {
+    "id": "a2-015",
+    "level": "A2",
+    "topic": "comparatives",
+    "direction": "en-to-de",
+    "prompt": "He runs faster than me.",
+    "answer": "Er läuft schneller als ich.",
+    "alternatives": [],
+    "hint": "Comparative 'schneller' + 'als ich'.",
+    "grammarNote": "After 'als', use the same case as the subject of comparison: 'als ich' (nominative), not 'als mich'."
+  },
+  {
+    "id": "a2-016",
+    "level": "A2",
+    "topic": "adjectives",
+    "direction": "en-to-de",
+    "prompt": "I'm looking for a cheap apartment.",
+    "answer": "Ich suche eine günstige Wohnung.",
+    "alternatives": ["Ich suche eine billige Wohnung."],
+    "hint": "'günstig' = affordable; 'billig' can sound cheap-in-quality.",
+    "grammarNote": "Adjective ending: feminine accusative after 'eine' → -e ('eine günstige Wohnung'). 'günstig' is the polite word for cheap."
+  },
+  {
+    "id": "a2-017",
+    "level": "A2",
+    "topic": "adjectives",
+    "direction": "de-to-en",
+    "prompt": "Mein neuer Computer ist sehr schnell.",
+    "answer": "My new computer is very fast.",
+    "alternatives": [],
+    "hint": "'neuer' — masculine nominative ending.",
+    "grammarNote": "After 'mein' (ein-word), masculine nominative gets -er ending. 'der Computer' is masculine."
+  },
+  {
+    "id": "a2-018",
+    "level": "A2",
+    "topic": "adjectives",
+    "direction": "en-to-de",
+    "prompt": "I'm wearing a warm jacket today.",
+    "answer": "Ich trage heute eine warme Jacke.",
+    "alternatives": ["Heute trage ich eine warme Jacke."],
+    "hint": "Feminine accusative: 'eine warme Jacke'.",
+    "grammarNote": "'die Jacke' is feminine; accusative after 'eine' gets -e: 'eine warme Jacke'."
+  },
+  {
+    "id": "a2-019",
+    "level": "A2",
+    "topic": "perfekt",
+    "direction": "en-to-de",
+    "prompt": "Have you ever been to Vienna?",
+    "answer": "Warst du schon einmal in Wien?",
+    "alternatives": ["Bist du schon mal in Wien gewesen?", "Sind Sie schon einmal in Wien gewesen?"],
+    "hint": "Use Präteritum of 'sein' ('warst') or Perfekt ('bist gewesen').",
+    "grammarNote": "'sein' is one of the few verbs where Germans naturally use Präteritum in speech. Both 'warst' and 'bist gewesen' are correct."
+  },
+  {
+    "id": "a2-020",
+    "level": "A2",
+    "topic": "conjunctions",
+    "direction": "en-to-de",
+    "prompt": "I'll call you when I arrive.",
+    "answer": "Ich rufe dich an, wenn ich ankomme.",
+    "alternatives": [],
+    "hint": "Both verbs are separable: 'anrufen' and 'ankommen'.",
+    "grammarNote": "'anrufen' splits in main clause: 'rufe ... an'. 'ankommen' in 'wenn'-clause stays together at end: 'ankomme'."
+  }
+]

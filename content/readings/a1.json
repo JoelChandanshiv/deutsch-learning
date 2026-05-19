@@ -1,0 +1,122 @@
+[
+  {
+    "id": "a1-read-001",
+    "level": "A1",
+    "title": "Mein Wochenende",
+    "passage": "Am Samstag stehe ich um neun Uhr auf. Ich trinke einen Kaffee und esse ein Brötchen mit Butter und Marmelade. Danach gehe ich joggen. Am Nachmittag treffe ich meine Freunde im Café. Wir reden viel und lachen. Am Sonntag bleibe ich oft zu Hause und lese ein Buch. Ich koche auch gern für meine Familie.",
+    "translation": "On Saturday I get up at nine o'clock. I drink a coffee and eat a roll with butter and jam. After that I go jogging. In the afternoon I meet my friends at the café. We talk a lot and laugh. On Sunday I often stay home and read a book. I also like cooking for my family.",
+    "vocabulary": [
+      { "word": "das Wochenende", "meaning": "weekend", "type": "noun-neuter" },
+      { "word": "aufstehen", "meaning": "to get up", "type": "verb-separable" },
+      { "word": "das Brötchen", "meaning": "bread roll", "type": "noun-neuter" },
+      { "word": "die Marmelade", "meaning": "jam", "type": "noun-feminine" },
+      { "word": "joggen", "meaning": "to jog", "type": "verb" },
+      { "word": "der Nachmittag", "meaning": "afternoon", "type": "noun-masculine" },
+      { "word": "treffen", "meaning": "to meet", "type": "verb" },
+      { "word": "lachen", "meaning": "to laugh", "type": "verb" },
+      { "word": "bleiben", "meaning": "to stay", "type": "verb" },
+      { "word": "kochen", "meaning": "to cook", "type": "verb" }
+    ],
+    "comprehensionQuestions": [
+      { "q": "Wann steht der Autor am Samstag auf?", "a": "Um neun Uhr." },
+      { "q": "Was macht er am Sonntag oft?", "a": "Er bleibt zu Hause und liest ein Buch." },
+      { "q": "Mit wem trifft er sich am Samstag?", "a": "Mit seinen Freunden im Café." }
+    ]
+  },
+  {
+    "id": "a1-read-002",
+    "level": "A1",
+    "title": "Meine Familie",
+    "passage": "Ich heiße Lukas und ich komme aus Köln. Ich bin dreißig Jahre alt. Meine Familie ist klein. Mein Vater heißt Peter. Er ist Ingenieur und arbeitet in einer Firma. Meine Mutter heißt Maria. Sie ist Ärztin und arbeitet im Krankenhaus. Ich habe eine Schwester. Sie ist Studentin und studiert in Berlin. Wir sehen uns nur an den Feiertagen, aber wir telefonieren oft.",
+    "translation": "My name is Lukas and I'm from Cologne. I'm thirty years old. My family is small. My father's name is Peter. He's an engineer and works at a company. My mother's name is Maria. She's a doctor and works at the hospital. I have one sister. She's a student and studies in Berlin. We only see each other on holidays, but we phone often.",
+    "vocabulary": [
+      { "word": "die Familie", "meaning": "family", "type": "noun-feminine" },
+      { "word": "der Vater", "meaning": "father", "type": "noun-masculine" },
+      { "word": "die Mutter", "meaning": "mother", "type": "noun-feminine" },
+      { "word": "der Ingenieur", "meaning": "engineer", "type": "noun-masculine" },
+      { "word": "die Ärztin", "meaning": "doctor (female)", "type": "noun-feminine" },
+      { "word": "das Krankenhaus", "meaning": "hospital", "type": "noun-neuter" },
+      { "word": "die Schwester", "meaning": "sister", "type": "noun-feminine" },
+      { "word": "studieren", "meaning": "to study (at university)", "type": "verb" },
+      { "word": "der Feiertag", "meaning": "holiday", "type": "noun-masculine" },
+      { "word": "telefonieren", "meaning": "to phone", "type": "verb" }
+    ],
+    "comprehensionQuestions": [
+      { "q": "Woher kommt Lukas?", "a": "Aus Köln." },
+      { "q": "Was macht seine Mutter beruflich?", "a": "Sie ist Ärztin." },
+      { "q": "Wo studiert seine Schwester?", "a": "In Berlin." }
+    ]
+  },
+  {
+    "id": "a1-read-003",
+    "level": "A1",
+    "title": "Im Supermarkt",
+    "passage": "Heute gehe ich in den Supermarkt. Ich brauche Brot, Milch, Käse und Obst. Im Supermarkt nehme ich einen Einkaufswagen. Zuerst gehe ich zum Obst. Ich kaufe Äpfel und Bananen. Dann gehe ich zum Brot. Das Brot ist heute frisch. An der Kasse warte ich kurz. Die Kassiererin ist sehr freundlich. Ich bezahle mit Karte und gehe nach Hause.",
+    "translation": "Today I'm going to the supermarket. I need bread, milk, cheese and fruit. At the supermarket I take a shopping cart. First I go to the fruit. I buy apples and bananas. Then I go to the bread. The bread is fresh today. At the checkout I wait briefly. The cashier is very friendly. I pay by card and go home.",
+    "vocabulary": [
+      { "word": "der Supermarkt", "meaning": "supermarket", "type": "noun-masculine" },
+      { "word": "brauchen", "meaning": "to need", "type": "verb" },
+      { "word": "die Milch", "meaning": "milk", "type": "noun-feminine" },
+      { "word": "der Käse", "meaning": "cheese", "type": "noun-masculine" },
+      { "word": "das Obst", "meaning": "fruit", "type": "noun-neuter" },
+      { "word": "der Einkaufswagen", "meaning": "shopping cart", "type": "noun-masculine" },
+      { "word": "der Apfel", "meaning": "apple", "type": "noun-masculine" },
+      { "word": "die Kasse", "meaning": "checkout / cash register", "type": "noun-feminine" },
+      { "word": "freundlich", "meaning": "friendly", "type": "adjective" },
+      { "word": "bezahlen", "meaning": "to pay", "type": "verb" }
+    ],
+    "comprehensionQuestions": [
+      { "q": "Was kauft die Person zuerst?", "a": "Obst (Äpfel und Bananen)." },
+      { "q": "Wie ist die Kassiererin?", "a": "Sehr freundlich." },
+      { "q": "Wie bezahlt die Person?", "a": "Mit Karte." }
+    ]
+  },
+  {
+    "id": "a1-read-004",
+    "level": "A1",
+    "title": "Meine Wohnung",
+    "passage": "Ich wohne in einer kleinen Wohnung in der Stadt. Die Wohnung hat zwei Zimmer, eine Küche und ein Bad. Im Wohnzimmer steht ein großes Sofa und ein Fernseher. Ich habe auch viele Bücher. Mein Schlafzimmer ist klein, aber gemütlich. Die Küche ist hell und modern. Ich koche gern und oft. Mein Bad hat eine Dusche, aber keine Badewanne. Ich bin glücklich hier.",
+    "translation": "I live in a small apartment in the city. The apartment has two rooms, a kitchen and a bathroom. In the living room there is a big sofa and a TV. I also have many books. My bedroom is small but cozy. The kitchen is bright and modern. I like to cook often. My bathroom has a shower but no bathtub. I'm happy here.",
+    "vocabulary": [
+      { "word": "die Wohnung", "meaning": "apartment", "type": "noun-feminine" },
+      { "word": "das Zimmer", "meaning": "room", "type": "noun-neuter" },
+      { "word": "die Küche", "meaning": "kitchen", "type": "noun-feminine" },
+      { "word": "das Bad", "meaning": "bathroom", "type": "noun-neuter" },
+      { "word": "das Wohnzimmer", "meaning": "living room", "type": "noun-neuter" },
+      { "word": "das Schlafzimmer", "meaning": "bedroom", "type": "noun-neuter" },
+      { "word": "gemütlich", "meaning": "cozy", "type": "adjective" },
+      { "word": "hell", "meaning": "bright", "type": "adjective" },
+      { "word": "die Dusche", "meaning": "shower", "type": "noun-feminine" },
+      { "word": "glücklich", "meaning": "happy", "type": "adjective" }
+    ],
+    "comprehensionQuestions": [
+      { "q": "Wie viele Zimmer hat die Wohnung?", "a": "Zwei Zimmer, eine Küche und ein Bad." },
+      { "q": "Wie ist das Schlafzimmer?", "a": "Klein, aber gemütlich." },
+      { "q": "Hat das Bad eine Badewanne?", "a": "Nein, nur eine Dusche." }
+    ]
+  },
+  {
+    "id": "a1-read-005",
+    "level": "A1",
+    "title": "Ein Tag im Büro",
+    "passage": "Ich arbeite in einem Büro im Zentrum. Morgens fahre ich mit der U-Bahn zur Arbeit. Die Fahrt dauert zwanzig Minuten. Im Büro trinke ich zuerst einen Kaffee und lese meine E-Mails. Um zehn Uhr habe ich ein Meeting mit meinem Chef. Wir sprechen über neue Projekte. Mittags esse ich mit Kollegen in einem kleinen Restaurant. Nach der Arbeit gehe ich oft ins Fitnessstudio.",
+    "translation": "I work in an office in the center. In the morning I take the subway to work. The trip takes twenty minutes. At the office I first drink a coffee and read my emails. At ten o'clock I have a meeting with my boss. We talk about new projects. At lunch I eat with colleagues at a small restaurant. After work I often go to the gym.",
+    "vocabulary": [
+      { "word": "das Büro", "meaning": "office", "type": "noun-neuter" },
+      { "word": "die U-Bahn", "meaning": "subway / metro", "type": "noun-feminine" },
+      { "word": "die Fahrt", "meaning": "trip / ride", "type": "noun-feminine" },
+      { "word": "dauern", "meaning": "to last / take (time)", "type": "verb" },
+      { "word": "die E-Mail", "meaning": "email", "type": "noun-feminine" },
+      { "word": "der Chef", "meaning": "boss", "type": "noun-masculine" },
+      { "word": "sprechen", "meaning": "to speak", "type": "verb" },
+      { "word": "das Projekt", "meaning": "project", "type": "noun-neuter" },
+      { "word": "der Kollege", "meaning": "colleague (male)", "type": "noun-masculine" },
+      { "word": "das Restaurant", "meaning": "restaurant", "type": "noun-neuter" }
+    ],
+    "comprehensionQuestions": [
+      { "q": "Wie kommt der Autor zur Arbeit?", "a": "Mit der U-Bahn." },
+      { "q": "Wie lange dauert die Fahrt?", "a": "Zwanzig Minuten." },
+      { "q": "Was macht er nach der Arbeit oft?", "a": "Er geht ins Fitnessstudio." }
+    ]
+  }
+]

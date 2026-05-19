@@ -1,0 +1,122 @@
+[
+  {
+    "id": "a2-read-001",
+    "level": "A2",
+    "title": "Mein Umzug nach Berlin",
+    "passage": "Letzten Sommer bin ich nach Berlin gezogen. Vorher habe ich in einem kleinen Dorf gewohnt, aber ich wollte eine größere Stadt erleben. Am Anfang war alles ein bisschen schwierig. Ich kannte niemanden, und die Straßen waren mir fremd. Ich habe lange eine Wohnung gesucht, weil die Mieten sehr hoch sind. Endlich habe ich eine kleine Wohnung in Kreuzberg gefunden. Heute fühle ich mich hier zu Hause. Ich habe neue Freunde gefunden und ich kenne die Stadt gut. Berlin ist nicht perfekt, aber ich liebe die Energie und die Vielfalt.",
+    "translation": "Last summer I moved to Berlin. Before that I lived in a small village, but I wanted to experience a bigger city. At the beginning everything was a bit difficult. I didn't know anyone, and the streets were unfamiliar to me. I searched for an apartment for a long time, because the rents are very high. Finally I found a small apartment in Kreuzberg. Today I feel at home here. I've made new friends and I know the city well. Berlin isn't perfect, but I love the energy and the diversity.",
+    "vocabulary": [
+      { "word": "der Umzug", "meaning": "move (relocation)", "type": "noun-masculine" },
+      { "word": "ziehen", "meaning": "to move / pull", "type": "verb" },
+      { "word": "das Dorf", "meaning": "village", "type": "noun-neuter" },
+      { "word": "erleben", "meaning": "to experience", "type": "verb" },
+      { "word": "schwierig", "meaning": "difficult", "type": "adjective" },
+      { "word": "fremd", "meaning": "unfamiliar / foreign", "type": "adjective" },
+      { "word": "die Miete", "meaning": "rent", "type": "noun-feminine" },
+      { "word": "endlich", "meaning": "finally", "type": "adverb" },
+      { "word": "die Vielfalt", "meaning": "diversity", "type": "noun-feminine" },
+      { "word": "die Energie", "meaning": "energy", "type": "noun-feminine" }
+    ],
+    "comprehensionQuestions": [
+      { "q": "Wo hat der Autor vorher gewohnt?", "a": "In einem kleinen Dorf." },
+      { "q": "Warum war es schwierig, eine Wohnung zu finden?", "a": "Weil die Mieten sehr hoch sind." },
+      { "q": "Wo wohnt er jetzt?", "a": "In Kreuzberg in Berlin." }
+    ]
+  },
+  {
+    "id": "a2-read-002",
+    "level": "A2",
+    "title": "Ein Tag am Meer",
+    "passage": "Letzte Woche bin ich mit meiner Familie an die Ostsee gefahren. Wir sind früh aufgestanden und drei Stunden im Auto gefahren. Das Wetter war fantastisch — sonnig und warm. Am Strand haben wir eine Decke ausgebreitet und sind direkt ins Wasser gegangen. Das Wasser war kalt, aber meine Tochter hat trotzdem stundenlang gespielt. Mittags haben wir ein Picknick gemacht. Meine Frau hatte Brötchen und Obst mitgebracht. Am Abend waren wir sehr müde, aber glücklich. Solche Tage sollten wir öfter haben.",
+    "translation": "Last week I drove to the Baltic Sea with my family. We got up early and drove for three hours. The weather was fantastic — sunny and warm. At the beach we spread out a blanket and went straight into the water. The water was cold, but my daughter still played for hours. At noon we had a picnic. My wife had brought rolls and fruit. In the evening we were very tired but happy. We should have days like this more often.",
+    "vocabulary": [
+      { "word": "die Ostsee", "meaning": "Baltic Sea", "type": "noun-feminine" },
+      { "word": "das Wetter", "meaning": "weather", "type": "noun-neuter" },
+      { "word": "sonnig", "meaning": "sunny", "type": "adjective" },
+      { "word": "der Strand", "meaning": "beach", "type": "noun-masculine" },
+      { "word": "die Decke", "meaning": "blanket", "type": "noun-feminine" },
+      { "word": "ausbreiten", "meaning": "to spread out", "type": "verb-separable" },
+      { "word": "die Tochter", "meaning": "daughter", "type": "noun-feminine" },
+      { "word": "trotzdem", "meaning": "nevertheless", "type": "adverb" },
+      { "word": "das Picknick", "meaning": "picnic", "type": "noun-neuter" },
+      { "word": "mitbringen", "meaning": "to bring along", "type": "verb-separable" }
+    ],
+    "comprehensionQuestions": [
+      { "q": "Wohin ist die Familie gefahren?", "a": "An die Ostsee." },
+      { "q": "Wie war das Wetter?", "a": "Sonnig und warm." },
+      { "q": "Was haben sie mittags gemacht?", "a": "Sie haben ein Picknick gemacht." }
+    ]
+  },
+  {
+    "id": "a2-read-003",
+    "level": "A2",
+    "title": "Beim Arzt",
+    "passage": "Seit drei Tagen habe ich starke Kopfschmerzen. Heute Morgen bin ich endlich zum Arzt gegangen. Im Wartezimmer waren viele Menschen. Ich musste fast eine Stunde warten. Dann hat die Ärztin mich untersucht. Sie hat mir viele Fragen gestellt: Schlafe ich gut? Trinke ich genug Wasser? Habe ich viel Stress? Die Antwort war leider 'ja' bei allem. Sie hat mir Tabletten verschrieben und gesagt, ich soll mich ausruhen. Ich hoffe, dass es mir bald besser geht.",
+    "translation": "I've had a bad headache for three days. This morning I finally went to the doctor. There were many people in the waiting room. I had to wait almost an hour. Then the doctor examined me. She asked me many questions: Do I sleep well? Do I drink enough water? Do I have a lot of stress? The answer was unfortunately 'yes' to everything. She prescribed me tablets and said I should rest. I hope I feel better soon.",
+    "vocabulary": [
+      { "word": "die Kopfschmerzen", "meaning": "headache", "type": "noun-plural" },
+      { "word": "der Arzt", "meaning": "doctor (male)", "type": "noun-masculine" },
+      { "word": "die Ärztin", "meaning": "doctor (female)", "type": "noun-feminine" },
+      { "word": "das Wartezimmer", "meaning": "waiting room", "type": "noun-neuter" },
+      { "word": "untersuchen", "meaning": "to examine", "type": "verb" },
+      { "word": "der Stress", "meaning": "stress", "type": "noun-masculine" },
+      { "word": "die Tablette", "meaning": "tablet / pill", "type": "noun-feminine" },
+      { "word": "verschreiben", "meaning": "to prescribe", "type": "verb" },
+      { "word": "sich ausruhen", "meaning": "to rest", "type": "verb-reflexive" },
+      { "word": "hoffen", "meaning": "to hope", "type": "verb" }
+    ],
+    "comprehensionQuestions": [
+      { "q": "Wie lange hat der Autor schon Kopfschmerzen?", "a": "Seit drei Tagen." },
+      { "q": "Wie lange musste er warten?", "a": "Fast eine Stunde." },
+      { "q": "Was hat die Ärztin ihm verschrieben?", "a": "Tabletten." }
+    ]
+  },
+  {
+    "id": "a2-read-004",
+    "level": "A2",
+    "title": "Mein Lieblingshobby",
+    "passage": "Seit fünf Jahren spiele ich Gitarre. Am Anfang war es sehr schwierig, weil meine Finger immer wehgetan haben. Aber ich habe nicht aufgegeben. Jeden Tag habe ich dreißig Minuten geübt, manchmal mehr. Mein Lehrer war sehr geduldig und hat mir viele Tipps gegeben. Heute spiele ich oft mit Freunden zusammen. Wir haben sogar eine kleine Band gegründet. Wir treten manchmal in Cafés auf. Musik macht mein Leben schöner und entspannter. Ich kann mir mein Leben ohne Musik nicht mehr vorstellen.",
+    "translation": "I've been playing guitar for five years. At the beginning it was very difficult because my fingers always hurt. But I didn't give up. Every day I practiced thirty minutes, sometimes more. My teacher was very patient and gave me many tips. Today I often play with friends. We've even started a small band. We sometimes perform in cafés. Music makes my life nicer and more relaxed. I can no longer imagine my life without music.",
+    "vocabulary": [
+      { "word": "die Gitarre", "meaning": "guitar", "type": "noun-feminine" },
+      { "word": "wehtun", "meaning": "to hurt", "type": "verb-separable" },
+      { "word": "aufgeben", "meaning": "to give up", "type": "verb-separable" },
+      { "word": "üben", "meaning": "to practice", "type": "verb" },
+      { "word": "geduldig", "meaning": "patient", "type": "adjective" },
+      { "word": "der Tipp", "meaning": "tip / hint", "type": "noun-masculine" },
+      { "word": "die Band", "meaning": "band", "type": "noun-feminine" },
+      { "word": "gründen", "meaning": "to found / start", "type": "verb" },
+      { "word": "auftreten", "meaning": "to perform", "type": "verb-separable" },
+      { "word": "sich vorstellen", "meaning": "to imagine / introduce oneself", "type": "verb-reflexive" }
+    ],
+    "comprehensionQuestions": [
+      { "q": "Wie lange spielt der Autor schon Gitarre?", "a": "Seit fünf Jahren." },
+      { "q": "Was haben er und seine Freunde gegründet?", "a": "Eine kleine Band." },
+      { "q": "Wo treten sie manchmal auf?", "a": "In Cafés." }
+    ]
+  },
+  {
+    "id": "a2-read-005",
+    "level": "A2",
+    "title": "Ein Job-Interview",
+    "passage": "Gestern hatte ich ein wichtiges Job-Interview bei einer großen Firma. Ich war sehr nervös, aber ich habe versucht, ruhig zu bleiben. Ich bin pünktlich angekommen und habe mich höflich vorgestellt. Die Personalchefin hat mir viele Fragen gestellt: Warum möchte ich hier arbeiten? Was sind meine Stärken und Schwächen? Welche Erfahrungen habe ich? Ich habe ehrlich geantwortet und auch eigene Fragen gestellt. Nach einer Stunde war das Gespräch zu Ende. Die Chefin hat gesagt, sie meldet sich nächste Woche. Jetzt muss ich nur noch geduldig warten.",
+    "translation": "Yesterday I had an important job interview at a big company. I was very nervous, but I tried to stay calm. I arrived on time and introduced myself politely. The HR manager asked me many questions: Why do I want to work here? What are my strengths and weaknesses? What experience do I have? I answered honestly and also asked my own questions. After an hour the conversation was over. The manager said she would get in touch next week. Now I just have to wait patiently.",
+    "vocabulary": [
+      { "word": "das Interview", "meaning": "interview", "type": "noun-neuter" },
+      { "word": "die Firma", "meaning": "company", "type": "noun-feminine" },
+      { "word": "nervös", "meaning": "nervous", "type": "adjective" },
+      { "word": "pünktlich", "meaning": "punctual / on time", "type": "adjective" },
+      { "word": "höflich", "meaning": "polite", "type": "adjective" },
+      { "word": "die Personalchefin", "meaning": "HR manager (female)", "type": "noun-feminine" },
+      { "word": "die Stärke", "meaning": "strength", "type": "noun-feminine" },
+      { "word": "die Schwäche", "meaning": "weakness", "type": "noun-feminine" },
+      { "word": "die Erfahrung", "meaning": "experience", "type": "noun-feminine" },
+      { "word": "sich melden", "meaning": "to get in touch", "type": "verb-reflexive" }
+    ],
+    "comprehensionQuestions": [
+      { "q": "Wie hat sich der Autor vor dem Interview gefühlt?", "a": "Sehr nervös." },
+      { "q": "Welche Fragen hat die Personalchefin gestellt?", "a": "Zum Beispiel: Warum möchte er dort arbeiten? Was sind seine Stärken und Schwächen?" },
+      { "q": "Wann meldet sich die Chefin?", "a": "Nächste Woche." }
+    ]
+  }
+]
