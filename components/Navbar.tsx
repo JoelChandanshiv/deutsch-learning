@@ -3,6 +3,7 @@ import { Languages } from "lucide-react";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { StreakDisplay } from "@/components/StreakDisplay";
 import { XPBar } from "@/components/XPBar";
+import { DailyGoalRing } from "@/components/DailyGoalRing";
 
 export function Navbar() {
   return (
@@ -32,6 +33,7 @@ export function Navbar() {
           </Link>
           <div className="ml-2 flex items-center gap-2">
             <XPBar compact className="hidden md:flex" />
+            <DailyGoalRing className="hidden sm:inline-flex" />
             <StreakDisplay />
             <ThemeToggle />
           </div>
