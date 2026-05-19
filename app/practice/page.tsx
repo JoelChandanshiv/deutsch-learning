@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, BookOpen, Brain, MessageCircle, PencilLine } from "lucide-react";
+import { ArrowRight, BookOpen, Brain, Headphones, MessageCircle, PencilLine } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useStore } from "@/lib/useStore";
 import { getDueCount, getAllCards } from "@/lib/srs";
@@ -27,6 +27,13 @@ const modes = [
     title: "AI Conversation",
     description: "Chat in German at your level. Gentle corrections.",
     cta: "Start chatting",
+  },
+  {
+    href: "/practice/listen",
+    icon: Headphones,
+    title: "Listening",
+    description: "Train your ear. Type what you hear.",
+    cta: "Start listening",
   },
 ];
 
@@ -85,7 +92,7 @@ export default function PracticeIndex() {
         </Card>
       </Link>
 
-      <div className="mx-auto mt-6 grid max-w-5xl gap-6 md:grid-cols-3">
+      <div className="mx-auto mt-6 grid max-w-5xl gap-6 md:grid-cols-2 lg:grid-cols-4">
         {modes.map((m) => (
           <Link key={m.href} href={m.href} className="group">
             <Card className="h-full border-border/60 transition-colors group-hover:border-primary/50">
