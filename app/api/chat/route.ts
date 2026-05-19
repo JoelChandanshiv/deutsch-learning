@@ -1,4 +1,4 @@
-import { getAnthropicClient, MODELS } from "@/lib/anthropic";
+import { getGeminiClient, MODELS } from "@/lib/llm";
 
 export const runtime = "nodejs";
 
@@ -56,40 +56,42 @@ export async function POST(req: Request) {
   const level = body.level ?? "A1";
   const topic = body.topic ?? "free";
 
-  const recent = body.messages.slice(-MAX_HISTORY).map((m) => ({
-    role: m.role,
-    content: m.content,
+  const recent = body.messages.slice(-MAX_HISTORY);
+  // Gemini expects role "model" for the assistant
+  const contents = recent.map((m) => ({
+    role: m.role === "assistant" ? "model" : "user",
+    parts: [{ text: m.content }],
   }));
 
   let client;
   try {
-    client = getAnthropicClient();
+    client = getGeminiClient();
   } catch (err) {
     return new Response(
       JSON.stringify({
-        error: err instanceof Error ? err.message : "Anthropic client unavailable",
+        error: err instanceof Error ? err.message : "Gemini client unavailable",
       }),
       { status: 500, headers: { "content-type": "application/json" } },
     );
   }
 
+  const model = client.getGenerativeModel({
+    model: MODELS.conversation,
+    systemInstruction: buildSystem(level, topic),
+    generationConfig: {
+      maxOutputTokens: 600,
+      temperature: 0.7,
+    },
+  });
+
   const encoder = new TextEncoder();
   const stream = new ReadableStream({
     async start(controller) {
       try {
-        const apiStream = client.messages.stream({
-          model: MODELS.conversation,
-          max_tokens: 600,
-          system: buildSystem(level, topic),
-          messages: recent,
-        });
-        for await (const event of apiStream) {
-          if (
-            event.type === "content_block_delta" &&
-            event.delta.type === "text_delta"
-          ) {
-            controller.enqueue(encoder.encode(event.delta.text));
-          }
+        const result = await model.generateContentStream({ contents });
+        for await (const chunk of result.stream) {
+          const text = chunk.text();
+          if (text) controller.enqueue(encoder.encode(text));
         }
         controller.close();
       } catch (err) {

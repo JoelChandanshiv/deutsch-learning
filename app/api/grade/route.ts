@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { extractJSON, getAnthropicClient, MODELS } from "@/lib/anthropic";
+import { extractJSON, getGeminiClient, MODELS } from "@/lib/llm";
 
 export const runtime = "nodejs";
 
@@ -76,12 +76,12 @@ export async function POST(req: Request) {
   }
 
   try {
-    const client = getAnthropicClient();
+    const client = getGeminiClient();
     const direction = body.direction ?? "en-to-de";
     const sourceLang = direction === "en-to-de" ? "English" : "German";
     const targetLang = direction === "en-to-de" ? "German" : "English";
 
-    const systemPrompt = `You are a friendly German language teacher grading a student's translation. Be concise, accurate, and encouraging.`;
+    const systemInstruction = `You are a friendly German language teacher grading a student's translation. Be concise, accurate, and encouraging. Reply with JSON only — no markdown, no extra text.`;
 
     const userPrompt = `Source (${sourceLang}): "${body.prompt}"
 Expected ${targetLang}: "${body.correctAnswer}"
@@ -91,7 +91,7 @@ Student level: ${body.level ?? "A1"}
 
 Grade the student's answer. Mark "correct" if the meaning is right and grammar is essentially correct (minor casing/punctuation differences are fine). Mark "close" if there's a small grammar slip or one-word issue but the gist is clear. Mark "incorrect" if meaning is wrong or there are several major errors.
 
-Reply with JSON only (no markdown, no extra text) in this shape:
+Output JSON in this exact shape:
 {
   "status": "correct" | "close" | "incorrect",
   "feedback": "1-2 sentence explanation of what's right or wrong",
@@ -99,15 +99,18 @@ Reply with JSON only (no markdown, no extra text) in this shape:
   "encouragement": "a brief friendly nudge in German or English"
 }`;
 
-    const response = await client.messages.create({
+    const model = client.getGenerativeModel({
       model: MODELS.grading,
-      max_tokens: 400,
-      system: systemPrompt,
-      messages: [{ role: "user", content: userPrompt }],
+      systemInstruction,
+      generationConfig: {
+        responseMimeType: "application/json",
+        maxOutputTokens: 400,
+        temperature: 0.3,
+      },
     });
 
-    const block = response.content.find((c) => c.type === "text");
-    const text = block && block.type === "text" ? block.text : "";
+    const result = await model.generateContent(userPrompt);
+    const text = result.response.text();
     const parsed = extractJSON<GradeResponse>(text);
 
     if (!parsed || !["correct", "close", "incorrect"].includes(parsed.status)) {

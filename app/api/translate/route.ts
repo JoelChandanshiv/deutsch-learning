@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { extractJSON, getAnthropicClient, MODELS } from "@/lib/anthropic";
+import { extractJSON, getGeminiClient, MODELS } from "@/lib/llm";
 
 export const runtime = "nodejs";
 
@@ -40,30 +40,36 @@ export async function POST(req: Request) {
   }
 
   try {
-    const client = getAnthropicClient();
+    const client = getGeminiClient();
+    const systemInstruction = `You are a precise German-to-English translation engine. Reply with JSON only — no markdown, no extra text.`;
+
     const userPrompt = `Translate this German word: "${body.word}"
 ${body.context ? `Context (sentence it appears in): "${body.context}"` : ""}
 
-Reply with JSON only (no markdown, no extra text) in this exact shape:
+Output JSON in this exact shape:
 {
   "word": "${body.word}",
   "meaning": "primary English meaning(s) — comma-separated if multiple",
   "partOfSpeech": "noun | verb | adjective | adverb | preposition | conjunction | pronoun | article | other",
-  "gender": "der" | "die" | "das" | null (use null when it's not a noun),
+  "gender": "der" | "die" | "das" | null,
   "example": "a simple natural German sentence using this word",
   "exampleTranslation": "the English translation of that sentence"
 }
 
-If the word is a verb, give the infinitive form's meaning. If it's a conjugated form, mention the infinitive in the meaning.`;
+Set "gender" to null when it's not a noun. If the word is a conjugated verb form, mention the infinitive in the meaning.`;
 
-    const response = await client.messages.create({
+    const model = client.getGenerativeModel({
       model: MODELS.grading,
-      max_tokens: 350,
-      messages: [{ role: "user", content: userPrompt }],
+      systemInstruction,
+      generationConfig: {
+        responseMimeType: "application/json",
+        maxOutputTokens: 350,
+        temperature: 0.2,
+      },
     });
 
-    const block = response.content.find((c) => c.type === "text");
-    const text = block && block.type === "text" ? block.text : "";
+    const result = await model.generateContent(userPrompt);
+    const text = result.response.text();
     const parsed = extractJSON<WordTranslation>(text);
 
     if (!parsed || !parsed.meaning) {

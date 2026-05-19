@@ -1,23 +1,23 @@
-import Anthropic from "@anthropic-ai/sdk";
+import { GoogleGenerativeAI } from "@google/generative-ai";
 
-let client: Anthropic | null = null;
+let client: GoogleGenerativeAI | null = null;
 
-export function getAnthropicClient(): Anthropic {
+export function getGeminiClient(): GoogleGenerativeAI {
   if (!client) {
-    const apiKey = process.env.ANTHROPIC_API_KEY;
+    const apiKey = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
     if (!apiKey) {
       throw new Error(
-        "ANTHROPIC_API_KEY is not set. Add it to .env.local (or your Vercel env vars).",
+        "GEMINI_API_KEY is not set. Add it to .env.local (or your Vercel env vars).",
       );
     }
-    client = new Anthropic({ apiKey });
+    client = new GoogleGenerativeAI(apiKey);
   }
   return client;
 }
 
 export const MODELS = {
-  conversation: process.env.CLAUDE_MODEL_CONVERSATION ?? "claude-sonnet-4-5-20250929",
-  grading: process.env.CLAUDE_MODEL_GRADING ?? "claude-haiku-4-5-20251001",
+  conversation: process.env.GEMINI_MODEL_CONVERSATION ?? "gemini-2.5-flash",
+  grading: process.env.GEMINI_MODEL_GRADING ?? "gemini-2.5-flash",
 };
 
 /**
