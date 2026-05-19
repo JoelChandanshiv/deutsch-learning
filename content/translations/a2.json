@@ -6,7 +6,9 @@
     "direction": "en-to-de",
     "prompt": "Yesterday I bought a new book.",
     "answer": "Gestern habe ich ein neues Buch gekauft.",
-    "alternatives": ["Ich habe gestern ein neues Buch gekauft."],
+    "alternatives": [
+      "Ich habe gestern ein neues Buch gekauft."
+    ],
     "hint": "Perfekt with 'haben' + past participle at the end.",
     "grammarNote": "Most transitive verbs form Perfekt with 'haben'. Past participle 'gekauft' goes to the end of the clause."
   },
@@ -17,7 +19,9 @@
     "direction": "en-to-de",
     "prompt": "We went to Hamburg last weekend.",
     "answer": "Wir sind letztes Wochenende nach Hamburg gefahren.",
-    "alternatives": ["Letztes Wochenende sind wir nach Hamburg gefahren."],
+    "alternatives": [
+      "Letztes Wochenende sind wir nach Hamburg gefahren."
+    ],
     "hint": "Movement verbs use 'sein' in Perfekt.",
     "grammarNote": "Verbs of movement (fahren, gehen, fliegen, kommen) use 'sein' as the auxiliary in Perfekt, not 'haben'."
   },
@@ -28,7 +32,9 @@
     "direction": "de-to-en",
     "prompt": "Ich habe meinen Freund seit zwei Jahren nicht gesehen.",
     "answer": "I haven't seen my friend for two years.",
-    "alternatives": ["I have not seen my friend in two years."],
+    "alternatives": [
+      "I have not seen my friend in two years."
+    ],
     "hint": "'seit' + dative for time duration up to now.",
     "grammarNote": "German uses 'seit' + present or perfect for ongoing duration. In English we use present perfect ('haven't seen ... for')."
   },
@@ -39,7 +45,9 @@
     "direction": "en-to-de",
     "prompt": "She has stayed at home today.",
     "answer": "Sie ist heute zu Hause geblieben.",
-    "alternatives": ["Heute ist sie zu Hause geblieben."],
+    "alternatives": [
+      "Heute ist sie zu Hause geblieben."
+    ],
     "hint": "'bleiben' (to stay) takes 'sein' in Perfekt.",
     "grammarNote": "Besides movement verbs, 'sein', 'bleiben' and 'werden' also take 'sein' in Perfekt. 'zu Hause' = at home."
   },
@@ -50,7 +58,9 @@
     "direction": "en-to-de",
     "prompt": "I have to work tomorrow.",
     "answer": "Ich muss morgen arbeiten.",
-    "alternatives": ["Morgen muss ich arbeiten."],
+    "alternatives": [
+      "Morgen muss ich arbeiten."
+    ],
     "hint": "'müssen' = must / have to; infinitive goes to the end.",
     "grammarNote": "Modal verbs put the main infinitive at the end: 'Ich muss ... arbeiten'. Modal is conjugated, infinitive is bare."
   },
@@ -61,7 +71,9 @@
     "direction": "en-to-de",
     "prompt": "Can you help me, please?",
     "answer": "Kannst du mir bitte helfen?",
-    "alternatives": ["Können Sie mir bitte helfen?"],
+    "alternatives": [
+      "Können Sie mir bitte helfen?"
+    ],
     "hint": "'helfen' takes the dative.",
     "grammarNote": "'helfen' takes a dative object: 'mir helfen' (help me). With modal 'können', the infinitive 'helfen' goes to the end."
   },
@@ -72,7 +84,9 @@
     "direction": "en-to-de",
     "prompt": "You should drink more water.",
     "answer": "Du solltest mehr Wasser trinken.",
-    "alternatives": ["Sie sollten mehr Wasser trinken."],
+    "alternatives": [
+      "Sie sollten mehr Wasser trinken."
+    ],
     "hint": "'sollten' is the Konjunktiv II of 'sollen' — softer 'should'.",
     "grammarNote": "'sollst' is direct ('you shall'); 'solltest' is softer and more like English 'should'."
   },
@@ -83,7 +97,9 @@
     "direction": "de-to-en",
     "prompt": "Ich möchte heute Abend ins Kino gehen.",
     "answer": "I would like to go to the cinema this evening.",
-    "alternatives": ["I want to go to the movies tonight."],
+    "alternatives": [
+      "I want to go to the movies tonight."
+    ],
     "hint": "'möchten' = would like to.",
     "grammarNote": "'möchten' is the Konjunktiv II of 'mögen'. It's the polite 'would like'. 'ins Kino' = into the cinema (accusative)."
   },
@@ -127,7 +143,9 @@
     "direction": "de-to-en",
     "prompt": "Obwohl es regnet, gehen wir spazieren.",
     "answer": "Although it's raining, we're going for a walk.",
-    "alternatives": ["Even though it's raining, we're going for a walk."],
+    "alternatives": [
+      "Even though it's raining, we're going for a walk."
+    ],
     "hint": "'obwohl' = although / even though.",
     "grammarNote": "'obwohl' is subordinating, so 'regnet' goes to the end of the first clause."
   },
@@ -171,7 +189,9 @@
     "direction": "en-to-de",
     "prompt": "I'm looking for a cheap apartment.",
     "answer": "Ich suche eine günstige Wohnung.",
-    "alternatives": ["Ich suche eine billige Wohnung."],
+    "alternatives": [
+      "Ich suche eine billige Wohnung."
+    ],
     "hint": "'günstig' = affordable; 'billig' can sound cheap-in-quality.",
     "grammarNote": "Adjective ending: feminine accusative after 'eine' → -e ('eine günstige Wohnung'). 'günstig' is the polite word for cheap."
   },
@@ -193,7 +213,9 @@
     "direction": "en-to-de",
     "prompt": "I'm wearing a warm jacket today.",
     "answer": "Ich trage heute eine warme Jacke.",
-    "alternatives": ["Heute trage ich eine warme Jacke."],
+    "alternatives": [
+      "Heute trage ich eine warme Jacke."
+    ],
     "hint": "Feminine accusative: 'eine warme Jacke'.",
     "grammarNote": "'die Jacke' is feminine; accusative after 'eine' gets -e: 'eine warme Jacke'."
   },
@@ -204,7 +226,10 @@
     "direction": "en-to-de",
     "prompt": "Have you ever been to Vienna?",
     "answer": "Warst du schon einmal in Wien?",
-    "alternatives": ["Bist du schon mal in Wien gewesen?", "Sind Sie schon einmal in Wien gewesen?"],
+    "alternatives": [
+      "Bist du schon mal in Wien gewesen?",
+      "Sind Sie schon einmal in Wien gewesen?"
+    ],
     "hint": "Use Präteritum of 'sein' ('warst') or Perfekt ('bist gewesen').",
     "grammarNote": "'sein' is one of the few verbs where Germans naturally use Präteritum in speech. Both 'warst' and 'bist gewesen' are correct."
   },
@@ -218,5 +243,397 @@
     "alternatives": [],
     "hint": "Both verbs are separable: 'anrufen' and 'ankommen'.",
     "grammarNote": "'anrufen' splits in main clause: 'rufe ... an'. 'ankommen' in 'wenn'-clause stays together at end: 'ankomme'."
+  },
+  {
+    "id": "a2-021",
+    "level": "A2",
+    "topic": "praeteritum-vs-perfekt",
+    "direction": "en-to-de",
+    "prompt": "I was very tired yesterday.",
+    "answer": "Ich war gestern sehr müde.",
+    "alternatives": [
+      "Gestern war ich sehr müde."
+    ],
+    "hint": "'sein' usually uses Präteritum ('war') even in spoken German.",
+    "grammarNote": "'sein' and 'haben' commonly appear in Präteritum even in casual speech: 'war', 'hatte'. Most other verbs use Perfekt in speech."
+  },
+  {
+    "id": "a2-022",
+    "level": "A2",
+    "topic": "praeteritum-vs-perfekt",
+    "direction": "en-to-de",
+    "prompt": "She went to the supermarket this morning.",
+    "answer": "Sie ist heute Morgen in den Supermarkt gegangen.",
+    "alternatives": [
+      "Heute Morgen ist sie in den Supermarkt gegangen."
+    ],
+    "hint": "Most verbs use Perfekt in spoken German. 'Gehen' uses 'sein' as auxiliary because it expresses movement.",
+    "grammarNote": "Verbs of motion and change of state use 'sein' in Perfekt: 'ist gegangen', 'ist gekommen', 'ist gefahren'. 'Der Supermarkt' = the supermarket; accusative 'in den Supermarkt' for direction."
+  },
+  {
+    "id": "a2-023",
+    "level": "A2",
+    "topic": "praeteritum-vs-perfekt",
+    "direction": "en-to-de",
+    "prompt": "I had a long day at work.",
+    "answer": "Ich hatte einen langen Tag bei der Arbeit.",
+    "alternatives": [
+      "Bei der Arbeit hatte ich einen langen Tag."
+    ],
+    "hint": "'haben' typically uses Präteritum ('hatte') even in spoken German. 'Der Tag' is masculine, accusative 'einen langen Tag'.",
+    "grammarNote": "'haben' in Präteritum is 'hatte' — the spoken-language default. 'Der Tag' = the day; the adjective ending '-en' after 'einen' is masculine accusative."
+  },
+  {
+    "id": "a2-024",
+    "level": "A2",
+    "topic": "praeteritum-vs-perfekt",
+    "direction": "en-to-de",
+    "prompt": "We have already eaten dinner.",
+    "answer": "Wir haben schon zu Abend gegessen.",
+    "alternatives": [
+      "Wir haben das Abendessen schon gegessen.",
+      "Wir haben schon Abendbrot gegessen."
+    ],
+    "hint": "'Essen' takes 'haben' as auxiliary. The Partizip II is 'gegessen' (irregular).",
+    "grammarNote": "'Zu Abend essen' = to have dinner (set phrase, no article). 'Das Abendessen' = the dinner (noun). Past participle of 'essen' is the irregular 'gegessen'."
+  },
+  {
+    "id": "a2-025",
+    "level": "A2",
+    "topic": "praeteritum-vs-perfekt",
+    "direction": "de-to-en",
+    "prompt": "Er ist letztes Jahr nach Berlin gezogen.",
+    "answer": "He moved to Berlin last year.",
+    "alternatives": [
+      "He moved to Berlin a year ago."
+    ],
+    "hint": "'Ziehen' (to move residence) takes 'sein' because it's a change of location.",
+    "grammarNote": "'Umziehen/ziehen' uses 'sein' in Perfekt because moving = change of place. 'Das Jahr' = the year; 'letztes Jahr' is an accusative time expression."
+  },
+  {
+    "id": "a2-026",
+    "level": "A2",
+    "topic": "praeteritum-vs-perfekt",
+    "direction": "en-to-de",
+    "prompt": "I haven't seen the film yet.",
+    "answer": "Ich habe den Film noch nicht gesehen.",
+    "alternatives": [
+      "Den Film habe ich noch nicht gesehen."
+    ],
+    "hint": "'Noch nicht' = not yet. 'Der Film' is masculine, accusative 'den Film'.",
+    "grammarNote": "Position of 'noch nicht' goes between the auxiliary and the past participle. 'Der Film' = the film; 'gesehen' is the Partizip II of 'sehen'."
+  },
+  {
+    "id": "a2-027",
+    "level": "A2",
+    "topic": "praeteritum-vs-perfekt",
+    "direction": "en-to-de",
+    "prompt": "When I was a child, we lived in Hamburg.",
+    "answer": "Als ich ein Kind war, haben wir in Hamburg gewohnt.",
+    "alternatives": [
+      "Als ich Kind war, haben wir in Hamburg gewohnt.",
+      "Als Kind habe ich in Hamburg gewohnt."
+    ],
+    "hint": "Use 'als' for a single past period or one-time event. 'Sein' uses Präteritum, 'wohnen' uses Perfekt in speech.",
+    "grammarNote": "Notice the mixed tenses: Präteritum 'war' for 'sein', Perfekt 'haben gewohnt' for the regular verb. 'Das Kind' = the child (neuter)."
+  },
+  {
+    "id": "a2-028",
+    "level": "A2",
+    "topic": "praeteritum-vs-perfekt",
+    "direction": "en-to-de",
+    "prompt": "Did you call your mother yesterday?",
+    "answer": "Hast du gestern deine Mutter angerufen?",
+    "alternatives": [
+      "Hast du gestern mit deiner Mutter telefoniert?"
+    ],
+    "hint": "Yes/no questions in Perfekt: auxiliary first, Partizip II at the end. 'Anrufen' is separable, so Partizip II is 'angerufen'.",
+    "grammarNote": "Separable verbs in Perfekt put 'ge-' between the prefix and the stem: 'an' + 'ge' + 'rufen' = 'angerufen'. 'Die Mutter' = the mother; accusative 'deine Mutter'."
+  },
+  {
+    "id": "a2-029",
+    "level": "A2",
+    "topic": "praeteritum-vs-perfekt",
+    "direction": "de-to-en",
+    "prompt": "Es war kalt und ich hatte keine Jacke dabei.",
+    "answer": "It was cold and I didn't have a jacket with me.",
+    "alternatives": [
+      "It was cold and I had no jacket with me."
+    ],
+    "hint": "Both 'sein' and 'haben' here are in Präteritum — the natural choice for these verbs.",
+    "grammarNote": "'Sein' (war) and 'haben' (hatte) prefer Präteritum even in speech. 'Die Jacke' = the jacket (feminine); 'keine' is the feminine accusative negation."
+  },
+  {
+    "id": "a2-030",
+    "level": "A2",
+    "topic": "praeteritum-vs-perfekt",
+    "direction": "en-to-de",
+    "prompt": "I have already drunk three cups of coffee today.",
+    "answer": "Ich habe heute schon drei Tassen Kaffee getrunken.",
+    "alternatives": [
+      "Heute habe ich schon drei Tassen Kaffee getrunken."
+    ],
+    "hint": "'Trinken' takes 'haben' in Perfekt. The Partizip II is the irregular 'getrunken'.",
+    "grammarNote": "'Trinken' is a strong verb: trinken → getrunken. 'Die Tasse' = the cup (feminine); 'der Kaffee' = the coffee (masculine). After 'drei Tassen' the next noun stays nominative-looking (it's a quantity phrase)."
+  },
+  {
+    "id": "a2-031",
+    "level": "A2",
+    "topic": "reflexive-verbs",
+    "direction": "en-to-de",
+    "prompt": "I'm looking forward to the weekend.",
+    "answer": "Ich freue mich auf das Wochenende.",
+    "alternatives": [
+      "Ich freue mich aufs Wochenende."
+    ],
+    "hint": "'Sich freuen auf + Akkusativ' = to look forward to. 'Das Wochenende' is neuter.",
+    "grammarNote": "'Sich freuen auf' = look forward to (future); 'sich freuen über' = be glad about (something received/happening). Both take accusative. 'Das Wochenende' = the weekend."
+  },
+  {
+    "id": "a2-032",
+    "level": "A2",
+    "topic": "reflexive-verbs",
+    "direction": "en-to-de",
+    "prompt": "He gets annoyed about the noise every day.",
+    "answer": "Er ärgert sich jeden Tag über den Lärm.",
+    "alternatives": [
+      "Jeden Tag ärgert er sich über den Lärm."
+    ],
+    "hint": "'Sich ärgern über + Akkusativ' = to get annoyed about. 'Der Lärm' is masculine.",
+    "grammarNote": "Reflexive pronoun 'sich' agrees with the subject: ich → mich, du → dich, er/sie/es → sich. 'Der Lärm' = the noise; accusative 'den Lärm' after 'über'."
+  },
+  {
+    "id": "a2-033",
+    "level": "A2",
+    "topic": "reflexive-verbs",
+    "direction": "en-to-de",
+    "prompt": "Do you remember our last holiday?",
+    "answer": "Erinnerst du dich an unseren letzten Urlaub?",
+    "alternatives": [
+      "Kannst du dich an unseren letzten Urlaub erinnern?"
+    ],
+    "hint": "'Sich erinnern an + Akkusativ' = to remember. 'Der Urlaub' is masculine, accusative 'unseren letzten Urlaub'.",
+    "grammarNote": "In questions, the reflexive pronoun follows the subject: 'Erinnerst du dich...'. 'Der Urlaub' = the holiday/vacation; masculine accusative ending '-en' on both 'unseren' and 'letzten'."
+  },
+  {
+    "id": "a2-034",
+    "level": "A2",
+    "topic": "reflexive-verbs",
+    "direction": "en-to-de",
+    "prompt": "We meet every Friday at the café.",
+    "answer": "Wir treffen uns jeden Freitag im Café.",
+    "alternatives": [
+      "Jeden Freitag treffen wir uns im Café."
+    ],
+    "hint": "'Sich treffen' is reciprocal here — we meet each other. 'Das Café' is neuter; 'in dem Café' contracts to 'im Café'.",
+    "grammarNote": "'Sich treffen' used with a plural subject is reciprocal ('meet each other'). Reflexive pronoun for 'wir' is 'uns'. 'Das Café' = the café; 'der Freitag' = Friday."
+  },
+  {
+    "id": "a2-035",
+    "level": "A2",
+    "topic": "reflexive-verbs",
+    "direction": "de-to-en",
+    "prompt": "Beeil dich, der Bus kommt gleich!",
+    "answer": "Hurry up, the bus is coming soon!",
+    "alternatives": [
+      "Hurry, the bus is about to come!"
+    ],
+    "hint": "'Sich beeilen' = to hurry up. In imperative, 'dich' (informal) is the reflexive pronoun.",
+    "grammarNote": "Imperative of reflexive verbs: 'Beeil dich!' (informal singular), 'Beeilen Sie sich!' (formal). 'Der Bus' = the bus; 'gleich' here means 'in a moment'."
+  },
+  {
+    "id": "a2-036",
+    "level": "A2",
+    "topic": "separable-verbs",
+    "direction": "en-to-de",
+    "prompt": "I get up at seven o'clock every day.",
+    "answer": "Ich stehe jeden Tag um sieben Uhr auf.",
+    "alternatives": [
+      "Jeden Tag stehe ich um sieben Uhr auf."
+    ],
+    "hint": "'Aufstehen' is separable: 'auf' goes to the end of the clause in Präsens.",
+    "grammarNote": "Separable verbs split in main clauses: 'stehe... auf'. The prefix 'auf' goes to the very end. 'Die Uhr' (feminine) = the clock/hour; 'um sieben Uhr' = at seven o'clock."
+  },
+  {
+    "id": "a2-037",
+    "level": "A2",
+    "topic": "separable-verbs",
+    "direction": "en-to-de",
+    "prompt": "I'll call you tomorrow.",
+    "answer": "Ich rufe dich morgen an.",
+    "alternatives": [
+      "Morgen rufe ich dich an.",
+      "Ich rufe dich morgen an."
+    ],
+    "hint": "'Anrufen' is separable. German uses Präsens with a future-time word ('morgen') for near future.",
+    "grammarNote": "'Anrufen' takes accusative ('dich'), not dative — unlike English 'call to'. Separable prefix 'an' goes to the end: 'rufe dich... an'."
+  },
+  {
+    "id": "a2-038",
+    "level": "A2",
+    "topic": "separable-verbs",
+    "direction": "en-to-de",
+    "prompt": "Are you coming along to the cinema?",
+    "answer": "Kommst du mit ins Kino?",
+    "alternatives": [
+      "Kommst du mit uns ins Kino?",
+      "Möchtest du mit ins Kino kommen?"
+    ],
+    "hint": "'Mitkommen' (to come along) is separable. In a yes/no question, the verb starts the sentence, and 'mit' goes to the end.",
+    "grammarNote": "'Mitkommen' (mit + kommen) — 'mit' splits off: 'Kommst du mit?'. 'Das Kino' = the cinema; 'in das Kino' contracts to 'ins Kino' (accusative — direction)."
+  },
+  {
+    "id": "a2-039",
+    "level": "A2",
+    "topic": "separable-verbs",
+    "direction": "en-to-de",
+    "prompt": "The train arrives at three.",
+    "answer": "Der Zug kommt um drei Uhr an.",
+    "alternatives": [
+      "Um drei Uhr kommt der Zug an."
+    ],
+    "hint": "'Ankommen' is separable: 'an' goes to the end. 'Der Zug' is masculine.",
+    "grammarNote": "Separable verb 'ankommen' (an + kommen) = to arrive. 'Der Zug' = the train. 'Um + time' = at + time."
+  },
+  {
+    "id": "a2-040",
+    "level": "A2",
+    "topic": "separable-verbs",
+    "direction": "de-to-en",
+    "prompt": "Wir steigen am Hauptbahnhof aus.",
+    "answer": "We get off at the main station.",
+    "alternatives": [
+      "We're getting off at the central station."
+    ],
+    "hint": "'Aussteigen' = to get off (a vehicle). 'Aus' splits off and goes to the end.",
+    "grammarNote": "'Aussteigen' (aus + steigen) = to get off/out (bus, train). Opposite: 'einsteigen' (to get on/in). 'Der Hauptbahnhof' = the central/main station; 'an dem Hauptbahnhof' contracts to 'am Hauptbahnhof'."
+  },
+  {
+    "id": "a2-041",
+    "level": "A2",
+    "topic": "comparatives-superlatives",
+    "direction": "en-to-de",
+    "prompt": "My sister is older than me.",
+    "answer": "Meine Schwester ist älter als ich.",
+    "alternatives": [],
+    "hint": "Comparative: stem + '-er', often with umlaut ('alt' → 'älter'). 'Als' (not 'wie') for comparisons.",
+    "grammarNote": "German uses 'als' for comparisons after a comparative, NEVER 'wie'. Use 'wie' only for equality: 'so alt wie' (as old as). 'Die Schwester' = the sister."
+  },
+  {
+    "id": "a2-042",
+    "level": "A2",
+    "topic": "comparatives-superlatives",
+    "direction": "en-to-de",
+    "prompt": "Berlin is the largest city in Germany.",
+    "answer": "Berlin ist die größte Stadt in Deutschland.",
+    "alternatives": [
+      "Berlin ist die größte Stadt Deutschlands."
+    ],
+    "hint": "Superlative as adjective before a noun: 'die größte Stadt'. 'Groß' → 'größer' → 'größte'.",
+    "grammarNote": "Superlative as an adjective takes the same endings as any adjective. 'Die Stadt' = the city (feminine), so 'die größte Stadt'. Note the umlaut: 'groß' → 'größer' → 'am größten' / 'die größte'."
+  },
+  {
+    "id": "a2-043",
+    "level": "A2",
+    "topic": "comparatives-superlatives",
+    "direction": "en-to-de",
+    "prompt": "This restaurant is the best in our city.",
+    "answer": "Dieses Restaurant ist das beste in unserer Stadt.",
+    "alternatives": [
+      "Dieses Restaurant ist das beste Restaurant in unserer Stadt."
+    ],
+    "hint": "'Gut' is irregular: gut → besser → am besten / der beste. 'Das Restaurant' is neuter.",
+    "grammarNote": "Irregular comparatives: 'gut → besser → der/die/das beste'; 'viel → mehr → am meisten'; 'gern → lieber → am liebsten'. 'Das Restaurant' = the restaurant."
+  },
+  {
+    "id": "a2-044",
+    "level": "A2",
+    "topic": "comparatives-superlatives",
+    "direction": "en-to-de",
+    "prompt": "He runs the fastest in his class.",
+    "answer": "Er läuft am schnellsten in seiner Klasse.",
+    "alternatives": [
+      "In seiner Klasse läuft er am schnellsten."
+    ],
+    "hint": "Superlative as adverb (after a verb): 'am + adjective + -sten'. 'Die Klasse' is feminine.",
+    "grammarNote": "'Am schnellsten' is the adverbial superlative — used after verbs. Compare: 'der schnellste Läufer' (adjective form before noun) vs 'er läuft am schnellsten' (adverb form after verb). 'Die Klasse' = the class."
+  },
+  {
+    "id": "a2-045",
+    "level": "A2",
+    "topic": "comparatives-superlatives",
+    "direction": "de-to-en",
+    "prompt": "Im Sommer sind die Tage länger als im Winter.",
+    "answer": "In summer the days are longer than in winter.",
+    "alternatives": [
+      "The days are longer in summer than in winter."
+    ],
+    "hint": "'Länger als' = longer than. Use 'als' for comparing.",
+    "grammarNote": "Comparative with umlaut: 'lang' → 'länger' → 'am längsten'. 'Der Tag' = the day (masculine), plural 'die Tage'."
+  },
+  {
+    "id": "a2-046",
+    "level": "A2",
+    "topic": "wenn-wann-als",
+    "direction": "en-to-de",
+    "prompt": "When I have time, I read a book.",
+    "answer": "Wenn ich Zeit habe, lese ich ein Buch.",
+    "alternatives": [],
+    "hint": "'Wenn' for general/repeated situations in the present. Subordinating — verb to the end.",
+    "grammarNote": "Use 'wenn' for: (1) repeated/general situations in present, (2) conditional 'if'. Here it means 'whenever'. 'Die Zeit' = the time (feminine). After a 'wenn'-clause, the main clause begins with the verb (V2)."
+  },
+  {
+    "id": "a2-047",
+    "level": "A2",
+    "topic": "wenn-wann-als",
+    "direction": "en-to-de",
+    "prompt": "When does the film start?",
+    "answer": "Wann beginnt der Film?",
+    "alternatives": [
+      "Wann fängt der Film an?",
+      "Wann startet der Film?"
+    ],
+    "hint": "'Wann' is a question word — used when you're asking about time.",
+    "grammarNote": "'Wann' = when, used in direct or indirect questions about time. 'Der Film' = the film. Direct question: 'Wann beginnt...?'. Indirect: 'Ich weiß nicht, wann der Film beginnt.'"
+  },
+  {
+    "id": "a2-048",
+    "level": "A2",
+    "topic": "wenn-wann-als",
+    "direction": "en-to-de",
+    "prompt": "When I was eight, I learned to swim.",
+    "answer": "Als ich acht war, habe ich schwimmen gelernt.",
+    "alternatives": [
+      "Als ich acht Jahre alt war, habe ich schwimmen gelernt.",
+      "Ich habe schwimmen gelernt, als ich acht war."
+    ],
+    "hint": "'Als' for a single past period or one-time event in the past. Sub-clause — verb to the end.",
+    "grammarNote": "'Als' is used for one specific event or period in the past — never for repeated events. Note the construction 'schwimmen lernen' (to learn to swim) — two infinitives, no 'zu'."
+  },
+  {
+    "id": "a2-049",
+    "level": "A2",
+    "topic": "wenn-wann-als",
+    "direction": "en-to-de",
+    "prompt": "Whenever it rains, I stay at home.",
+    "answer": "Wenn es regnet, bleibe ich zu Hause.",
+    "alternatives": [
+      "Immer wenn es regnet, bleibe ich zu Hause."
+    ],
+    "hint": "'Wenn' for a repeated situation — 'whenever'. Adding 'immer' makes the 'whenever' meaning explicit.",
+    "grammarNote": "'Wenn' for repeated/habitual present events = English 'whenever' or 'when'. Compare to 'als' which is single past, and 'wann' which is a question word. 'Zu Hause' = at home (location)."
+  },
+  {
+    "id": "a2-050",
+    "level": "A2",
+    "topic": "wenn-wann-als",
+    "direction": "de-to-en",
+    "prompt": "Ich weiß nicht, wann der Zug ankommt.",
+    "answer": "I don't know when the train arrives.",
+    "alternatives": [
+      "I don't know when the train will arrive."
+    ],
+    "hint": "'Wann' as an indirect question word — used when the main verb is something like 'weiß', 'frage mich', 'sage', etc.",
+    "grammarNote": "Indirect questions still use 'wann' (the question word), not 'wenn'. Subordinate clause: verb at end → 'wann der Zug ankommt'. 'Der Zug' = the train; 'ankommen' is separable."
   }
 ]

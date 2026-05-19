@@ -6,7 +6,9 @@
     "direction": "en-to-de",
     "prompt": "Hello, my name is Anna.",
     "answer": "Hallo, ich heiße Anna.",
-    "alternatives": ["Hallo, mein Name ist Anna."],
+    "alternatives": [
+      "Hallo, mein Name ist Anna."
+    ],
     "hint": "Use 'ich heiße' for 'my name is'.",
     "grammarNote": "In German you can say 'ich heiße X' (literally 'I am called X') or 'mein Name ist X'. Both are common."
   },
@@ -17,7 +19,10 @@
     "direction": "en-to-de",
     "prompt": "Good morning! How are you?",
     "answer": "Guten Morgen! Wie geht es dir?",
-    "alternatives": ["Guten Morgen! Wie geht's?", "Guten Morgen! Wie geht es Ihnen?"],
+    "alternatives": [
+      "Guten Morgen! Wie geht's?",
+      "Guten Morgen! Wie geht es Ihnen?"
+    ],
     "hint": "Use 'dir' for informal, 'Ihnen' for formal.",
     "grammarNote": "'Wie geht es dir?' is informal (du-form). 'Wie geht es Ihnen?' is formal (Sie-form)."
   },
@@ -28,7 +33,9 @@
     "direction": "en-to-de",
     "prompt": "Goodbye, see you tomorrow.",
     "answer": "Auf Wiedersehen, bis morgen.",
-    "alternatives": ["Tschüss, bis morgen."],
+    "alternatives": [
+      "Tschüss, bis morgen."
+    ],
     "hint": "'Tschüss' is informal, 'Auf Wiedersehen' is more formal.",
     "grammarNote": "'bis morgen' = 'until tomorrow'. 'bis' takes the accusative for time expressions."
   },
@@ -39,7 +46,9 @@
     "direction": "de-to-en",
     "prompt": "Guten Abend, schön dich zu sehen.",
     "answer": "Good evening, nice to see you.",
-    "alternatives": ["Good evening, nice to see you again."],
+    "alternatives": [
+      "Good evening, nice to see you again."
+    ],
     "hint": "'schön' here means 'nice' or 'lovely'.",
     "grammarNote": "'dich zu sehen' is an infinitive clause: 'to see you'. 'dich' is the accusative of 'du'."
   },
@@ -50,7 +59,10 @@
     "direction": "en-to-de",
     "prompt": "Thank you very much!",
     "answer": "Vielen Dank!",
-    "alternatives": ["Danke schön!", "Danke sehr!"],
+    "alternatives": [
+      "Danke schön!",
+      "Danke sehr!"
+    ],
     "hint": "'Vielen Dank' is slightly more formal than 'Danke schön'.",
     "grammarNote": "'Vielen Dank' literally means 'many thanks' — 'Dank' is masculine and 'vielen' is its accusative form."
   },
@@ -61,7 +73,9 @@
     "direction": "en-to-de",
     "prompt": "I am from Germany.",
     "answer": "Ich komme aus Deutschland.",
-    "alternatives": ["Ich bin aus Deutschland."],
+    "alternatives": [
+      "Ich bin aus Deutschland."
+    ],
     "hint": "Literally: 'I come from Germany'.",
     "grammarNote": "'aus' (= from) always takes the dative. Country names are usually used without an article."
   },
@@ -72,7 +86,9 @@
     "direction": "en-to-de",
     "prompt": "I live in Berlin.",
     "answer": "Ich wohne in Berlin.",
-    "alternatives": ["Ich lebe in Berlin."],
+    "alternatives": [
+      "Ich lebe in Berlin."
+    ],
     "hint": "'wohnen' is more common for residence; 'leben' is broader ('to live').",
     "grammarNote": "'in' takes the dative when answering 'wo?' (where) — no movement is implied."
   },
@@ -83,7 +99,9 @@
     "direction": "en-to-de",
     "prompt": "I am twenty-five years old.",
     "answer": "Ich bin fünfundzwanzig Jahre alt.",
-    "alternatives": ["Ich bin 25 Jahre alt."],
+    "alternatives": [
+      "Ich bin 25 Jahre alt."
+    ],
     "hint": "German numbers: units first, then tens, joined by 'und'.",
     "grammarNote": "25 = fünf-und-zwanzig (five-and-twenty). This 'units before tens' pattern holds for all two-digit numbers above 20."
   },
@@ -94,7 +112,9 @@
     "direction": "en-to-de",
     "prompt": "I speak a little German.",
     "answer": "Ich spreche ein bisschen Deutsch.",
-    "alternatives": ["Ich spreche ein wenig Deutsch."],
+    "alternatives": [
+      "Ich spreche ein wenig Deutsch."
+    ],
     "hint": "'ein bisschen' = a little (bit).",
     "grammarNote": "Languages are capitalized in German (Deutsch, Englisch). 'sprechen' is a strong verb: ich spreche, du sprichst, er spricht."
   },
@@ -105,7 +125,10 @@
     "direction": "de-to-en",
     "prompt": "Was machst du beruflich?",
     "answer": "What do you do for work?",
-    "alternatives": ["What do you do professionally?", "What's your job?"],
+    "alternatives": [
+      "What do you do professionally?",
+      "What's your job?"
+    ],
     "hint": "'beruflich' = work-related.",
     "grammarNote": "'beruflich' is an adverb derived from 'der Beruf' (profession). A natural English equivalent is 'for work'."
   },
@@ -116,7 +139,9 @@
     "direction": "en-to-de",
     "prompt": "It is half past seven.",
     "answer": "Es ist halb acht.",
-    "alternatives": ["Es ist 7:30 Uhr."],
+    "alternatives": [
+      "Es ist 7:30 Uhr."
+    ],
     "hint": "Careful — 'halb acht' means 'half BEFORE eight' (7:30), not 'half past eight'.",
     "grammarNote": "Germans count toward the next hour: 'halb acht' = halfway to eight = 7:30. This trips up English speakers constantly."
   },
@@ -127,7 +152,9 @@
     "direction": "en-to-de",
     "prompt": "What time is it?",
     "answer": "Wie spät ist es?",
-    "alternatives": ["Wie viel Uhr ist es?"],
+    "alternatives": [
+      "Wie viel Uhr ist es?"
+    ],
     "hint": "Literally: 'How late is it?'",
     "grammarNote": "'Wie spät ist es?' is the most common way to ask the time. 'Wie viel Uhr ist es?' is also fine but slightly more formal."
   },
@@ -149,7 +176,9 @@
     "direction": "de-to-en",
     "prompt": "Ich habe um neun Uhr einen Termin.",
     "answer": "I have an appointment at nine o'clock.",
-    "alternatives": ["I've got an appointment at nine."],
+    "alternatives": [
+      "I've got an appointment at nine."
+    ],
     "hint": "'um ... Uhr' = at ... o'clock.",
     "grammarNote": "Time expressions with 'um' take the accusative. 'der Termin' = appointment (masculine, hence 'einen' in accusative)."
   },
@@ -160,7 +189,9 @@
     "direction": "en-to-de",
     "prompt": "The train leaves at eight.",
     "answer": "Der Zug fährt um acht ab.",
-    "alternatives": ["Der Zug fährt um acht Uhr ab."],
+    "alternatives": [
+      "Der Zug fährt um acht Uhr ab."
+    ],
     "hint": "'abfahren' is a separable verb — the 'ab' goes to the end.",
     "grammarNote": "Separable verbs split in main clauses: 'ich fahre ab', 'der Zug fährt ab'. The prefix moves to sentence end."
   },
@@ -182,7 +213,9 @@
     "direction": "en-to-de",
     "prompt": "My mother is a teacher.",
     "answer": "Meine Mutter ist Lehrerin.",
-    "alternatives": ["Meine Mutter ist eine Lehrerin."],
+    "alternatives": [
+      "Meine Mutter ist eine Lehrerin."
+    ],
     "hint": "Professions usually drop the article in German.",
     "grammarNote": "After 'sein' + profession, German typically omits the article. 'Lehrerin' is the feminine form of 'Lehrer'."
   },
@@ -193,7 +226,9 @@
     "direction": "de-to-en",
     "prompt": "Mein Vater arbeitet bei einer Bank.",
     "answer": "My father works at a bank.",
-    "alternatives": ["My dad works at a bank."],
+    "alternatives": [
+      "My dad works at a bank."
+    ],
     "hint": "'bei' + dative.",
     "grammarNote": "'bei' (at/with) takes the dative. 'die Bank' is feminine, so dative singular = 'einer Bank'."
   },
@@ -204,7 +239,9 @@
     "direction": "en-to-de",
     "prompt": "Do you have children?",
     "answer": "Hast du Kinder?",
-    "alternatives": ["Haben Sie Kinder?"],
+    "alternatives": [
+      "Haben Sie Kinder?"
+    ],
     "hint": "Use 'du' for informal, 'Sie' for formal.",
     "grammarNote": "Yes/no questions in German invert verb and subject. 'Kinder' is the plural of 'das Kind'."
   },
@@ -215,7 +252,9 @@
     "direction": "en-to-de",
     "prompt": "My grandmother lives in Munich.",
     "answer": "Meine Großmutter wohnt in München.",
-    "alternatives": ["Meine Oma wohnt in München."],
+    "alternatives": [
+      "Meine Oma wohnt in München."
+    ],
     "hint": "'Oma' is informal for grandmother.",
     "grammarNote": "'die Großmutter' (formal) = 'die Oma' (informal). Munich = München in German."
   },
@@ -226,7 +265,10 @@
     "direction": "en-to-de",
     "prompt": "I would like a coffee, please.",
     "answer": "Ich hätte gern einen Kaffee, bitte.",
-    "alternatives": ["Ich möchte einen Kaffee, bitte.", "Einen Kaffee, bitte."],
+    "alternatives": [
+      "Ich möchte einen Kaffee, bitte.",
+      "Einen Kaffee, bitte."
+    ],
     "hint": "'Ich hätte gern' = I would like (polite).",
     "grammarNote": "'Ich hätte gern' is the Konjunktiv II of 'haben' — the standard polite way to order. 'der Kaffee' → 'einen Kaffee' (acc.)."
   },
@@ -248,7 +290,9 @@
     "direction": "de-to-en",
     "prompt": "Was möchten Sie trinken?",
     "answer": "What would you like to drink?",
-    "alternatives": ["What do you want to drink?"],
+    "alternatives": [
+      "What do you want to drink?"
+    ],
     "hint": "Formal 'Sie' form.",
     "grammarNote": "'möchten' is the polite form for 'want'. Note Sie-form: 'Sie möchten' (same as infinitive — convenient!)."
   },
@@ -270,7 +314,10 @@
     "direction": "en-to-de",
     "prompt": "The check, please.",
     "answer": "Die Rechnung, bitte.",
-    "alternatives": ["Zahlen, bitte.", "Ich möchte zahlen, bitte."],
+    "alternatives": [
+      "Zahlen, bitte.",
+      "Ich möchte zahlen, bitte."
+    ],
     "hint": "'die Rechnung' = bill/check.",
     "grammarNote": "In a restaurant, 'Die Rechnung, bitte' or simply 'Zahlen, bitte' both work to ask for the bill."
   },
@@ -292,7 +339,9 @@
     "direction": "en-to-de",
     "prompt": "In the evening I read a book.",
     "answer": "Am Abend lese ich ein Buch.",
-    "alternatives": ["Abends lese ich ein Buch."],
+    "alternatives": [
+      "Abends lese ich ein Buch."
+    ],
     "hint": "Time expression first → verb stays in second position.",
     "grammarNote": "Verb-second rule: when a time expression starts the sentence, the verb still comes second, and the subject follows it."
   },
@@ -303,7 +352,9 @@
     "direction": "de-to-en",
     "prompt": "Ich gehe jeden Tag spazieren.",
     "answer": "I go for a walk every day.",
-    "alternatives": ["I take a walk every day."],
+    "alternatives": [
+      "I take a walk every day."
+    ],
     "hint": "'spazieren gehen' = to go for a walk.",
     "grammarNote": "'spazieren gehen' is a fixed combination. 'jeden Tag' is accusative because time expressions of duration take accusative."
   },
@@ -314,7 +365,9 @@
     "direction": "en-to-de",
     "prompt": "After work I go to the gym.",
     "answer": "Nach der Arbeit gehe ich ins Fitnessstudio.",
-    "alternatives": ["Nach der Arbeit gehe ich zum Sport."],
+    "alternatives": [
+      "Nach der Arbeit gehe ich zum Sport."
+    ],
     "hint": "'nach' + dative; 'in' + accusative for movement.",
     "grammarNote": "'nach' always takes the dative ('der Arbeit'). 'ins' = in + das (accusative — direction into the gym)."
   },
@@ -325,8 +378,398 @@
     "direction": "en-to-de",
     "prompt": "I go to bed at eleven.",
     "answer": "Ich gehe um elf ins Bett.",
-    "alternatives": ["Um elf gehe ich ins Bett.", "Ich gehe um elf Uhr ins Bett."],
+    "alternatives": [
+      "Um elf gehe ich ins Bett.",
+      "Ich gehe um elf Uhr ins Bett."
+    ],
     "hint": "'ins Bett gehen' = to go to bed.",
     "grammarNote": "'ins Bett' uses accusative (movement into bed). 'das Bett' → 'ins' (in + das contraction)."
+  },
+  {
+    "id": "a1-031",
+    "level": "A1",
+    "topic": "shopping",
+    "direction": "en-to-de",
+    "prompt": "How much does the jacket cost?",
+    "answer": "Wie viel kostet die Jacke?",
+    "alternatives": [
+      "Was kostet die Jacke?"
+    ],
+    "hint": "Use 'kostet' for 'costs'. 'Die Jacke' is feminine.",
+    "grammarNote": "Use 'wie viel' for uncountable amounts (money) and 'wie viele' for countables. 'Die Jacke' = the jacket."
+  },
+  {
+    "id": "a1-032",
+    "level": "A1",
+    "topic": "shopping",
+    "direction": "en-to-de",
+    "prompt": "I am looking for a black T-shirt.",
+    "answer": "Ich suche ein schwarzes T-Shirt.",
+    "alternatives": [],
+    "hint": "'Suchen' = to look for. 'Das T-Shirt' is neuter, so the adjective ending is '-es' after 'ein'.",
+    "grammarNote": "Adjective endings after 'ein' for a neuter noun in accusative end in '-es': 'ein schwarzes T-Shirt'. 'Das T-Shirt' = the T-shirt."
+  },
+  {
+    "id": "a1-033",
+    "level": "A1",
+    "topic": "shopping",
+    "direction": "en-to-de",
+    "prompt": "Do you have this shirt in size M?",
+    "answer": "Haben Sie dieses Hemd in Größe M?",
+    "alternatives": [
+      "Haben Sie das Hemd in Größe M?",
+      "Gibt es dieses Hemd in Größe M?"
+    ],
+    "hint": "'Sie' is the formal 'you'. 'Das Hemd' is neuter.",
+    "grammarNote": "Use formal 'Sie' in shops. 'Das Hemd' = the shirt (button-up); 'das T-Shirt' = the T-shirt. 'Die Größe' = the size."
+  },
+  {
+    "id": "a1-034",
+    "level": "A1",
+    "topic": "shopping",
+    "direction": "de-to-en",
+    "prompt": "Die Schuhe sind zu teuer.",
+    "answer": "The shoes are too expensive.",
+    "alternatives": [],
+    "hint": "'Zu' before an adjective means 'too' (excessively).",
+    "grammarNote": "'Die Schuhe' is plural — singular is 'der Schuh' (masculine). 'Zu teuer' = too expensive; 'sehr teuer' = very expensive."
+  },
+  {
+    "id": "a1-035",
+    "level": "A1",
+    "topic": "shopping",
+    "direction": "en-to-de",
+    "prompt": "The trousers cost 40 euros.",
+    "answer": "Die Hose kostet 40 Euro.",
+    "alternatives": [
+      "Die Hose kostet vierzig Euro."
+    ],
+    "hint": "Note: 'die Hose' is singular in German (feminine), unlike English 'trousers'.",
+    "grammarNote": "'Die Hose' is grammatically singular in German, so the verb is 'kostet', not 'kosten'. 'Der Euro' stays singular after numbers when talking about prices."
+  },
+  {
+    "id": "a1-036",
+    "level": "A1",
+    "topic": "directions",
+    "direction": "en-to-de",
+    "prompt": "Where is the train station?",
+    "answer": "Wo ist der Bahnhof?",
+    "alternatives": [],
+    "hint": "'Wo' = where. 'Der Bahnhof' is masculine.",
+    "grammarNote": "'Der Bahnhof' = the train station. Other common direction nouns: 'die Haltestelle' (bus stop), 'der Flughafen' (airport)."
+  },
+  {
+    "id": "a1-037",
+    "level": "A1",
+    "topic": "directions",
+    "direction": "en-to-de",
+    "prompt": "Turn left at the bakery.",
+    "answer": "Biegen Sie an der Bäckerei links ab.",
+    "alternatives": [
+      "Bei der Bäckerei links abbiegen.",
+      "An der Bäckerei links abbiegen."
+    ],
+    "hint": "'Abbiegen' is a separable verb: the 'ab' goes to the end. 'Die Bäckerei' is feminine.",
+    "grammarNote": "Separable verbs split in the imperative: 'biegen... ab'. 'An + Dativ' for location: 'an der Bäckerei'. 'Die Bäckerei' = the bakery."
+  },
+  {
+    "id": "a1-038",
+    "level": "A1",
+    "topic": "directions",
+    "direction": "en-to-de",
+    "prompt": "The supermarket is on the right.",
+    "answer": "Der Supermarkt ist rechts.",
+    "alternatives": [
+      "Der Supermarkt ist auf der rechten Seite."
+    ],
+    "hint": "'Rechts' = on the right. 'Der Supermarkt' is masculine.",
+    "grammarNote": "Direction adverbs: 'links' (left), 'rechts' (right), 'geradeaus' (straight ahead). 'Der Supermarkt' = the supermarket."
+  },
+  {
+    "id": "a1-039",
+    "level": "A1",
+    "topic": "directions",
+    "direction": "en-to-de",
+    "prompt": "The pharmacy is near my house.",
+    "answer": "Die Apotheke ist in der Nähe von meinem Haus.",
+    "alternatives": [
+      "Die Apotheke ist in der Nähe meines Hauses.",
+      "Die Apotheke ist nahe bei meinem Haus."
+    ],
+    "hint": "'In der Nähe von + Dativ' = near. 'Die Apotheke' (feminine) = pharmacy; 'das Haus' (neuter) = house.",
+    "grammarNote": "'In der Nähe von' takes the dative case: 'von meinem Haus'. 'Die Apotheke' = the pharmacy; 'das Haus' = the house."
+  },
+  {
+    "id": "a1-040",
+    "level": "A1",
+    "topic": "directions",
+    "direction": "de-to-en",
+    "prompt": "Wie komme ich zum Museum?",
+    "answer": "How do I get to the museum?",
+    "alternatives": [
+      "How can I get to the museum?"
+    ],
+    "hint": "'Wie komme ich zu...?' is the standard way to ask for directions.",
+    "grammarNote": "'Zu + Dativ' for movement toward a destination. 'Zu dem Museum' contracts to 'zum Museum'. 'Das Museum' = the museum."
+  },
+  {
+    "id": "a1-041",
+    "level": "A1",
+    "topic": "weather",
+    "direction": "en-to-de",
+    "prompt": "It is cold today.",
+    "answer": "Heute ist es kalt.",
+    "alternatives": [
+      "Es ist heute kalt.",
+      "Es ist kalt heute."
+    ],
+    "hint": "Weather sentences in German always need a subject — 'es' (it).",
+    "grammarNote": "German always uses 'es' as the subject for weather, even when English drops it. 'Es ist kalt/warm/heiß/kühl'."
+  },
+  {
+    "id": "a1-042",
+    "level": "A1",
+    "topic": "weather",
+    "direction": "en-to-de",
+    "prompt": "It is raining and I have no umbrella.",
+    "answer": "Es regnet und ich habe keinen Regenschirm.",
+    "alternatives": [],
+    "hint": "'Regnen' = to rain. 'Der Regenschirm' is masculine, so accusative 'keinen'.",
+    "grammarNote": "'Es regnet' (it's raining) — no 'is' needed in German. 'Der Regenschirm' = the umbrella (masculine, so negation 'keinen' in accusative)."
+  },
+  {
+    "id": "a1-043",
+    "level": "A1",
+    "topic": "weather",
+    "direction": "en-to-de",
+    "prompt": "It often snows in winter.",
+    "answer": "Im Winter schneit es oft.",
+    "alternatives": [
+      "Es schneit oft im Winter."
+    ],
+    "hint": "'In dem Winter' contracts to 'im Winter'. When you start with a time expression, the verb comes second.",
+    "grammarNote": "'Im Winter' (in winter) — preposition + dative. German is verb-second (V2): if 'Im Winter' takes position 1, the verb 'schneit' must be in position 2. 'Der Winter' = the winter."
+  },
+  {
+    "id": "a1-044",
+    "level": "A1",
+    "topic": "weather",
+    "direction": "de-to-en",
+    "prompt": "Die Sonne scheint und es ist warm.",
+    "answer": "The sun is shining and it is warm.",
+    "alternatives": [
+      "The sun shines and it's warm."
+    ],
+    "hint": "'Scheinen' = to shine. 'Die Sonne' is feminine.",
+    "grammarNote": "'Die Sonne' = the sun. Note that German doesn't use a continuous tense ('-ing') — Präsens covers both 'shines' and 'is shining'."
+  },
+  {
+    "id": "a1-045",
+    "level": "A1",
+    "topic": "weather",
+    "direction": "en-to-de",
+    "prompt": "I love summer because the days are long.",
+    "answer": "Ich liebe den Sommer, weil die Tage lang sind.",
+    "alternatives": [
+      "Ich mag den Sommer, weil die Tage lang sind."
+    ],
+    "hint": "'Weil' sends the verb to the end. 'Der Sommer' is masculine; in accusative it becomes 'den Sommer'.",
+    "grammarNote": "'Weil' is a subordinating conjunction — the finite verb goes to the very end: '...die Tage lang sind'. 'Der Sommer' = summer; the four seasons are all masculine: der Frühling, der Sommer, der Herbst, der Winter."
+  },
+  {
+    "id": "a1-046",
+    "level": "A1",
+    "topic": "hobbies",
+    "direction": "en-to-de",
+    "prompt": "I like to read books.",
+    "answer": "Ich lese gern Bücher.",
+    "alternatives": [
+      "Ich lese gerne Bücher."
+    ],
+    "hint": "'Gern' after the verb expresses liking to do something. 'Das Buch' is neuter, plural 'Bücher'.",
+    "grammarNote": "'Verb + gern' = to like doing something. Position 'gern' right after the verb. 'Das Buch' (singular) → 'die Bücher' (plural)."
+  },
+  {
+    "id": "a1-047",
+    "level": "A1",
+    "topic": "hobbies",
+    "direction": "en-to-de",
+    "prompt": "My brother plays football every weekend.",
+    "answer": "Mein Bruder spielt jedes Wochenende Fußball.",
+    "alternatives": [
+      "Jedes Wochenende spielt mein Bruder Fußball."
+    ],
+    "hint": "Sports with 'spielen' don't take an article: 'Fußball spielen', 'Tennis spielen'. 'Das Wochenende' is neuter.",
+    "grammarNote": "Use 'spielen' for sports played with a ball, and skip the article: 'Fußball spielen', 'Tennis spielen', 'Basketball spielen'. 'Das Wochenende' = the weekend; 'jedes Wochenende' = every weekend (accusative time expression)."
+  },
+  {
+    "id": "a1-048",
+    "level": "A1",
+    "topic": "hobbies",
+    "direction": "en-to-de",
+    "prompt": "We swim every Saturday in the lake.",
+    "answer": "Wir schwimmen jeden Samstag im See.",
+    "alternatives": [
+      "Jeden Samstag schwimmen wir im See."
+    ],
+    "hint": "'Schwimmen' = to swim. 'Der See' is masculine; 'in dem See' contracts to 'im See'.",
+    "grammarNote": "Time expressions in accusative: 'jeden Samstag'. Location with 'in + Dativ': 'im See'. 'Der See' = the lake (masculine) — not to be confused with 'die See' (the sea, feminine, less common)."
+  },
+  {
+    "id": "a1-049",
+    "level": "A1",
+    "topic": "hobbies",
+    "direction": "de-to-en",
+    "prompt": "Sie hört gern Musik und tanzt.",
+    "answer": "She likes to listen to music and dances.",
+    "alternatives": [
+      "She enjoys listening to music and dancing."
+    ],
+    "hint": "'Gern' attaches to the first verb but applies to both activities here.",
+    "grammarNote": "'Musik hören' = to listen to music (no preposition needed). 'Die Musik' = the music — but no article is used when speaking generally."
+  },
+  {
+    "id": "a1-050",
+    "level": "A1",
+    "topic": "hobbies",
+    "direction": "en-to-de",
+    "prompt": "Do you play the guitar?",
+    "answer": "Spielst du Gitarre?",
+    "alternatives": [
+      "Spielst du die Gitarre?"
+    ],
+    "hint": "For musical instruments with 'spielen', the article is optional in spoken German. 'Die Gitarre' is feminine.",
+    "grammarNote": "'Gitarre spielen' is the more common spoken form; 'die Gitarre spielen' is also correct. 'Die Gitarre' = the guitar. Other instruments: 'das Klavier' (piano), 'die Geige' (violin)."
+  },
+  {
+    "id": "a1-051",
+    "level": "A1",
+    "topic": "opinions",
+    "direction": "en-to-de",
+    "prompt": "I think the film is good.",
+    "answer": "Ich finde den Film gut.",
+    "alternatives": [
+      "Ich denke, der Film ist gut."
+    ],
+    "hint": "'Ich finde X gut' is the most common A1 way to express opinions. 'Der Film' becomes accusative 'den Film' after 'finden'.",
+    "grammarNote": "'Finden' (to find/think) takes accusative: 'Ich finde den Film gut'. 'Der Film' = the film (masculine) → accusative 'den Film'."
+  },
+  {
+    "id": "a1-052",
+    "level": "A1",
+    "topic": "opinions",
+    "direction": "en-to-de",
+    "prompt": "I like this song.",
+    "answer": "Mir gefällt dieses Lied.",
+    "alternatives": [
+      "Dieses Lied gefällt mir.",
+      "Ich mag dieses Lied."
+    ],
+    "hint": "'Gefallen' works in reverse: the thing that pleases you is the subject, you are the dative object ('mir'). 'Das Lied' is neuter.",
+    "grammarNote": "'X gefällt mir' = I like X (literally: X is pleasing to me). The thing being liked is the grammatical subject. 'Das Lied' = the song."
+  },
+  {
+    "id": "a1-053",
+    "level": "A1",
+    "topic": "opinions",
+    "direction": "en-to-de",
+    "prompt": "I don't like the coffee — it tastes too bitter.",
+    "answer": "Der Kaffee schmeckt mir nicht — er ist zu bitter.",
+    "alternatives": [
+      "Mir schmeckt der Kaffee nicht, er ist zu bitter."
+    ],
+    "hint": "'Schmecken' (to taste) works like 'gefallen' — uses dative for the person.",
+    "grammarNote": "'Schmecken' is used for food/drink and takes a dative object: 'Mir schmeckt der Kaffee'. 'Der Kaffee' = the coffee; replaced by 'er' (masculine) in the second clause."
+  },
+  {
+    "id": "a1-054",
+    "level": "A1",
+    "topic": "opinions",
+    "direction": "de-to-en",
+    "prompt": "Ich finde diese Stadt sehr schön.",
+    "answer": "I think this city is very beautiful.",
+    "alternatives": [
+      "I find this city very beautiful."
+    ],
+    "hint": "'Finden' here means 'to think (about)' rather than 'to find'.",
+    "grammarNote": "'Finden' + accusative + adjective = think X is Y. 'Die Stadt' = the city (feminine) → accusative 'diese Stadt'."
+  },
+  {
+    "id": "a1-055",
+    "level": "A1",
+    "topic": "opinions",
+    "direction": "en-to-de",
+    "prompt": "The book is boring, but the film is interesting.",
+    "answer": "Das Buch ist langweilig, aber der Film ist interessant.",
+    "alternatives": [],
+    "hint": "'Aber' (but) is a coordinating conjunction — no word-order change.",
+    "grammarNote": "After 'aber', normal word order continues (verb-second). 'Das Buch' = the book (neuter); 'der Film' = the film (masculine)."
+  },
+  {
+    "id": "a1-056",
+    "level": "A1",
+    "topic": "days-months",
+    "direction": "en-to-de",
+    "prompt": "On Monday I have a meeting.",
+    "answer": "Am Montag habe ich ein Meeting.",
+    "alternatives": [
+      "Am Montag habe ich eine Besprechung.",
+      "Montag habe ich ein Meeting."
+    ],
+    "hint": "'An dem Montag' contracts to 'am Montag'. When starting with a time, the verb comes second.",
+    "grammarNote": "Days of the week take 'am' (an + dem) — they are all masculine: 'der Montag', 'der Dienstag', etc. V2 rule: 'Am Montag habe ich...' not 'Am Montag ich habe...'."
+  },
+  {
+    "id": "a1-057",
+    "level": "A1",
+    "topic": "days-months",
+    "direction": "en-to-de",
+    "prompt": "My birthday is in May.",
+    "answer": "Mein Geburtstag ist im Mai.",
+    "alternatives": [
+      "Ich habe im Mai Geburtstag."
+    ],
+    "hint": "'In dem Mai' contracts to 'im Mai'. 'Der Geburtstag' is masculine.",
+    "grammarNote": "Months take 'im' (in + dem). All months are masculine: 'der Januar', 'der Februar', etc. 'Der Geburtstag' = the birthday."
+  },
+  {
+    "id": "a1-058",
+    "level": "A1",
+    "topic": "days-months",
+    "direction": "en-to-de",
+    "prompt": "Today is the third of October.",
+    "answer": "Heute ist der dritte Oktober.",
+    "alternatives": [
+      "Heute ist der 3. Oktober."
+    ],
+    "hint": "Ordinal dates take '-te' for 1-19 and '-ste' for 20+. 'Der dritte' is irregular.",
+    "grammarNote": "Ordinal numbers in dates: 'der erste, der zweite, der dritte, der vierte...' — '1.', '2.', '3.', etc. with a period in writing. Note 'erste' and 'dritte' are irregular."
+  },
+  {
+    "id": "a1-059",
+    "level": "A1",
+    "topic": "days-months",
+    "direction": "de-to-en",
+    "prompt": "Am Sonntag besucht meine Familie meine Großeltern.",
+    "answer": "On Sunday my family visits my grandparents.",
+    "alternatives": [
+      "On Sunday, my family is visiting my grandparents."
+    ],
+    "hint": "'Am Sonntag' = on Sunday. Verb-second pushes 'meine Familie' after the verb.",
+    "grammarNote": "When a time expression begins the sentence, the subject moves after the verb: 'Am Sonntag besucht meine Familie...'. 'Die Großeltern' (plural) = the grandparents."
+  },
+  {
+    "id": "a1-060",
+    "level": "A1",
+    "topic": "days-months",
+    "direction": "en-to-de",
+    "prompt": "We have a German class every Wednesday.",
+    "answer": "Wir haben jeden Mittwoch Deutschunterricht.",
+    "alternatives": [
+      "Jeden Mittwoch haben wir Deutschunterricht.",
+      "Wir haben jeden Mittwoch eine Deutschstunde."
+    ],
+    "hint": "'Jeden Mittwoch' (every Wednesday) — accusative for time. 'Der Mittwoch' is masculine.",
+    "grammarNote": "Time expressions denoting repeated occurrences use accusative: 'jeden Tag', 'jeden Montag'. 'Der Deutschunterricht' = the German lesson/class (compound noun, masculine like 'der Unterricht')."
   }
 ]
