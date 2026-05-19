@@ -1,10 +1,11 @@
 "use client";
 
 import * as React from "react";
-import { Loader2, Plus, Volume2 } from "lucide-react";
+import { Loader2, Plus } from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import { AudioButton } from "@/components/AudioButton";
 import type { VocabularyEntry } from "@/lib/content";
 import { recordLookup } from "@/lib/vocabulary";
 import type { WordTranslation } from "@/app/api/translate/route";
@@ -38,19 +39,6 @@ function vocabToTranslation(v: VocabularyEntry): WordTranslation {
     example: "",
     exampleTranslation: "",
   };
-}
-
-function speakGerman(text: string) {
-  if (typeof window === "undefined" || !("speechSynthesis" in window)) return;
-  try {
-    const utter = new SpeechSynthesisUtterance(text);
-    utter.lang = "de-DE";
-    utter.rate = 0.9;
-    window.speechSynthesis.cancel();
-    window.speechSynthesis.speak(utter);
-  } catch {
-    // browser may block, fail silently
-  }
 }
 
 export function WordPopover({ word, context, vocab, source, children }: Props) {
@@ -151,16 +139,7 @@ export function WordPopover({ word, context, vocab, source, children }: Props) {
               )}
             </div>
             <div className="flex shrink-0 gap-1">
-              <Button
-                size="icon"
-                variant="ghost"
-                className={cn("h-7 w-7", !data && "opacity-50")}
-                onClick={() => speakGerman(data?.word ?? word)}
-                aria-label="Pronounce"
-                disabled={!data}
-              >
-                <Volume2 className="h-3.5 w-3.5" />
-              </Button>
+              <AudioButton text={data?.word ?? word} size="sm" />
               <Button
                 size="icon"
                 variant="ghost"
@@ -185,7 +164,10 @@ export function WordPopover({ word, context, vocab, source, children }: Props) {
                 <p className="text-sm leading-relaxed">{data.meaning}</p>
                 {data.example && (
                   <div className="mt-3 rounded-md border border-border/50 bg-muted/40 p-2.5 text-xs">
-                    <p className="font-medium italic">{data.example}</p>
+                    <div className="flex items-start justify-between gap-2">
+                      <p className="font-medium italic">{data.example}</p>
+                      <AudioButton text={data.example} size="xs" rate={0.85} className="-mr-1 -mt-1" />
+                    </div>
                     {data.exampleTranslation && (
                       <p className="mt-1 text-muted-foreground">
                         {data.exampleTranslation}

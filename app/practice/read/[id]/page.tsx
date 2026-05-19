@@ -6,6 +6,7 @@ import { notFound, useParams } from "next/navigation";
 import { ArrowLeft, Check, Eye, EyeOff } from "lucide-react";
 import { getReading } from "@/lib/content";
 import { ReadingPassage } from "@/components/ReadingPassage";
+import { PassagePlayer } from "@/components/PassagePlayer";
 import { LevelBadge } from "@/components/LevelBadge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -57,11 +58,12 @@ export default function ReadingDetailPage() {
             {reading.title}
           </h1>
           <p className="mt-2 text-sm text-muted-foreground">
-            Tap any underlined word for an instant translation. Try to read it
-            once without help first.
+            Tap any underlined word for an instant translation. Press play to
+            hear the passage read aloud.
           </p>
 
           <div className="mt-6 rounded-xl border border-border/60 bg-card p-6 md:p-8">
+            <PassagePlayer text={reading.passage} className="mb-6" />
             <ReadingPassage
               text={reading.passage}
               vocabulary={reading.vocabulary}
