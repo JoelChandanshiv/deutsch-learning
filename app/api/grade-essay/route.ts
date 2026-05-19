@@ -1,5 +1,4 @@
 import { NextResponse } from "next/server";
-import { SchemaType } from "@google/generative-ai";
 import { extractJSON, getGeminiClient, MODELS } from "@/lib/llm";
 
 export const runtime = "nodejs";
@@ -58,7 +57,7 @@ export async function POST(req: Request) {
     const client = getGeminiClient();
     const level = body.level ?? "A2";
 
-    const systemInstruction = `You are a meticulous, friendly German language teacher grading a short essay at CEFR level ${level}. Be specific, accurate, and encouraging. Reply with valid JSON only.`;
+    const systemInstruction = `You are a meticulous, friendly German language teacher grading a short essay at CEFR level ${level}. Be specific, accurate, and encouraging. Reply with valid JSON only — no markdown, no code fences, no commentary before or after.`;
 
     const userPrompt = `The student was asked to write on this prompt (in German):
 
@@ -77,78 +76,36 @@ Grade the essay on these criteria, each on a 0-10 scale:
 
 overallScore should be a weighted average favoring grammar + structure.
 
-Provide:
-- 2-3 sentences of overall summary
-- 2-4 specific strengths (real things the student did well)
-- 2-4 specific improvements (actionable, not vague)
-- Up to 6 corrections (most important first): for each, give the original incorrect phrase, the corrected version, and a 1-sentence explanation in English
-- Up to 4 better phrasings: native-speaker improvements that aren't strictly errors but would sound more natural
-
 Scoring guideline at ${level}:
 - A2 essays: don't penalize Konjunktiv II avoidance or simple grammar — reward clarity and task completion
 - B1 essays: expect varied connectors, some Konjunktiv II, more nuanced vocabulary
 
-Output JSON matching the provided schema.`;
+Output a single JSON object with EXACTLY these keys (no others):
+
+{
+  "overallScore": <number 0-10>,
+  "grammarScore": <number 0-10>,
+  "vocabularyScore": <number 0-10>,
+  "structureScore": <number 0-10>,
+  "coherenceScore": <number 0-10>,
+  "summary": "<2-3 sentence overall summary>",
+  "strengths": ["<bullet 1>", "<bullet 2>", "<...up to 4>"],
+  "improvements": ["<actionable bullet 1>", "<...up to 4>"],
+  "corrections": [
+    { "original": "<incorrect phrase from essay>", "corrected": "<fixed version>", "explanation": "<1 sentence why, in English>" }
+    // up to 6 entries, most important first
+  ],
+  "betterPhrasings": [
+    { "original": "<phrase from essay>", "improved": "<more native version>", "reason": "<why this is better>" }
+    // up to 4 entries; use empty array [] if none worth mentioning
+  ]
+}`;
 
     const model = client.getGenerativeModel({
       model: MODELS.conversation,
       systemInstruction,
       generationConfig: {
         responseMimeType: "application/json",
-        responseSchema: {
-          type: SchemaType.OBJECT,
-          properties: {
-            overallScore: { type: SchemaType.NUMBER },
-            grammarScore: { type: SchemaType.NUMBER },
-            vocabularyScore: { type: SchemaType.NUMBER },
-            structureScore: { type: SchemaType.NUMBER },
-            coherenceScore: { type: SchemaType.NUMBER },
-            summary: { type: SchemaType.STRING },
-            strengths: {
-              type: SchemaType.ARRAY,
-              items: { type: SchemaType.STRING },
-            },
-            improvements: {
-              type: SchemaType.ARRAY,
-              items: { type: SchemaType.STRING },
-            },
-            corrections: {
-              type: SchemaType.ARRAY,
-              items: {
-                type: SchemaType.OBJECT,
-                properties: {
-                  original: { type: SchemaType.STRING },
-                  corrected: { type: SchemaType.STRING },
-                  explanation: { type: SchemaType.STRING },
-                },
-                required: ["original", "corrected", "explanation"],
-              },
-            },
-            betterPhrasings: {
-              type: SchemaType.ARRAY,
-              items: {
-                type: SchemaType.OBJECT,
-                properties: {
-                  original: { type: SchemaType.STRING },
-                  improved: { type: SchemaType.STRING },
-                  reason: { type: SchemaType.STRING },
-                },
-                required: ["original", "improved", "reason"],
-              },
-            },
-          },
-          required: [
-            "overallScore",
-            "grammarScore",
-            "vocabularyScore",
-            "structureScore",
-            "coherenceScore",
-            "summary",
-            "strengths",
-            "improvements",
-            "corrections",
-          ],
-        },
         maxOutputTokens: 4000,
         temperature: 0.3,
       },
