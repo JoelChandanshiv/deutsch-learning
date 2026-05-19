@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowRight, BookOpen, Brain, Headphones, MessageCircle, PencilLine, PenTool } from "lucide-react";
+import { ArrowRight, BookMarked, BookOpen, Brain, Headphones, MessageCircle, PencilLine, PenTool } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useStore } from "@/lib/useStore";
 import { getDueCount, getAllCards } from "@/lib/srs";
@@ -41,6 +41,13 @@ const modes = [
     title: "Writing",
     description: "Write essays. Get detailed AI feedback.",
     cta: "Start writing",
+  },
+  {
+    href: "/practice/vocab",
+    icon: BookMarked,
+    title: "Vocabulary",
+    description: "Topic packs with the most-used words at your level.",
+    cta: "Open packs",
   },
 ];
 
@@ -99,7 +106,7 @@ export default function PracticeIndex() {
         </Card>
       </Link>
 
-      <div className="mx-auto mt-6 grid max-w-5xl gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
+      <div className="mx-auto mt-6 grid max-w-5xl gap-6 md:grid-cols-2 lg:grid-cols-3">
         {modes.map((m) => (
           <Link key={m.href} href={m.href} className="group">
             <Card className="h-full border-border/60 transition-colors group-hover:border-primary/50">

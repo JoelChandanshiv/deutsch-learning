@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import Link from "next/link";
-import { ArrowRight, Award, BookOpen, Brain, Flame, MessageCircle, PencilLine, Target, Trash2 } from "lucide-react";
+import { ArrowRight, Award, BookMarked, BookOpen, Brain, Flame, MessageCircle, PencilLine, Target, Trash2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
@@ -15,6 +15,7 @@ import { getXP, DAILY_GOAL_XP } from "@/lib/xp";
 import { getVocabulary, removeWord, type SavedWord } from "@/lib/vocabulary";
 import { getChatLimit, DAILY_CHAT_LIMIT } from "@/lib/chatLimit";
 import { getStats as getSRSStats } from "@/lib/srs";
+import { getMasteredCount } from "@/lib/vocabPacks";
 
 const FALLBACK_STREAK = { current: 0, longest: 0, lastActiveDate: null, history: [] as string[] };
 const FALLBACK_XP = {
@@ -44,6 +45,7 @@ export default function ProgressPage() {
   const vocab = useStore<SavedWord[]>(getVocabulary, []);
   const chat = useStore(getChatLimit, { used: 0, remaining: DAILY_CHAT_LIMIT, date: "" });
   const srs = useStore(getSRSStats, FALLBACK_SRS);
+  const masteredVocab = useStore(getMasteredCount, 0);
   const [vocabOpen, setVocabOpen] = React.useState(false);
 
   const activeDates = React.useMemo(() => new Set(streak.history ?? []), [streak.history]);
@@ -204,16 +206,22 @@ export default function ProgressPage() {
         </CardContent>
       </Card>
 
-      <div className="mt-4 grid gap-4 md:grid-cols-3">
+      <div className="mt-4 grid gap-4 md:grid-cols-4">
+        <StatTile
+          icon={<BookMarked className="h-4 w-4" />}
+          label="Words mastered"
+          value={masteredVocab}
+          suffix="words"
+        />
         <StatTile
           icon={<PencilLine className="h-4 w-4" />}
-          label="Vocabulary"
+          label="Looked up"
           value={vocab.length}
           suffix="words"
         />
         <StatTile
           icon={<BookOpen className="h-4 w-4" />}
-          label="Active days (last 30)"
+          label="Active days (30d)"
           value={Array.from(activeDates).filter((d) => isWithin30Days(d)).length}
           suffix="days"
         />
