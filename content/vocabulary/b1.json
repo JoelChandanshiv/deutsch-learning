@@ -1,1 +1,828 @@
-[]
+[
+  {
+    "id": "b1-vocab-opinions",
+    "level": "B1",
+    "title": "Opinions & Argumentation",
+    "description": "The vocabulary of essay-writing and real debate — claim, qualify, refute, persuade.",
+    "icon": "💬",
+    "color": "amber",
+    "words": [
+      {
+        "word": "die Stellungnahme",
+        "meaning": "statement, position paper",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Der Minister hat eine Stellungnahme abgegeben.",
+        "exampleTranslation": "The minister issued a statement.",
+        "whyItMatters": "Journalistic register — common in news. 'Eine Stellungnahme abgeben/verfassen' (to issue/draft a statement). Implies a formal, considered position."
+      },
+      {
+        "word": "der Standpunkt",
+        "meaning": "viewpoint, standpoint",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Aus meinem Standpunkt ist das nicht akzeptabel.",
+        "exampleTranslation": "From my standpoint, that's not acceptable.",
+        "whyItMatters": "Formal register. Often paired with 'vertreten': 'einen Standpunkt vertreten' (to hold/represent a position) — classic essay collocation."
+      },
+      {
+        "word": "abwägen",
+        "meaning": "to weigh up, to consider",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Man muss Vor- und Nachteile abwägen.",
+        "exampleTranslation": "One must weigh up the pros and cons.",
+        "whyItMatters": "Splits: 'ich wäge ab'. Perfekt: 'hat abgewogen' (irregular Partizip II). Often pairs with 'Vor- und Nachteile' — typical essay structure word."
+      },
+      {
+        "word": "hinterfragen",
+        "meaning": "to question critically",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Wir sollten unsere Annahmen hinterfragen.",
+        "exampleTranslation": "We should question our assumptions critically.",
+        "whyItMatters": "NOT separable despite the 'hinter-' prefix. Stronger than just 'fragen' — implies critical examination. Common in academic/journalistic writing."
+      },
+      {
+        "word": "anzweifeln",
+        "meaning": "to call into doubt",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Ich zweifle die Echtheit dieses Dokuments an.",
+        "exampleTranslation": "I doubt the authenticity of this document.",
+        "whyItMatters": "Splits: 'ich zweifle das an'. Stronger than 'bezweifeln' (which is NOT separable). Pair with 'die Aussage', 'die Echtheit', 'die Behauptung'."
+      },
+      {
+        "word": "überzeugen",
+        "meaning": "to convince",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Sein Argument hat mich nicht überzeugt.",
+        "exampleTranslation": "His argument didn't convince me.",
+        "whyItMatters": "Takes accusative. The adjective 'überzeugt' (convinced) is just as common: 'Ich bin davon überzeugt, dass...'. The noun is 'die Überzeugung'."
+      },
+      {
+        "word": "die These",
+        "meaning": "thesis, claim",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Seine These ist umstritten.",
+        "exampleTranslation": "His thesis is controversial.",
+        "whyItMatters": "Greek-origin, feminine. Common essay phrase: 'eine These aufstellen/verteidigen/widerlegen' (to put forward/defend/refute a thesis)."
+      },
+      {
+        "word": "argumentieren",
+        "meaning": "to argue (a position)",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Er argumentiert sehr überzeugend.",
+        "exampleTranslation": "He argues very convincingly.",
+        "whyItMatters": "Latin '-ieren' verb — no 'ge-' in Partizip II ('argumentiert'). False friend warning: this is reasoned debate, not fighting (Streit)."
+      },
+      {
+        "word": "behaupten",
+        "meaning": "to claim, to assert",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Er behauptet, er sei unschuldig.",
+        "exampleTranslation": "He claims he is innocent.",
+        "whyItMatters": "Often implies the speaker doesn't fully believe what's being claimed. Frequently followed by Konjunktiv I in formal writing (indirect speech)."
+      },
+      {
+        "word": "der Beweis",
+        "meaning": "proof, evidence",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Es gibt keinen Beweis für seine Theorie.",
+        "exampleTranslation": "There's no proof for his theory.",
+        "whyItMatters": "Verb 'beweisen' (to prove — strong verb: bewies, bewiesen). 'Ein Beweis für + Akkusativ' (proof of). Plural 'die Beweise'."
+      },
+      {
+        "word": "die Schlussfolgerung",
+        "meaning": "conclusion, inference",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Welche Schlussfolgerung ziehst du daraus?",
+        "exampleTranslation": "What conclusion do you draw from this?",
+        "whyItMatters": "Compound: Schluss + Folgerung. Set phrase: 'eine Schlussfolgerung ziehen' (to draw a conclusion). Academic/essay vocabulary."
+      },
+      {
+        "word": "einräumen",
+        "meaning": "to concede, to admit",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Ich räume ein, dass du recht hast.",
+        "exampleTranslation": "I concede that you're right.",
+        "whyItMatters": "Splits: 'ich räume das ein'. Used in argumentation to acknowledge a counterpoint before rebutting it. Perfekt: 'hat eingeräumt'. Mature debate move."
+      }
+    ]
+  },
+  {
+    "id": "b1-vocab-society",
+    "level": "B1",
+    "title": "Society & Politics",
+    "description": "The vocabulary of newspapers, political discussions, and engaged citizenship.",
+    "icon": "🏛️",
+    "color": "violet",
+    "words": [
+      {
+        "word": "die Demokratie",
+        "meaning": "democracy",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Die Demokratie wird durch freie Wahlen geschützt.",
+        "exampleTranslation": "Democracy is protected by free elections.",
+        "whyItMatters": "Stress on third syllable: 'demo-kra-TIE'. Adjective 'demokratisch'. Compound 'die Demokratiebewegung' (democratic movement) appears often in news."
+      },
+      {
+        "word": "der Widerstand",
+        "meaning": "resistance, opposition",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Das neue Gesetz stößt auf Widerstand.",
+        "exampleTranslation": "The new law is meeting resistance.",
+        "whyItMatters": "Historically loaded — also refers to Nazi-era resistance ('der Widerstand gegen Hitler'). 'Auf Widerstand stoßen' = to encounter resistance."
+      },
+      {
+        "word": "das Anliegen",
+        "meaning": "concern, request",
+        "partOfSpeech": "noun",
+        "gender": "das",
+        "example": "Was ist Ihr Anliegen?",
+        "exampleTranslation": "What's your concern?",
+        "whyItMatters": "Formal register — receptionists and officials will ask this. Different from 'das Problem' (problem) — softer, more constructive. 'Ein wichtiges Anliegen' = an important matter."
+      },
+      {
+        "word": "die Verantwortung",
+        "meaning": "responsibility",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Wir tragen alle Verantwortung für die Umwelt.",
+        "exampleTranslation": "We all bear responsibility for the environment.",
+        "whyItMatters": "Set phrase: 'Verantwortung tragen/übernehmen' (to bear/take on responsibility). The adjective 'verantwortlich' (responsible) takes 'für + Akkusativ'."
+      },
+      {
+        "word": "ehrenamtlich",
+        "meaning": "voluntary, honorary",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Er engagiert sich ehrenamtlich in der Gemeinde.",
+        "exampleTranslation": "He volunteers in the community.",
+        "whyItMatters": "Specifically unpaid civic work — a major cultural concept in Germany. Noun 'das Ehrenamt' (volunteer work). Adverb usage: 'ehrenamtlich arbeiten'."
+      },
+      {
+        "word": "die Gerechtigkeit",
+        "meaning": "justice",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Soziale Gerechtigkeit ist ein wichtiges Anliegen.",
+        "exampleTranslation": "Social justice is an important concern.",
+        "whyItMatters": "Abstract '-keit' nouns are always feminine. Common compound: 'die Steuergerechtigkeit' (tax fairness). The adjective 'gerecht' (just/fair)."
+      },
+      {
+        "word": "die Mehrheit",
+        "meaning": "majority",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Die Mehrheit der Wähler stimmte dafür.",
+        "exampleTranslation": "The majority of voters voted for it.",
+        "whyItMatters": "Opposite 'die Minderheit' (minority). Often with 'der/die' + genitive: 'die Mehrheit der Bürger'. 'Mit Mehrheit beschließen' = decide by majority."
+      },
+      {
+        "word": "der Bürger",
+        "meaning": "citizen",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Jeder Bürger hat das Recht zu wählen.",
+        "exampleTranslation": "Every citizen has the right to vote.",
+        "whyItMatters": "Female: 'die Bürgerin'. Compounds dominate political language: 'Bürgermeister' (mayor), 'Bürgerinitiative', 'Bürgerrecht'."
+      },
+      {
+        "word": "der Skandal",
+        "meaning": "scandal",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Der Skandal hat die Regierung erschüttert.",
+        "exampleTranslation": "The scandal shook the government.",
+        "whyItMatters": "Sounds international but stress is on the LAST syllable: 'skan-DAL'. Verb 'skandalös' (scandalous). Plural 'die Skandale'."
+      },
+      {
+        "word": "die Maßnahme",
+        "meaning": "measure, action",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Die Regierung hat strenge Maßnahmen ergriffen.",
+        "exampleTranslation": "The government took strict measures.",
+        "whyItMatters": "Constant in news. Set phrase: 'Maßnahmen ergreifen/treffen' (to take measures). Plural 'die Maßnahmen' is almost more common than singular."
+      },
+      {
+        "word": "die Auswirkung",
+        "meaning": "effect, impact",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Der Klimawandel hat dramatische Auswirkungen.",
+        "exampleTranslation": "Climate change has dramatic effects.",
+        "whyItMatters": "Almost always plural for impacts. Set phrase: 'Auswirkungen haben auf + Akkusativ' (to have effects on). More formal than 'der Effekt'."
+      },
+      {
+        "word": "das Vorurteil",
+        "meaning": "prejudice",
+        "partOfSpeech": "noun",
+        "gender": "das",
+        "example": "Wir müssen gegen Vorurteile kämpfen.",
+        "exampleTranslation": "We have to fight against prejudices.",
+        "whyItMatters": "Compound: 'vor' (before) + 'das Urteil' (judgment) — pre-judgment. 'Vorurteile haben gegen' (to have prejudices against). Common in social discussions."
+      }
+    ]
+  },
+  {
+    "id": "b1-vocab-environment",
+    "level": "B1",
+    "title": "Environment & Sustainability",
+    "description": "The environmental vocabulary that fills German news, classrooms, and policy debates.",
+    "icon": "🌱",
+    "color": "emerald",
+    "words": [
+      {
+        "word": "der Klimawandel",
+        "meaning": "climate change",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Der Klimawandel ist die größte Herausforderung unserer Zeit.",
+        "exampleTranslation": "Climate change is the biggest challenge of our time.",
+        "whyItMatters": "Compound: 'das Klima' + 'der Wandel' (change). Gender comes from the last part. The single most-used environmental term in German media."
+      },
+      {
+        "word": "der CO₂-Fußabdruck",
+        "meaning": "carbon footprint",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Wir wollen unseren CO₂-Fußabdruck reduzieren.",
+        "exampleTranslation": "We want to reduce our carbon footprint.",
+        "whyItMatters": "Pronunciation: 'tse-O-zwei'. 'Den Fußabdruck verkleinern/reduzieren' (to reduce one's footprint) is the standard phrase."
+      },
+      {
+        "word": "der Treibhauseffekt",
+        "meaning": "greenhouse effect",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Der Treibhauseffekt verstärkt sich.",
+        "exampleTranslation": "The greenhouse effect is intensifying.",
+        "whyItMatters": "Compound: 'das Treibhaus' (greenhouse) + 'der Effekt'. Related: 'das Treibhausgas' (greenhouse gas). Standard climate-science vocabulary."
+      },
+      {
+        "word": "regenerativ",
+        "meaning": "renewable",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Regenerative Energien werden immer wichtiger.",
+        "exampleTranslation": "Renewable energies are becoming increasingly important.",
+        "whyItMatters": "Synonym: 'erneuerbar'. Both pair with 'die Energien' or 'die Energiequellen'. Latin-origin formal adjective."
+      },
+      {
+        "word": "der Verbrauch",
+        "meaning": "consumption",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Wir müssen unseren Energieverbrauch reduzieren.",
+        "exampleTranslation": "We have to reduce our energy consumption.",
+        "whyItMatters": "Verb 'verbrauchen' = to use up. Compounds dominate environmental contexts: 'Stromverbrauch', 'Wasserverbrauch', 'Spritverbrauch' (fuel consumption)."
+      },
+      {
+        "word": "nachhaltig",
+        "meaning": "sustainable",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Wir versuchen, nachhaltiger zu leben.",
+        "exampleTranslation": "We're trying to live more sustainably.",
+        "whyItMatters": "Buzzword on product labels everywhere. Noun 'die Nachhaltigkeit' (sustainability) — abstract '-keit' is always feminine."
+      },
+      {
+        "word": "die Erneuerung",
+        "meaning": "renewal",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Die Erneuerung des Stromnetzes kostet Milliarden.",
+        "exampleTranslation": "Renewing the power grid costs billions.",
+        "whyItMatters": "From 'erneuern' (to renew). Different from 'die Verlängerung' (extension). Common in infrastructure and policy contexts."
+      },
+      {
+        "word": "der Schutz",
+        "meaning": "protection",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Der Schutz der Umwelt ist unsere Pflicht.",
+        "exampleTranslation": "Protection of the environment is our duty.",
+        "whyItMatters": "Generates endless compounds: 'Umweltschutz', 'Datenschutz', 'Sonnenschutz', 'Tierschutz'. Verb 'schützen' (to protect) + accusative."
+      },
+      {
+        "word": "die Umweltverschmutzung",
+        "meaning": "environmental pollution",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Die Umweltverschmutzung in Großstädten ist alarmierend.",
+        "exampleTranslation": "Environmental pollution in big cities is alarming.",
+        "whyItMatters": "Compound monster but worth knowing — appears constantly in journalism. Smaller compound 'die Luftverschmutzung' (air pollution) is also vital."
+      },
+      {
+        "word": "der Müll",
+        "meaning": "trash, garbage",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "In Deutschland wird der Müll streng getrennt.",
+        "exampleTranslation": "In Germany, trash is strictly separated.",
+        "whyItMatters": "Uncountable — no plural. The strict 'Mülltrennung' system (paper, glass, plastic, organic, residual) is a key cultural feature."
+      },
+      {
+        "word": "die Naturkatastrophe",
+        "meaning": "natural disaster",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Naturkatastrophen nehmen weltweit zu.",
+        "exampleTranslation": "Natural disasters are increasing worldwide.",
+        "whyItMatters": "Common news term. Plural 'die Naturkatastrophen'. Often pair with 'zunehmen' (to increase). Related: 'die Überschwemmung' (flood), 'die Dürre' (drought)."
+      },
+      {
+        "word": "der Artenschutz",
+        "meaning": "species protection",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Der Artenschutz ist gesetzlich geregelt.",
+        "exampleTranslation": "Species protection is regulated by law.",
+        "whyItMatters": "Compound: 'die Art' (species) + 'der Schutz' (protection). Related collocation: 'vom Aussterben bedroht' (threatened with extinction)."
+      }
+    ]
+  },
+  {
+    "id": "b1-vocab-emotions",
+    "level": "B1",
+    "title": "Nuanced Emotions",
+    "description": "The vocabulary for the complicated, layered feelings adult life actually produces.",
+    "icon": "🎭",
+    "color": "rose",
+    "words": [
+      {
+        "word": "ambivalent",
+        "meaning": "ambivalent, mixed",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Ich habe ambivalente Gefühle dazu.",
+        "exampleTranslation": "I have mixed feelings about it.",
+        "whyItMatters": "Formal/academic register. International word — easy to remember. Often pairs with 'die Gefühle', 'die Haltung' (attitude), 'die Einstellung'."
+      },
+      {
+        "word": "melancholisch",
+        "meaning": "melancholy, wistful",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Die Musik klingt melancholisch.",
+        "exampleTranslation": "The music sounds melancholy.",
+        "whyItMatters": "Literary register. Noun 'die Melancholie'. Different from 'traurig' (sad) — implies thoughtful, lingering sadness rather than acute pain."
+      },
+      {
+        "word": "voreingenommen",
+        "meaning": "biased, prejudiced",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Wir alle sind manchmal voreingenommen.",
+        "exampleTranslation": "We're all biased sometimes.",
+        "whyItMatters": "Pairs with 'gegen + Akkusativ' (against) or 'gegenüber + Dativ'. Related noun: 'das Vorurteil' (prejudice). Frequent in social/political discourse."
+      },
+      {
+        "word": "gleichgültig",
+        "meaning": "indifferent",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Es ist mir gleichgültig.",
+        "exampleTranslation": "It's all the same to me.",
+        "whyItMatters": "Takes dative: 'mir ist es gleichgültig'. Synonym 'egal' is more colloquial. Stronger negative tone than 'egal' — implies emotional disengagement."
+      },
+      {
+        "word": "ernüchtert",
+        "meaning": "disillusioned, sobered",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Nach der Erfahrung war ich ernüchtert.",
+        "exampleTranslation": "After the experience I was sobered.",
+        "whyItMatters": "Literally 'un-drunkened' — implies reality crashed in. Stronger than 'enttäuscht' (disappointed) — implies one's idealism was broken."
+      },
+      {
+        "word": "begeistert",
+        "meaning": "enthusiastic, excited",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Sie war begeistert von dem Vortrag.",
+        "exampleTranslation": "She was enthusiastic about the lecture.",
+        "whyItMatters": "Takes 'von + Dativ'. Stronger than 'froh'. Noun 'die Begeisterung' (enthusiasm). Don't confuse with 'der Geist' alone (spirit/mind)."
+      },
+      {
+        "word": "gerührt",
+        "meaning": "moved, touched (emotionally)",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Ich war zu Tränen gerührt.",
+        "exampleTranslation": "I was moved to tears.",
+        "whyItMatters": "Past participle of 'rühren' (to stir). 'Zu Tränen gerührt' (moved to tears) is the iconic fixed phrase. Literary register."
+      },
+      {
+        "word": "frustriert",
+        "meaning": "frustrated",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Nach drei Stunden war ich völlig frustriert.",
+        "exampleTranslation": "After three hours I was completely frustrated.",
+        "whyItMatters": "International loanword. Noun 'die Frustration' (formal) or 'der Frust' (colloquial, masculine). 'Frust ablassen' (to vent frustration)."
+      },
+      {
+        "word": "die Wehmut",
+        "meaning": "wistfulness, bittersweet sadness",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Mit Wehmut denke ich an die Kindheit zurück.",
+        "exampleTranslation": "I think back on my childhood with wistfulness.",
+        "whyItMatters": "Iconic German emotion-word — beautiful and untranslatable. Adjective 'wehmütig'. Literary/poetic register. Different from 'die Sehnsucht' (longing)."
+      },
+      {
+        "word": "die Reue",
+        "meaning": "remorse, regret",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Er empfindet keine Reue für seine Tat.",
+        "exampleTranslation": "He feels no remorse for his deed.",
+        "whyItMatters": "Stronger and more moral than 'das Bedauern' (regret). Verb 'bereuen' (to regret) + accusative. Common in moral/legal contexts."
+      },
+      {
+        "word": "die Erleichterung",
+        "meaning": "relief",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Mit großer Erleichterung hörte ich die Nachricht.",
+        "exampleTranslation": "I heard the news with great relief.",
+        "whyItMatters": "From 'leicht' (light) + 'erleichtern' (to relieve). Adjective 'erleichtert'. Set phrase: 'eine große Erleichterung sein' (to be a great relief)."
+      },
+      {
+        "word": "fassungslos",
+        "meaning": "stunned, speechless",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Wir waren fassungslos über die Nachricht.",
+        "exampleTranslation": "We were stunned by the news.",
+        "whyItMatters": "Literally 'composure-less'. Stronger than 'überrascht'. Used for genuinely shocking news. Takes 'über + Akkusativ' for source."
+      }
+    ]
+  },
+  {
+    "id": "b1-vocab-technology",
+    "level": "B1",
+    "title": "Technology & Digital Life",
+    "description": "The vocabulary of contemporary tech, AI, and digital citizenship — read tech news in German.",
+    "icon": "💻",
+    "color": "sky",
+    "words": [
+      {
+        "word": "der Algorithmus",
+        "meaning": "algorithm",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Der Algorithmus entscheidet, was du siehst.",
+        "exampleTranslation": "The algorithm decides what you see.",
+        "whyItMatters": "Greek origin, masculine. Plural is irregular: 'die Algorithmen'. Stress on third syllable: 'al-go-RITH-mus'. Frequent in news about social media."
+      },
+      {
+        "word": "der Datenschutz",
+        "meaning": "data protection, privacy",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Datenschutz wird in Deutschland sehr ernst genommen.",
+        "exampleTranslation": "Data protection is taken very seriously in Germany.",
+        "whyItMatters": "Major cultural concept — Germany has some of the strictest privacy laws in the world (DSGVO/GDPR). The word appears in every cookie banner."
+      },
+      {
+        "word": "die Sicherheitslücke",
+        "meaning": "security gap, vulnerability",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "In der App wurde eine Sicherheitslücke entdeckt.",
+        "exampleTranslation": "A security vulnerability was discovered in the app.",
+        "whyItMatters": "Compound: 'die Sicherheit' (security) + 'die Lücke' (gap). Tech-journalism vocabulary. 'Eine Sicherheitslücke schließen' (to close a vulnerability)."
+      },
+      {
+        "word": "der Cloud-Speicher",
+        "meaning": "cloud storage",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Ich speichere alles im Cloud-Speicher.",
+        "exampleTranslation": "I save everything in cloud storage.",
+        "whyItMatters": "English 'cloud' + German 'Speicher' — typical hybrid. Also 'die Cloud' is widely used alone. Verb 'speichern' (to save/store)."
+      },
+      {
+        "word": "die künstliche Intelligenz",
+        "meaning": "artificial intelligence (AI)",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Die künstliche Intelligenz verändert die Arbeitswelt.",
+        "exampleTranslation": "Artificial intelligence is changing the world of work.",
+        "whyItMatters": "Abbreviated 'KI' in German (NOT 'AI'). 'Eine KI nutzen' = to use an AI. Currently the most-discussed tech topic in German media."
+      },
+      {
+        "word": "die Suchmaschine",
+        "meaning": "search engine",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Welche Suchmaschine benutzt du am häufigsten?",
+        "exampleTranslation": "Which search engine do you use most often?",
+        "whyItMatters": "Compound: 'suchen' (search) + 'die Maschine'. The verb 'googeln' is officially in the Duden dictionary as a German verb."
+      },
+      {
+        "word": "die Datei",
+        "meaning": "file (digital)",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Diese Datei lässt sich nicht öffnen.",
+        "exampleTranslation": "This file won't open.",
+        "whyItMatters": "Specifically digital files (not paper — that's 'die Akte'). Plural 'die Dateien'. Common verbs: 'speichern' (save), 'herunterladen' (download), 'löschen' (delete)."
+      },
+      {
+        "word": "verschlüsseln",
+        "meaning": "to encrypt",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Diese Nachrichten sind Ende-zu-Ende verschlüsselt.",
+        "exampleTranslation": "These messages are end-to-end encrypted.",
+        "whyItMatters": "From 'der Schlüssel' (key). Regular verb. Noun 'die Verschlüsselung'. Important in privacy/security contexts."
+      },
+      {
+        "word": "die Anwendung",
+        "meaning": "application, app",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Diese Anwendung läuft nur unter Windows.",
+        "exampleTranslation": "This application only runs on Windows.",
+        "whyItMatters": "German alternative to 'die App' (English loanword, also widely used). Has a non-tech meaning too: 'die Anwendung des Gesetzes' (the application of the law)."
+      },
+      {
+        "word": "der Benutzer",
+        "meaning": "user",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Der Benutzer muss sein Passwort regelmäßig ändern.",
+        "exampleTranslation": "The user must change their password regularly.",
+        "whyItMatters": "Female 'die Benutzerin'. Synonym 'der Nutzer' is equally common. Verb 'benutzen' / 'nutzen' (to use). 'Benutzerkonto' (user account)."
+      },
+      {
+        "word": "aktualisieren",
+        "meaning": "to update",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Bitte aktualisieren Sie Ihre App.",
+        "exampleTranslation": "Please update your app.",
+        "whyItMatters": "Latin '-ieren' verb — no 'ge-' in Partizip II ('aktualisiert'). Noun 'die Aktualisierung' or English 'das Update' — both used."
+      },
+      {
+        "word": "die Schnittstelle",
+        "meaning": "interface",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Die Benutzerschnittstelle ist sehr intuitiv.",
+        "exampleTranslation": "The user interface is very intuitive.",
+        "whyItMatters": "Compound: 'der Schnitt' (cut) + 'die Stelle' (spot/place). 'Die Benutzerschnittstelle' (user interface). Also used for APIs in programming contexts."
+      }
+    ]
+  },
+  {
+    "id": "b1-vocab-adjectives",
+    "level": "B1",
+    "title": "Sophisticated Adjectives",
+    "description": "Abstract, formal, and journalistic adjectives that mark you as a confident B1+ speaker.",
+    "icon": "🎨",
+    "color": "teal",
+    "words": [
+      {
+        "word": "voreingenommen",
+        "meaning": "biased, prejudiced",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Sein Urteil ist voreingenommen.",
+        "exampleTranslation": "His judgment is biased.",
+        "whyItMatters": "Often pairs with 'das Urteil', 'die Meinung', 'die Berichterstattung' (reporting). Takes 'gegen + Akkusativ' for the target of bias."
+      },
+      {
+        "word": "umfangreich",
+        "meaning": "extensive, comprehensive",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Die Untersuchung war sehr umfangreich.",
+        "exampleTranslation": "The investigation was very extensive.",
+        "whyItMatters": "Often pairs with 'die Untersuchung' (investigation), 'die Recherche', 'die Sammlung', 'das Wissen'. From 'der Umfang' (extent/scope)."
+      },
+      {
+        "word": "beträchtlich",
+        "meaning": "considerable, substantial",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Die Kosten waren beträchtlich.",
+        "exampleTranslation": "The costs were considerable.",
+        "whyItMatters": "Formal alternative to 'erheblich' or 'groß'. Pairs with 'die Kosten', 'die Summe', 'der Aufwand', 'die Menge'. Journalistic register."
+      },
+      {
+        "word": "gerechtfertigt",
+        "meaning": "justified",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Seine Kritik ist gerechtfertigt.",
+        "exampleTranslation": "His criticism is justified.",
+        "whyItMatters": "Past participle of 'rechtfertigen' (to justify). Pairs with 'die Kritik', 'die Sorge', 'der Verdacht' (suspicion), 'die Entscheidung'."
+      },
+      {
+        "word": "oberflächlich",
+        "meaning": "superficial, shallow",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Seine Analyse ist zu oberflächlich.",
+        "exampleTranslation": "His analysis is too superficial.",
+        "whyItMatters": "Compound: 'die Oberfläche' (surface) + '-lich'. Often pairs with 'die Analyse', 'das Wissen', 'der Eindruck'. Also describes shallow people."
+      },
+      {
+        "word": "eindeutig",
+        "meaning": "clear, unambiguous",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Das Ergebnis ist eindeutig.",
+        "exampleTranslation": "The result is unambiguous.",
+        "whyItMatters": "Literally 'one-meaning'. Opposite 'zweideutig' (ambiguous/double-meaning). Pairs with 'das Ergebnis', 'die Antwort', 'der Beweis'."
+      },
+      {
+        "word": "unverzichtbar",
+        "meaning": "indispensable",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Diese Technologie ist unverzichtbar geworden.",
+        "exampleTranslation": "This technology has become indispensable.",
+        "whyItMatters": "Compound: 'un-' + 'verzichten' (to do without). Often pairs with 'die Technologie', 'das Werkzeug', 'der Bestandteil' (component)."
+      },
+      {
+        "word": "geringfügig",
+        "meaning": "minor, slight, negligible",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Die Unterschiede sind nur geringfügig.",
+        "exampleTranslation": "The differences are only minor.",
+        "whyItMatters": "From 'gering' (slight) + '-fügig'. Pairs with 'die Unterschiede', 'die Veränderung', 'die Verletzung'. Common in legal/medical contexts."
+      },
+      {
+        "word": "nachvollziehbar",
+        "meaning": "understandable, comprehensible",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Seine Reaktion ist nachvollziehbar.",
+        "exampleTranslation": "His reaction is understandable.",
+        "whyItMatters": "Different from 'verständlich' (clear/easy to understand) — 'nachvollziehbar' specifically means 'I can follow the reasoning/feeling'. From 'nachvollziehen' (to trace, to follow)."
+      },
+      {
+        "word": "voreilig",
+        "meaning": "hasty, premature",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Ziehe keine voreiligen Schlüsse!",
+        "exampleTranslation": "Don't draw any hasty conclusions!",
+        "whyItMatters": "Often pairs with 'die Schlüsse' (conclusions), 'die Entscheidung', 'das Urteil'. Set phrase: 'voreilige Schlüsse ziehen'."
+      },
+      {
+        "word": "glaubwürdig",
+        "meaning": "credible, believable",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Seine Aussage ist glaubwürdig.",
+        "exampleTranslation": "His statement is credible.",
+        "whyItMatters": "Compound: 'glauben' (believe) + '-würdig' (-worthy). Pairs with 'die Aussage', 'die Quelle' (source), 'der Zeuge' (witness). Journalistic/legal register."
+      },
+      {
+        "word": "anspruchsvoll",
+        "meaning": "demanding, sophisticated",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Das ist ein anspruchsvoller Text.",
+        "exampleTranslation": "That's a sophisticated text.",
+        "whyItMatters": "Two uses: (1) demanding (task/job), (2) discerning (person with high standards). Pairs with 'die Aufgabe', 'der Job', 'das Publikum', 'der Geschmack'."
+      }
+    ]
+  },
+  {
+    "id": "b1-vocab-separable-verbs",
+    "level": "B1",
+    "title": "Trennbare Verben",
+    "description": "Twelve sophisticated separable verbs — the verbs that appear in essays, news, and intellectual conversation.",
+    "icon": "✂️",
+    "color": "orange",
+    "words": [
+      {
+        "word": "anpassen",
+        "meaning": "to adapt, to adjust",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Wir müssen uns an die neue Situation anpassen.",
+        "exampleTranslation": "We have to adapt to the new situation.",
+        "whyItMatters": "Reflexive AND separable: 'ich passe mich an'. Takes 'an + Akkusativ' for what you're adapting to. Perfekt: 'hat sich angepasst'."
+      },
+      {
+        "word": "herausfinden",
+        "meaning": "to find out, to discover",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Wir müssen herausfinden, was wirklich passiert ist.",
+        "exampleTranslation": "We have to find out what really happened.",
+        "whyItMatters": "Splits: 'ich finde das heraus'. Often followed by an indirect question (wer/was/wo/warum). Perfekt: 'hat herausgefunden'."
+      },
+      {
+        "word": "einschätzen",
+        "meaning": "to assess, to estimate",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Es ist schwer, die Situation einzuschätzen.",
+        "exampleTranslation": "It's hard to assess the situation.",
+        "whyItMatters": "Splits: 'ich schätze das ein'. With 'zu' construction: 'einzuschätzen'. Perfekt: 'hat eingeschätzt'. Noun 'die Einschätzung' (assessment)."
+      },
+      {
+        "word": "sich auseinandersetzen",
+        "meaning": "to engage with, to grapple with",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Wir müssen uns mit dem Thema auseinandersetzen.",
+        "exampleTranslation": "We have to engage with the topic.",
+        "whyItMatters": "Reflexive AND separable. Splits: 'ich setze mich damit auseinander'. Takes 'mit + Dativ'. Perfekt: 'hat sich auseinandergesetzt'. Academic/intellectual register."
+      },
+      {
+        "word": "zustande kommen",
+        "meaning": "to come about, to materialize",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Ein Kompromiss ist endlich zustande gekommen.",
+        "exampleTranslation": "A compromise has finally been reached.",
+        "whyItMatters": "Fixed phrase — 'zustande' isn't a normal prefix. Splits: 'der Vertrag kommt zustande'. Takes 'sein' in Perfekt: 'ist zustande gekommen'. Formal/journalistic."
+      },
+      {
+        "word": "vorschlagen",
+        "meaning": "to suggest, to propose",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Ich schlage einen Kompromiss vor.",
+        "exampleTranslation": "I'm proposing a compromise.",
+        "whyItMatters": "Splits: 'ich schlage etwas vor'. Vowel change: 'du schlägst vor, er schlägt vor'. Noun 'der Vorschlag'. Perfekt: 'hat vorgeschlagen'."
+      },
+      {
+        "word": "einbeziehen",
+        "meaning": "to include, to involve",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Wir sollten alle Mitarbeiter in die Entscheidung einbeziehen.",
+        "exampleTranslation": "We should involve all employees in the decision.",
+        "whyItMatters": "Splits: 'ich beziehe ihn ein'. Takes 'in + Akkusativ' for what they're being included in. Perfekt: 'hat einbezogen' (Partizip II is irregular)."
+      },
+      {
+        "word": "sich durchsetzen",
+        "meaning": "to prevail, to assert oneself",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Welche Lösung sich langfristig durchsetzt, ist unklar.",
+        "exampleTranslation": "Which solution will prevail long-term is unclear.",
+        "whyItMatters": "Reflexive AND separable. Splits: 'er setzt sich durch'. Two uses: (1) a person asserting themselves, (2) an idea/solution winning out. Perfekt: 'hat sich durchgesetzt'."
+      },
+      {
+        "word": "abschneiden",
+        "meaning": "to perform (in a test/competition); to cut off",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Wie hast du in der Prüfung abgeschnitten?",
+        "exampleTranslation": "How did you perform in the exam?",
+        "whyItMatters": "Splits: 'er schneidet gut ab'. Two meanings: (1) to perform/score (with adverb like 'gut/schlecht'), (2) literally to cut off. Perfekt: 'hat abgeschnitten'."
+      },
+      {
+        "word": "zurückgreifen",
+        "meaning": "to fall back on, to resort to",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "In Notfällen greifen wir auf Ersparnisse zurück.",
+        "exampleTranslation": "In emergencies we fall back on savings.",
+        "whyItMatters": "Splits: 'ich greife darauf zurück'. Takes 'auf + Akkusativ'. Perfekt: 'hat zurückgegriffen'. Formal — common in essays about strategies/resources."
+      },
+      {
+        "word": "wahrnehmen",
+        "meaning": "to perceive, to notice",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Viele nehmen das Problem nicht wahr.",
+        "exampleTranslation": "Many people don't perceive the problem.",
+        "whyItMatters": "Splits: 'ich nehme es wahr'. Vowel change: 'du nimmst wahr, er nimmt wahr'. Perfekt: 'hat wahrgenommen'. Noun 'die Wahrnehmung' (perception)."
+      },
+      {
+        "word": "stattfinden",
+        "meaning": "to take place",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Das Treffen findet morgen statt.",
+        "exampleTranslation": "The meeting takes place tomorrow.",
+        "whyItMatters": "Splits: 'das Konzert findet statt'. Used only for events (no human subject). Perfekt: 'hat stattgefunden'. Essential for news/event vocabulary."
+      }
+    ]
+  }
+]

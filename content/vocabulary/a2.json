@@ -1,1 +1,828 @@
-[]
+[
+  {
+    "id": "a2-vocab-feelings",
+    "level": "A2",
+    "title": "Feelings & Reactions",
+    "description": "Beyond happy and sad — the specific emotions that real conversations require.",
+    "icon": "💭",
+    "color": "rose",
+    "words": [
+      {
+        "word": "die Sehnsucht",
+        "meaning": "longing, yearning",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Ich habe Sehnsucht nach meiner Familie.",
+        "exampleTranslation": "I miss my family.",
+        "whyItMatters": "Iconic German word — deeper than 'miss'. 'Sehnsucht haben nach + Dativ' = to long for. Often used in literature and music."
+      },
+      {
+        "word": "sich langweilen",
+        "meaning": "to be bored",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Die Kinder langweilen sich im Auto.",
+        "exampleTranslation": "The children are bored in the car.",
+        "whyItMatters": "Reflexive verb — 'I am boring myself'. Don't say 'Ich bin langweilig' (that means 'I am a boring person'!). Perfekt: 'haben sich gelangweilt'."
+      },
+      {
+        "word": "eifersüchtig",
+        "meaning": "jealous (romantically)",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Er wird leicht eifersüchtig.",
+        "exampleTranslation": "He gets jealous easily.",
+        "whyItMatters": "Specifically romantic/possessive jealousy. For envy of things use 'neidisch'. Takes 'auf + Akkusativ': 'eifersüchtig auf den Kollegen'."
+      },
+      {
+        "word": "gelassen",
+        "meaning": "calm, composed, relaxed",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Er bleibt immer gelassen, auch unter Stress.",
+        "exampleTranslation": "He always stays calm, even under stress.",
+        "whyItMatters": "Past participle of 'lassen' used as adjective — implies 'having let things go'. Stronger than 'ruhig' (quiet/calm)."
+      },
+      {
+        "word": "erstaunt",
+        "meaning": "astonished, surprised",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Ich war erstaunt über das Ergebnis.",
+        "exampleTranslation": "I was astonished at the result.",
+        "whyItMatters": "Takes 'über + Akkusativ' for the source. Stronger than 'überrascht' (just surprised). The noun is 'das Erstaunen'."
+      },
+      {
+        "word": "enttäuscht",
+        "meaning": "disappointed",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Wir waren von dem Film enttäuscht.",
+        "exampleTranslation": "We were disappointed by the film.",
+        "whyItMatters": "Takes 'von + Dativ' for the source. Literally 'un-deceived' — implies your expectations were broken."
+      },
+      {
+        "word": "stolz",
+        "meaning": "proud",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Ich bin stolz auf meine Schwester.",
+        "exampleTranslation": "I'm proud of my sister.",
+        "whyItMatters": "Takes 'auf + Akkusativ'. Noun 'der Stolz' (pride). Cultural note: open displays of pride are less common in German culture than in US/Indian culture."
+      },
+      {
+        "word": "neidisch",
+        "meaning": "envious",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Sei nicht neidisch auf seinen Erfolg!",
+        "exampleTranslation": "Don't be envious of his success!",
+        "whyItMatters": "Takes 'auf + Akkusativ'. For things/situations (not romantic). The noun 'der Neid' is one of the seven deadly sins."
+      },
+      {
+        "word": "verliebt",
+        "meaning": "in love",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Sie ist verliebt in einen Kollegen.",
+        "exampleTranslation": "She's in love with a colleague.",
+        "whyItMatters": "Takes 'in + Akkusativ'. From 'sich verlieben' (to fall in love). Difference: 'verliebt sein' (be in love) vs 'lieben' (to love deeply)."
+      },
+      {
+        "word": "aufgeregt",
+        "meaning": "excited, nervous",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Ich bin so aufgeregt vor der Prüfung!",
+        "exampleTranslation": "I'm so nervous before the exam!",
+        "whyItMatters": "Ambiguous: can mean excited (positive) OR nervous (negative). Context decides. From 'sich aufregen' (to get worked up)."
+      },
+      {
+        "word": "peinlich",
+        "meaning": "embarrassing",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Das war wirklich peinlich für mich.",
+        "exampleTranslation": "That was really embarrassing for me.",
+        "whyItMatters": "Describes the situation, not the person feeling it. 'Es ist mir peinlich' (dative) = I'm embarrassed."
+      },
+      {
+        "word": "schade",
+        "meaning": "a pity, too bad",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Schade, dass du nicht kommen kannst.",
+        "exampleTranslation": "Too bad you can't come.",
+        "whyItMatters": "Mild disappointment expression — used constantly in spoken German. Often stands alone as a reaction: 'Schade!'"
+      }
+    ]
+  },
+  {
+    "id": "a2-vocab-travel",
+    "level": "A2",
+    "title": "Travel & Transport",
+    "description": "Real-world vocabulary for booking, navigating, and surviving German trains, hotels, and trips.",
+    "icon": "🚆",
+    "color": "sky",
+    "words": [
+      {
+        "word": "umsteigen",
+        "meaning": "to change (trains/buses)",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "In Frankfurt müssen Sie umsteigen.",
+        "exampleTranslation": "You have to change trains in Frankfurt.",
+        "whyItMatters": "Splits: 'ich steige in Frankfurt um'. Takes 'sein' in Perfekt: 'bin umgestiegen'. Essential word for German train travel."
+      },
+      {
+        "word": "der Anschluss",
+        "meaning": "connection (transport)",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Wir haben unseren Anschluss verpasst.",
+        "exampleTranslation": "We missed our connection.",
+        "whyItMatters": "Specifically a connecting train/bus/flight. Different from 'die Verbindung' (general connection). 'Anschlusszug' = connecting train."
+      },
+      {
+        "word": "die Verbindung",
+        "meaning": "connection, route",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Gibt es eine direkte Verbindung nach Berlin?",
+        "exampleTranslation": "Is there a direct connection to Berlin?",
+        "whyItMatters": "Used for overall routes — phone/internet connections too. 'Eine gute Verbindung haben' = to have a good connection."
+      },
+      {
+        "word": "die Sehenswürdigkeit",
+        "meaning": "tourist attraction, sight",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Die Stadt hat viele Sehenswürdigkeiten.",
+        "exampleTranslation": "The city has many tourist attractions.",
+        "whyItMatters": "Compound: 'sehen' (to see) + 'wert' (worth) + '-igkeit'. Almost always used in plural. The classic German monster-word — practice saying it!"
+      },
+      {
+        "word": "die Unterkunft",
+        "meaning": "accommodation, lodging",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Wir suchen noch eine Unterkunft für die Nacht.",
+        "exampleTranslation": "We're still looking for accommodation for the night.",
+        "whyItMatters": "More formal than 'das Hotel' — covers hotels, hostels, Airbnb, anything. Plural 'die Unterkünfte' (with umlaut)."
+      },
+      {
+        "word": "buchen",
+        "meaning": "to book, to reserve",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Ich habe das Hotel online gebucht.",
+        "exampleTranslation": "I booked the hotel online.",
+        "whyItMatters": "Regular verb — Perfekt 'hat gebucht'. Used for flights, hotels, restaurants, anything. Noun 'die Buchung' (booking)."
+      },
+      {
+        "word": "die Verspätung",
+        "meaning": "delay",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Der Zug hat zwanzig Minuten Verspätung.",
+        "exampleTranslation": "The train is twenty minutes late.",
+        "whyItMatters": "Use 'Verspätung haben' — Germans say 'the train has delay'. Verb 'sich verspäten' (to be late) for people."
+      },
+      {
+        "word": "die Strecke",
+        "meaning": "route, distance, stretch",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Die Strecke nach München ist sehr schön.",
+        "exampleTranslation": "The route to Munich is very beautiful.",
+        "whyItMatters": "Used for routes/distances in travel. 'Eine lange Strecke fahren' (to drive a long way). Also: cancelled section = 'gesperrte Strecke'."
+      },
+      {
+        "word": "die Reiseversicherung",
+        "meaning": "travel insurance",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Hast du eine Reiseversicherung abgeschlossen?",
+        "exampleTranslation": "Did you take out travel insurance?",
+        "whyItMatters": "Compound: 'die Reise' + 'die Versicherung'. 'Eine Versicherung abschließen' (to take out insurance) is the set phrase."
+      },
+      {
+        "word": "der Aufenthalt",
+        "meaning": "stay, sojourn",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Wir wünschen Ihnen einen angenehmen Aufenthalt!",
+        "exampleTranslation": "We wish you a pleasant stay!",
+        "whyItMatters": "Standard hotel greeting. Also 'der Auslandsaufenthalt' (stay abroad) — useful for studying abroad contexts."
+      },
+      {
+        "word": "die Grenze",
+        "meaning": "border",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Die Grenze zu Polen ist nur 100 km entfernt.",
+        "exampleTranslation": "The Polish border is only 100 km away.",
+        "whyItMatters": "Also figurative: 'meine Grenzen' (my limits). 'Die Grenze überschreiten' (cross the border / cross a line) works both literally and metaphorically."
+      },
+      {
+        "word": "der Reisepass",
+        "meaning": "passport",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Mein Reisepass ist bald abgelaufen.",
+        "exampleTranslation": "My passport expires soon.",
+        "whyItMatters": "Short form 'der Pass' is common. Important verbs: 'gültig sein' (to be valid), 'ablaufen' (to expire), 'verlängern' (to renew)."
+      }
+    ]
+  },
+  {
+    "id": "a2-vocab-work",
+    "level": "A2",
+    "title": "Work & Office",
+    "description": "Apply for jobs, talk about your career, and navigate the German workplace.",
+    "icon": "💼",
+    "color": "violet",
+    "words": [
+      {
+        "word": "der Lebenslauf",
+        "meaning": "CV, résumé",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Bitte schicken Sie mir Ihren Lebenslauf.",
+        "exampleTranslation": "Please send me your CV.",
+        "whyItMatters": "Literally 'life-course'. The standard format in Germany is tabular and includes a photo (different from US/UK). Plural 'die Lebensläufe'."
+      },
+      {
+        "word": "die Bewerbung",
+        "meaning": "application (for a job)",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Ich habe meine Bewerbung gestern abgeschickt.",
+        "exampleTranslation": "I sent off my application yesterday.",
+        "whyItMatters": "Includes the cover letter ('das Anschreiben'), CV, and certificates. 'Eine Bewerbung schreiben/schicken/einreichen' are all standard."
+      },
+      {
+        "word": "sich bewerben",
+        "meaning": "to apply (for a job)",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Ich bewerbe mich um eine Stelle bei BMW.",
+        "exampleTranslation": "I'm applying for a position at BMW.",
+        "whyItMatters": "Reflexive! Takes 'um + Akkusativ' (for): 'sich bewerben um eine Stelle'. Or 'bei + Dativ' (at): 'bei einer Firma'."
+      },
+      {
+        "word": "die Beförderung",
+        "meaning": "promotion (at work)",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Sie hat eine Beförderung bekommen.",
+        "exampleTranslation": "She got a promotion.",
+        "whyItMatters": "From 'befördern' (to promote, also: to transport). Different from 'die Erhöhung' (raise/increase). 'Eine Gehaltserhöhung' = a salary raise."
+      },
+      {
+        "word": "das Gehalt",
+        "meaning": "salary",
+        "partOfSpeech": "noun",
+        "gender": "das",
+        "example": "Wie hoch ist Ihr Gehalt?",
+        "exampleTranslation": "How much is your salary?",
+        "whyItMatters": "Neuter — unusual for a Latin-origin word. Plural 'die Gehälter' (with umlaut). 'Das Gehalt' is monthly fixed pay; 'der Lohn' is wages (often hourly)."
+      },
+      {
+        "word": "die Kündigung",
+        "meaning": "resignation / termination notice",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Sie hat ihre Kündigung eingereicht.",
+        "exampleTranslation": "She submitted her resignation.",
+        "whyItMatters": "Works in both directions — you can quit OR be fired with a 'Kündigung'. Verb 'kündigen' = to quit / give notice. Germany has strong worker protection laws around this."
+      },
+      {
+        "word": "die Besprechung",
+        "meaning": "meeting (formal)",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Die Besprechung beginnt um zehn Uhr.",
+        "exampleTranslation": "The meeting starts at ten.",
+        "whyItMatters": "More formal than 'das Meeting' (English loanword, also widely used). Verb 'besprechen' (to discuss something)."
+      },
+      {
+        "word": "der Termin",
+        "meaning": "appointment",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Ich habe einen Termin beim Zahnarzt.",
+        "exampleTranslation": "I have an appointment at the dentist's.",
+        "whyItMatters": "Cultural staple: Germans book appointments for everything (doctor, hairdresser, government offices). Useful verbs: 'einen Termin machen/vereinbaren/absagen/verschieben'."
+      },
+      {
+        "word": "der Kunde",
+        "meaning": "customer (male)",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Der Kunde hat sich beschwert.",
+        "exampleTranslation": "The customer complained.",
+        "whyItMatters": "Weak masculine — accusative 'den Kunden', dative 'dem Kunden'. Female 'die Kundin'. 'Der Kunde ist König' = the customer is king."
+      },
+      {
+        "word": "die Abteilung",
+        "meaning": "department",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Ich arbeite in der Marketing-Abteilung.",
+        "exampleTranslation": "I work in the marketing department.",
+        "whyItMatters": "From 'abteilen' (to divide off). Common compounds: 'Personalabteilung' (HR), 'Buchhaltung' (accounting), 'IT-Abteilung'."
+      },
+      {
+        "word": "der Feierabend",
+        "meaning": "end of working day",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Endlich Feierabend!",
+        "exampleTranslation": "Finally, end of work!",
+        "whyItMatters": "Iconic German concept — literally 'celebration evening'. 'Feierabend machen' = to call it a day. Said with great satisfaction at 5pm."
+      },
+      {
+        "word": "die Überstunde",
+        "meaning": "overtime hour",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Ich habe diese Woche viele Überstunden gemacht.",
+        "exampleTranslation": "I worked a lot of overtime this week.",
+        "whyItMatters": "Usually plural: 'Überstunden machen' (to work overtime). German labor law strictly regulates and often compensates these."
+      }
+    ]
+  },
+  {
+    "id": "a2-vocab-home",
+    "level": "A2",
+    "title": "Home & Neighborhood",
+    "description": "Rent, neighbors, renovation — the vocabulary of actually living somewhere in Germany.",
+    "icon": "🏠",
+    "color": "emerald",
+    "words": [
+      {
+        "word": "die Miete",
+        "meaning": "rent",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Die Miete ist letztes Jahr gestiegen.",
+        "exampleTranslation": "The rent went up last year.",
+        "whyItMatters": "Verb 'mieten' (to rent something); 'vermieten' (to rent out). 'Warmmiete' = rent + utilities; 'Kaltmiete' = rent only. Crucial distinction!"
+      },
+      {
+        "word": "der Vermieter",
+        "meaning": "landlord",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Unser Vermieter ist sehr nett.",
+        "exampleTranslation": "Our landlord is very nice.",
+        "whyItMatters": "Pair: 'der Vermieter' (landlord) and 'der Mieter' (tenant). Female forms 'die Vermieterin' / 'die Mieterin'. Vermieter = 'one who rents out'."
+      },
+      {
+        "word": "die Renovierung",
+        "meaning": "renovation",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Die Renovierung dauert drei Monate.",
+        "exampleTranslation": "The renovation takes three months.",
+        "whyItMatters": "Verb 'renovieren' (Latin-origin, no 'ge-' in Partizip II: 'renoviert'). 'Eine Renovierung machen/durchführen' are standard collocations."
+      },
+      {
+        "word": "der Balkon",
+        "meaning": "balcony",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Unser Balkon ist nach Süden.",
+        "exampleTranslation": "Our balcony faces south.",
+        "whyItMatters": "Pronunciation: 'BAL-kong' (nasal -n, like French). Plural 'die Balkone' or 'die Balkons' — both correct. A balcony adds significantly to rent in Germany."
+      },
+      {
+        "word": "der Aufzug",
+        "meaning": "elevator, lift",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Der Aufzug ist heute kaputt.",
+        "exampleTranslation": "The elevator is broken today.",
+        "whyItMatters": "Synonym 'der Fahrstuhl' is just as common. Most German apartment buildings (especially older ones) don't have one — important when flat-hunting!"
+      },
+      {
+        "word": "der Müll",
+        "meaning": "trash, garbage",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Bringst du den Müll runter?",
+        "exampleTranslation": "Will you take the trash down?",
+        "whyItMatters": "Cultural staple: Germans take recycling very seriously. 'Mülltrennung' (sorting trash) is mandatory: Papier, Glas, Plastik, Bio, Restmüll."
+      },
+      {
+        "word": "die Nachbarschaft",
+        "meaning": "neighborhood",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Wir leben in einer ruhigen Nachbarschaft.",
+        "exampleTranslation": "We live in a quiet neighborhood.",
+        "whyItMatters": "Different from 'das Viertel' (district/quarter) — Nachbarschaft is the immediate social neighborhood (your nearby neighbors). Word for 'das Viertel' more about geography."
+      },
+      {
+        "word": "umziehen",
+        "meaning": "to move (residence)",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Wir ziehen nächsten Monat um.",
+        "exampleTranslation": "We're moving next month.",
+        "whyItMatters": "Splits: 'wir ziehen um'. Takes 'sein' in Perfekt: 'sind umgezogen'. Don't confuse with 'sich umziehen' (to change clothes) — reflexive!"
+      },
+      {
+        "word": "die Heizung",
+        "meaning": "heating",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Im Winter ist die Heizung sehr wichtig.",
+        "exampleTranslation": "In winter, heating is very important.",
+        "whyItMatters": "Verb 'heizen' (to heat). 'Die Heizkosten' (heating costs) are a big expense — often paid separately or as part of 'Nebenkosten' (additional fees)."
+      },
+      {
+        "word": "die Nebenkosten",
+        "meaning": "additional costs, utilities",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Die Nebenkosten sind in der Miete enthalten.",
+        "exampleTranslation": "Utilities are included in the rent.",
+        "whyItMatters": "Plural-only. Covers water, heating, trash, building maintenance — but usually NOT electricity ('Strom') or internet. Critical concept for renting in Germany."
+      },
+      {
+        "word": "der Hausmeister",
+        "meaning": "building caretaker, janitor",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Der Hausmeister hat die Tür repariert.",
+        "exampleTranslation": "The caretaker fixed the door.",
+        "whyItMatters": "Every German apartment building has one. Goes by 'Hausi' colloquially. Responsible for repairs, cleaning shared areas, dealing with complaints."
+      },
+      {
+        "word": "der Stock",
+        "meaning": "floor (of a building)",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Ich wohne im dritten Stock.",
+        "exampleTranslation": "I live on the third floor.",
+        "whyItMatters": "Watch: in Germany 'erster Stock' = first floor ABOVE ground floor (= second floor American). Ground floor is 'das Erdgeschoss' or 'EG'."
+      }
+    ]
+  },
+  {
+    "id": "a2-vocab-connectors",
+    "level": "A2",
+    "title": "Connectors & Time Words",
+    "description": "Beyond weil and aber — the connectors that turn isolated A1 sentences into flowing A2 discourse.",
+    "icon": "🔗",
+    "color": "teal",
+    "words": [
+      {
+        "word": "stattdessen",
+        "meaning": "instead",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "example": "Ich wollte joggen. Stattdessen habe ich ferngesehen.",
+        "exampleTranslation": "I wanted to jog. Instead I watched TV.",
+        "whyItMatters": "V2 trigger — verb in position 2: 'Stattdessen habe ich...'. Use to introduce a substitution after stating what didn't happen."
+      },
+      {
+        "word": "falls",
+        "meaning": "in case, if (uncertain)",
+        "partOfSpeech": "conjunction",
+        "gender": null,
+        "example": "Ruf mich an, falls du Hilfe brauchst.",
+        "exampleTranslation": "Call me in case you need help.",
+        "whyItMatters": "Subordinating — verb to the end: '...falls du Hilfe brauchst'. More uncertain than 'wenn' — implies 'in the case that' (might not happen)."
+      },
+      {
+        "word": "sobald",
+        "meaning": "as soon as",
+        "partOfSpeech": "conjunction",
+        "gender": null,
+        "example": "Sobald ich zu Hause bin, rufe ich dich an.",
+        "exampleTranslation": "As soon as I'm home, I'll call you.",
+        "whyItMatters": "Subordinating — verb to the end. When the 'sobald'-clause comes first, the main clause begins with the verb (V2 inversion)."
+      },
+      {
+        "word": "während",
+        "meaning": "while, during",
+        "partOfSpeech": "conjunction",
+        "gender": null,
+        "example": "Während ich koche, hört er Musik.",
+        "exampleTranslation": "While I cook, he listens to music.",
+        "whyItMatters": "Subordinating — verb to the end. Also works as a preposition with genitive: 'während des Tages' (during the day)."
+      },
+      {
+        "word": "einerseits",
+        "meaning": "on the one hand",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "example": "Einerseits ist es teuer, andererseits gut.",
+        "exampleTranslation": "On the one hand it's expensive, on the other hand it's good.",
+        "whyItMatters": "V2 trigger when first: 'Einerseits ist es...'. Pairs with 'andererseits'. Essential for B1 written exams — start using at A2 to get ahead."
+      },
+      {
+        "word": "andererseits",
+        "meaning": "on the other hand",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "example": "Es ist teuer, andererseits ist die Qualität gut.",
+        "exampleTranslation": "It's expensive — on the other hand, the quality is good.",
+        "whyItMatters": "V2 trigger when first. Partner to 'einerseits'. Together they signal balanced, mature reasoning — exam-ready phrasing."
+      },
+      {
+        "word": "schließlich",
+        "meaning": "finally, after all",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "example": "Schließlich haben wir uns für das rote Auto entschieden.",
+        "exampleTranslation": "Finally we decided on the red car.",
+        "whyItMatters": "V2 trigger when first: 'Schließlich haben wir...'. Two uses: (1) at last/finally, (2) 'after all' (giving a reason: 'Er muss es wissen, schließlich ist er der Chef')."
+      },
+      {
+        "word": "übrigens",
+        "meaning": "by the way",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "example": "Übrigens, ich habe deinen Bruder gesehen.",
+        "exampleTranslation": "By the way, I saw your brother.",
+        "whyItMatters": "V2 trigger when first. Used to introduce a tangential remark. Equivalent to English 'by the way' or 'incidentally'."
+      },
+      {
+        "word": "trotzdem",
+        "meaning": "nevertheless, anyway",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "example": "Es regnete. Trotzdem sind wir spazieren gegangen.",
+        "exampleTranslation": "It was raining. We went for a walk anyway.",
+        "whyItMatters": "Adverb, NOT a conjunction! V2 trigger: 'Trotzdem sind wir...'. Don't confuse with subordinating 'obwohl' (which sends verb to the end)."
+      },
+      {
+        "word": "deswegen",
+        "meaning": "therefore, that's why",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "example": "Es war kalt. Deswegen sind wir nicht gegangen.",
+        "exampleTranslation": "It was cold. That's why we didn't go.",
+        "whyItMatters": "V2 trigger when first: 'Deswegen sind wir...'. Interchangeable with 'deshalb' and 'darum'. All three trigger the same V2 pattern."
+      },
+      {
+        "word": "außerdem",
+        "meaning": "moreover, besides",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "example": "Das Hotel war schlecht. Außerdem war es teuer.",
+        "exampleTranslation": "The hotel was bad. Moreover, it was expensive.",
+        "whyItMatters": "V2 trigger when first. Used to ADD a point in the same direction (good after good, bad after bad). Strong essay connector."
+      },
+      {
+        "word": "zwar ... aber",
+        "meaning": "admittedly ... but",
+        "partOfSpeech": "conjunction",
+        "gender": null,
+        "example": "Es ist zwar teuer, aber sehr gut.",
+        "exampleTranslation": "It is admittedly expensive, but very good.",
+        "whyItMatters": "Two-part connector. 'Zwar' doesn't trigger V2 by itself — 'aber' follows naturally as a coordinating conjunction (no word-order change)."
+      }
+    ]
+  },
+  {
+    "id": "a2-vocab-adjectives",
+    "level": "A2",
+    "title": "Nuanced Adjectives",
+    "description": "Twelve adjectives that sharpen your descriptions from generic to precise.",
+    "icon": "🎨",
+    "color": "amber",
+    "words": [
+      {
+        "word": "ungeduldig",
+        "meaning": "impatient",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Mein Vater wird schnell ungeduldig.",
+        "exampleTranslation": "My father gets impatient quickly.",
+        "whyItMatters": "Opposite of 'geduldig'. The 'un-' prefix systematically forms opposites in German: glücklich/unglücklich, höflich/unhöflich, etc."
+      },
+      {
+        "word": "überrascht",
+        "meaning": "surprised",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Ich war überrascht von der Nachricht.",
+        "exampleTranslation": "I was surprised by the news.",
+        "whyItMatters": "Takes 'von + Dativ' for the source. Past participle of 'überraschen' (to surprise — takes accusative). Noun 'die Überraschung'."
+      },
+      {
+        "word": "enttäuscht",
+        "meaning": "disappointed",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Sie war enttäuscht von ihrem Ergebnis.",
+        "exampleTranslation": "She was disappointed by her result.",
+        "whyItMatters": "Takes 'von + Dativ'. Literally 'un-deceived' — your expectations were broken. Pair with 'das Ergebnis' (result) or 'der Film' for typical contexts."
+      },
+      {
+        "word": "beeindruckt",
+        "meaning": "impressed",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Wir waren beeindruckt von der Aufführung.",
+        "exampleTranslation": "We were impressed by the performance.",
+        "whyItMatters": "Takes 'von + Dativ'. Don't confuse with 'eindrucksvoll' (impressive — describes the thing causing the impression)."
+      },
+      {
+        "word": "unzuverlässig",
+        "meaning": "unreliable",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Er ist sehr unzuverlässig — kommt immer zu spät.",
+        "exampleTranslation": "He's very unreliable — always comes late.",
+        "whyItMatters": "Opposite 'zuverlässig' (reliable). Often pairs with 'der Kollege', 'die Verbindung', 'die Information'. Negative trait Germans particularly dislike."
+      },
+      {
+        "word": "abwechslungsreich",
+        "meaning": "varied, diverse",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Meine Arbeit ist sehr abwechslungsreich.",
+        "exampleTranslation": "My work is very varied.",
+        "whyItMatters": "Common in job ads. Compound: 'die Abwechslung' (variety) + 'reich' (rich). Opposite: 'eintönig' (monotonous)."
+      },
+      {
+        "word": "anspruchsvoll",
+        "meaning": "demanding, sophisticated",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Das ist eine anspruchsvolle Aufgabe.",
+        "exampleTranslation": "That's a demanding task.",
+        "whyItMatters": "Two uses: (1) demanding (a task), (2) discerning (a person with high standards). Common pairings: 'anspruchsvoller Job', 'anspruchsvolles Buch'."
+      },
+      {
+        "word": "vernünftig",
+        "meaning": "reasonable, sensible",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Sei vernünftig und schlaf etwas.",
+        "exampleTranslation": "Be sensible and get some sleep.",
+        "whyItMatters": "From 'die Vernunft' (reason — a key concept in German philosophy). Praising someone as 'vernünftig' is a high compliment in German culture."
+      },
+      {
+        "word": "übertrieben",
+        "meaning": "exaggerated, excessive",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Seine Reaktion war völlig übertrieben.",
+        "exampleTranslation": "His reaction was totally over-the-top.",
+        "whyItMatters": "Past participle of 'übertreiben' (to exaggerate). Also adverbial: 'übertrieben teuer' (excessively expensive). Common pairings: 'Reaktion', 'Preis', 'Forderung'."
+      },
+      {
+        "word": "hartnäckig",
+        "meaning": "stubborn, persistent",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Sie ist hartnäckig — sie gibt nie auf.",
+        "exampleTranslation": "She's persistent — she never gives up.",
+        "whyItMatters": "Literally 'hard-necked'. Can be positive (persistent) or negative (stubborn). Pairs: 'hartnäckige Erkältung' (persistent cold), 'hartnäckiger Fleck' (stubborn stain)."
+      },
+      {
+        "word": "verlässlich",
+        "meaning": "reliable, dependable",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Mein Bruder ist immer verlässlich.",
+        "exampleTranslation": "My brother is always reliable.",
+        "whyItMatters": "Near-synonym of 'zuverlässig' — often interchangeable. Pairs with people, partners, sources of information. From 'sich verlassen auf' (to rely on)."
+      },
+      {
+        "word": "eindrucksvoll",
+        "meaning": "impressive",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Das Konzert war eindrucksvoll.",
+        "exampleTranslation": "The concert was impressive.",
+        "whyItMatters": "Describes the thing/event making the impression. Person is 'beeindruckt'. Compound: 'der Eindruck' (impression) + 'voll' (full of). Common pairings: 'Leistung', 'Ergebnis', 'Auftritt'."
+      }
+    ]
+  },
+  {
+    "id": "a2-vocab-separable-verbs",
+    "level": "A2",
+    "title": "Trennbare Verben",
+    "description": "Twelve mid-level separable verbs — the workhorses of intermediate German.",
+    "icon": "✂️",
+    "color": "orange",
+    "words": [
+      {
+        "word": "vorbereiten",
+        "meaning": "to prepare",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Ich bereite das Essen vor.",
+        "exampleTranslation": "I'm preparing the food.",
+        "whyItMatters": "Splits: 'er bereitet das Essen vor'. Perfekt: 'hat vorbereitet'. Often reflexive too: 'sich auf eine Prüfung vorbereiten' (prepare for an exam)."
+      },
+      {
+        "word": "ausschlafen",
+        "meaning": "to sleep in, to sleep enough",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Am Sonntag schlafe ich aus.",
+        "exampleTranslation": "On Sunday I sleep in.",
+        "whyItMatters": "Splits: 'ich schlafe aus'. Vowel change: 'du schläfst aus, er schläft aus'. Perfekt: 'hat ausgeschlafen'."
+      },
+      {
+        "word": "sich anziehen",
+        "meaning": "to get dressed",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Ich ziehe mich schnell an.",
+        "exampleTranslation": "I'll get dressed quickly.",
+        "whyItMatters": "Both reflexive AND separable! Splits: 'ich ziehe mich an'. Without reflexive 'anziehen' = to put on (a specific item). Perfekt: 'hat sich angezogen'."
+      },
+      {
+        "word": "abnehmen",
+        "meaning": "to lose weight; to pick up (phone)",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Ich möchte fünf Kilo abnehmen.",
+        "exampleTranslation": "I'd like to lose five kilos.",
+        "whyItMatters": "Splits: 'ich nehme ab'. Multiple meanings: lose weight, decrease, pick up phone, take away. Perfekt: 'hat abgenommen'."
+      },
+      {
+        "word": "zunehmen",
+        "meaning": "to gain weight; to increase",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Im Winter nehme ich oft zu.",
+        "exampleTranslation": "In winter I often gain weight.",
+        "whyItMatters": "Splits: 'er nimmt zu'. Opposite of 'abnehmen'. Also: 'die Spannung nimmt zu' (tension increases). Perfekt: 'hat zugenommen'."
+      },
+      {
+        "word": "weiterleiten",
+        "meaning": "to forward (email/message)",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Ich leite dir die E-Mail weiter.",
+        "exampleTranslation": "I'll forward you the email.",
+        "whyItMatters": "Splits: 'ich leite die E-Mail weiter'. Daily-use office vocab. Perfekt: 'hat weitergeleitet'. Takes accusative (the email) + dative (the recipient)."
+      },
+      {
+        "word": "mitbringen",
+        "meaning": "to bring along",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Was soll ich zur Party mitbringen?",
+        "exampleTranslation": "What should I bring to the party?",
+        "whyItMatters": "Splits: 'ich bringe Wein mit'. Perfekt: 'hat mitgebracht' (irregular). Common at parties and dinners — bring something is mandatory etiquette."
+      },
+      {
+        "word": "ausgeben",
+        "meaning": "to spend (money); to treat (someone)",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Wir geben zu viel Geld aus.",
+        "exampleTranslation": "We spend too much money.",
+        "whyItMatters": "Splits: 'ich gebe Geld aus'. Vowel change: 'du gibst aus, er gibt aus'. 'Einen ausgeben' = to buy someone a drink. Perfekt: 'hat ausgegeben'."
+      },
+      {
+        "word": "einladen",
+        "meaning": "to invite",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Ich lade dich zum Essen ein.",
+        "exampleTranslation": "I'm inviting you to dinner.",
+        "whyItMatters": "Splits: 'ich lade dich ein'. Vowel change: 'du lädst ein, er lädt ein'. In Germany, 'einladen' often means YOU pay — be ready. Perfekt: 'hat eingeladen'."
+      },
+      {
+        "word": "sich umziehen",
+        "meaning": "to change clothes",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Warte kurz, ich ziehe mich um.",
+        "exampleTranslation": "Wait a moment, I'm changing clothes.",
+        "whyItMatters": "Reflexive AND separable. Splits: 'ich ziehe mich um'. Don't confuse with 'umziehen' (move house) — different meanings depending on whether reflexive! Perfekt: 'hat sich umgezogen'."
+      },
+      {
+        "word": "vorschlagen",
+        "meaning": "to suggest, to propose",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Ich schlage einen Kompromiss vor.",
+        "exampleTranslation": "I'm proposing a compromise.",
+        "whyItMatters": "Splits: 'ich schlage einen Plan vor'. Vowel change: 'du schlägst vor, er schlägt vor'. Noun 'der Vorschlag' (suggestion). Perfekt: 'hat vorgeschlagen'."
+      },
+      {
+        "word": "stattfinden",
+        "meaning": "to take place",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Das Konzert findet am Samstag statt.",
+        "exampleTranslation": "The concert takes place on Saturday.",
+        "whyItMatters": "Splits: 'das Konzert findet statt'. Perfekt: 'hat stattgefunden'. Common for events, meetings, performances. No human subject — events 'find their place'."
+      }
+    ]
+  }
+]

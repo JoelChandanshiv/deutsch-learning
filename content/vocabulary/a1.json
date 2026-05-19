@@ -1,1 +1,828 @@
-[]
+[
+  {
+    "id": "a1-vocab-greetings",
+    "level": "A1",
+    "title": "Greetings & Polite Phrases",
+    "description": "Beyond Hallo and Tschüss — the polite phrases that make you sound like you actually live here.",
+    "icon": "👋",
+    "color": "amber",
+    "words": [
+      {
+        "word": "Schönes Wochenende",
+        "meaning": "have a nice weekend",
+        "partOfSpeech": "interjection",
+        "gender": null,
+        "example": "Bis Montag — schönes Wochenende!",
+        "exampleTranslation": "See you Monday — have a nice weekend!",
+        "whyItMatters": "What every German colleague says to you on Friday afternoon. Reply with 'Danke, ebenso!'"
+      },
+      {
+        "word": "Mach's gut",
+        "meaning": "take care, take it easy",
+        "partOfSpeech": "interjection",
+        "gender": null,
+        "example": "Mach's gut, wir sehen uns nächste Woche!",
+        "exampleTranslation": "Take care, we'll see each other next week!",
+        "whyItMatters": "Casual farewell among friends — softer than 'Tschüss', warmer than 'Auf Wiedersehen'. Formal version: 'Machen Sie's gut!'"
+      },
+      {
+        "word": "Bis bald",
+        "meaning": "see you soon",
+        "partOfSpeech": "interjection",
+        "gender": null,
+        "example": "Es war schön, dich zu sehen. Bis bald!",
+        "exampleTranslation": "It was nice to see you. See you soon!",
+        "whyItMatters": "Family of farewells: 'bis morgen', 'bis später', 'bis nächste Woche'. All start with 'bis' (until)."
+      },
+      {
+        "word": "Es tut mir leid",
+        "meaning": "I'm sorry",
+        "partOfSpeech": "interjection",
+        "gender": null,
+        "example": "Es tut mir leid, ich kann nicht kommen.",
+        "exampleTranslation": "I'm sorry, I can't come.",
+        "whyItMatters": "Genuine apology — different from 'Entschuldigung' (quick 'excuse me'). Literally 'it does me sorrow'."
+      },
+      {
+        "word": "Kein Problem",
+        "meaning": "no problem",
+        "partOfSpeech": "interjection",
+        "gender": null,
+        "example": "Kannst du mir helfen? — Kein Problem!",
+        "exampleTranslation": "Can you help me? — No problem!",
+        "whyItMatters": "The default friendly reply when someone thanks you or apologizes. Synonyms: 'Kein Ding', 'Gerne'."
+      },
+      {
+        "word": "Herzlich willkommen",
+        "meaning": "warm welcome",
+        "partOfSpeech": "interjection",
+        "gender": null,
+        "example": "Herzlich willkommen in Deutschland!",
+        "exampleTranslation": "Warm welcome to Germany!",
+        "whyItMatters": "Standard greeting at events, in stores, at airports. 'Herzlich' (heartfelt) makes it warmer than plain 'willkommen'."
+      },
+      {
+        "word": "Viel Spaß",
+        "meaning": "have fun",
+        "partOfSpeech": "interjection",
+        "gender": null,
+        "example": "Du gehst ins Kino? Viel Spaß!",
+        "exampleTranslation": "You're going to the cinema? Have fun!",
+        "whyItMatters": "Daily-use phrase. 'Spaß' (fun) is masculine — 'der Spaß'. Other versions: 'Viel Glück' (good luck), 'Viel Erfolg' (success)."
+      },
+      {
+        "word": "Gute Reise",
+        "meaning": "have a good trip",
+        "partOfSpeech": "interjection",
+        "gender": null,
+        "example": "Du fliegst nach Indien? Gute Reise!",
+        "exampleTranslation": "You're flying to India? Have a good trip!",
+        "whyItMatters": "Said to anyone traveling. 'Die Reise' (the trip) is feminine. Cousin phrase: 'Gute Fahrt!' (good drive)."
+      },
+      {
+        "word": "Alles Gute",
+        "meaning": "all the best",
+        "partOfSpeech": "interjection",
+        "gender": null,
+        "example": "Zum Geburtstag alles Gute!",
+        "exampleTranslation": "All the best for your birthday!",
+        "whyItMatters": "Universal good-wish phrase — birthdays, new jobs, farewells. Add 'zum + occasion': 'Alles Gute zum neuen Job!'"
+      },
+      {
+        "word": "Gesundheit",
+        "meaning": "bless you (after sneeze)",
+        "partOfSpeech": "interjection",
+        "gender": null,
+        "example": "*Hatschi!* — Gesundheit!",
+        "exampleTranslation": "*Achoo!* — Bless you!",
+        "whyItMatters": "What you say when someone sneezes. Literally means 'health'. The noun 'die Gesundheit' = health (feminine)."
+      },
+      {
+        "word": "Bitte schön",
+        "meaning": "you're welcome / here you go",
+        "partOfSpeech": "interjection",
+        "gender": null,
+        "example": "Danke! — Bitte schön!",
+        "exampleTranslation": "Thanks! — You're welcome!",
+        "whyItMatters": "Standard reply to 'Danke'. Also said when handing something over ('here you go'). 'Bitte sehr' is interchangeable."
+      },
+      {
+        "word": "Guten Appetit",
+        "meaning": "enjoy your meal",
+        "partOfSpeech": "interjection",
+        "gender": null,
+        "example": "Das Essen ist fertig. Guten Appetit!",
+        "exampleTranslation": "The food is ready. Enjoy your meal!",
+        "whyItMatters": "Said before every meal in Germany — almost mandatory at restaurants and family tables. Reply: 'Danke, dir auch / Ihnen auch!'"
+      }
+    ]
+  },
+  {
+    "id": "a1-vocab-family",
+    "level": "A1",
+    "title": "Family & People",
+    "description": "Beyond mum and dad — the extended family and social circles you actually talk about.",
+    "icon": "👨‍👩‍👧",
+    "color": "rose",
+    "words": [
+      {
+        "word": "die Verwandten",
+        "meaning": "relatives",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Meine Verwandten kommen aus dem Süden.",
+        "exampleTranslation": "My relatives come from the south.",
+        "whyItMatters": "Plural-only when meaning 'family members in general'. Singular 'der/die Verwandte' = a specific male/female relative, declines like an adjective."
+      },
+      {
+        "word": "die Cousine",
+        "meaning": "female cousin",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Meine Cousine wohnt in Hamburg.",
+        "exampleTranslation": "My cousin lives in Hamburg.",
+        "whyItMatters": "Pronounced French-style: 'koo-ZEE-neh'. Male version: 'der Cousin' (also French pronunciation: 'koo-ZÄNG')."
+      },
+      {
+        "word": "der Onkel",
+        "meaning": "uncle",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Mein Onkel arbeitet als Lehrer.",
+        "exampleTranslation": "My uncle works as a teacher.",
+        "whyItMatters": "Plural 'die Onkel' identical to singular. Female counterpart: 'die Tante'. No 'great-uncle' word — say 'der Großonkel'."
+      },
+      {
+        "word": "die Schwiegermutter",
+        "meaning": "mother-in-law",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Meine Schwiegermutter kocht jeden Sonntag.",
+        "exampleTranslation": "My mother-in-law cooks every Sunday.",
+        "whyItMatters": "Pattern: 'Schwieger-' + family member = '-in-law'. So 'der Schwiegervater', 'der Schwiegersohn', 'die Schwiegertochter' all work the same way."
+      },
+      {
+        "word": "der Nachbar",
+        "meaning": "neighbor (male)",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Mein Nachbar ist sehr freundlich.",
+        "exampleTranslation": "My neighbor is very friendly.",
+        "whyItMatters": "Weak masculine noun — accusative 'den Nachbarn', dative 'dem Nachbarn'. Female form: 'die Nachbarin'. Plural 'die Nachbarn'."
+      },
+      {
+        "word": "der Bekannte",
+        "meaning": "acquaintance (male)",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Er ist nicht mein Freund, nur ein Bekannter.",
+        "exampleTranslation": "He's not my friend, just an acquaintance.",
+        "whyItMatters": "Critical social distinction in German: 'der Freund' is reserved for close friends; 'der Bekannte' covers most people you know but aren't close with. Declines like an adjective."
+      },
+      {
+        "word": "der Enkel",
+        "meaning": "grandson, grandchild",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Die Oma freut sich über ihren Enkel.",
+        "exampleTranslation": "Grandma is happy about her grandson.",
+        "whyItMatters": "Female: 'die Enkelin'. Plural 'die Enkel' (grandchildren) is identical to singular. Often paired with 'die Großeltern'."
+      },
+      {
+        "word": "die Großeltern",
+        "meaning": "grandparents",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Wir besuchen unsere Großeltern am Sonntag.",
+        "exampleTranslation": "We're visiting our grandparents on Sunday.",
+        "whyItMatters": "Plural-only — no singular form 'der Großelter'. For one grandparent, say 'der Opa' / 'die Oma' (or formally 'der Großvater' / 'die Großmutter')."
+      },
+      {
+        "word": "das Paar",
+        "meaning": "couple, pair",
+        "partOfSpeech": "noun",
+        "gender": "das",
+        "example": "Sie sind ein nettes Paar.",
+        "exampleTranslation": "They're a nice couple.",
+        "whyItMatters": "Watch: 'ein Paar' (capital P) = a couple/pair (matching); 'ein paar' (lowercase) = a few/some. Different meanings!"
+      },
+      {
+        "word": "der Kollege",
+        "meaning": "colleague (male)",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Mein Kollege ist heute krank.",
+        "exampleTranslation": "My colleague is sick today.",
+        "whyItMatters": "Weak masculine noun: accusative/dative 'den/dem Kollegen'. Female form 'die Kollegin'. Plural 'die Kollegen'."
+      },
+      {
+        "word": "der Chef",
+        "meaning": "boss",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Mein Chef ist sehr nett.",
+        "exampleTranslation": "My boss is very nice.",
+        "whyItMatters": "Pronounced French-style: 'SHEF'. Female: 'die Chefin'. In Germany you usually address your boss with 'Sie' even if friendly."
+      },
+      {
+        "word": "die Leute",
+        "meaning": "people",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Die Leute hier sind sehr nett.",
+        "exampleTranslation": "The people here are very nice.",
+        "whyItMatters": "Plural-only. More colloquial than 'die Menschen'. Use it for 'people' in everyday speech: 'viele Leute', 'die Leute denken...'"
+      }
+    ]
+  },
+  {
+    "id": "a1-vocab-food",
+    "level": "A1",
+    "title": "Food & Meals",
+    "description": "Order, taste, complain, compliment — the words that turn a survival eater into a real diner.",
+    "icon": "🍞",
+    "color": "orange",
+    "words": [
+      {
+        "word": "die Mahlzeit",
+        "meaning": "meal",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Eine warme Mahlzeit am Tag ist wichtig.",
+        "exampleTranslation": "One hot meal a day is important.",
+        "whyItMatters": "'Mahlzeit!' alone is also a German workplace greeting around lunchtime — equivalent to 'enjoy lunch' or just 'hi'."
+      },
+      {
+        "word": "das Frühstück",
+        "meaning": "breakfast",
+        "partOfSpeech": "noun",
+        "gender": "das",
+        "example": "Zum Frühstück esse ich Brötchen.",
+        "exampleTranslation": "For breakfast I eat bread rolls.",
+        "whyItMatters": "Verb form: 'frühstücken' (to have breakfast). 'Ich frühstücke um sieben Uhr.' Other meals: 'das Mittagessen', 'das Abendessen'."
+      },
+      {
+        "word": "die Nachspeise",
+        "meaning": "dessert",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Als Nachspeise gibt es Eis.",
+        "exampleTranslation": "For dessert there is ice cream.",
+        "whyItMatters": "Also called 'der Nachtisch' (more common in spoken language). 'Zum Nachtisch' is the typical phrase at restaurants."
+      },
+      {
+        "word": "bestellen",
+        "meaning": "to order",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Ich bestelle eine Pizza.",
+        "exampleTranslation": "I'll order a pizza.",
+        "whyItMatters": "Used for restaurants AND online shopping. 'Was möchten Sie bestellen?' is what a waiter will ask you."
+      },
+      {
+        "word": "schmecken",
+        "meaning": "to taste (good), to be tasty",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Das Essen schmeckt mir sehr gut.",
+        "exampleTranslation": "The food tastes very good to me.",
+        "whyItMatters": "Takes DATIVE: 'mir schmeckt es', not 'mich'. Works like 'gefallen'. 'Schmeckt's?' = 'Tasting good?' (waiter question)."
+      },
+      {
+        "word": "scharf",
+        "meaning": "spicy, sharp",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Das Curry ist zu scharf für mich.",
+        "exampleTranslation": "The curry is too spicy for me.",
+        "whyItMatters": "Also means 'sharp' (knife) or 'in focus' (image). Comparative 'schärfer', superlative 'am schärfsten' — both with umlaut."
+      },
+      {
+        "word": "lecker",
+        "meaning": "tasty, delicious",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Mama, das Essen ist sehr lecker!",
+        "exampleTranslation": "Mom, the food is very tasty!",
+        "whyItMatters": "Everyday word — much more natural than 'köstlich' (sounds formal/old-fashioned). Native speakers use 'lecker' constantly."
+      },
+      {
+        "word": "satt",
+        "meaning": "full (not hungry)",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Nein danke, ich bin schon satt.",
+        "exampleTranslation": "No thanks, I'm already full.",
+        "whyItMatters": "Essential after-meal word. Idiomatic 'jemanden satt haben' = to be fed up with someone."
+      },
+      {
+        "word": "die Speisekarte",
+        "meaning": "menu",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Können Sie mir die Speisekarte bringen?",
+        "exampleTranslation": "Can you bring me the menu?",
+        "whyItMatters": "Compound: 'die Speise' (dish) + 'die Karte' (card). For drinks specifically: 'die Getränkekarte'."
+      },
+      {
+        "word": "die Rechnung",
+        "meaning": "bill, check",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Die Rechnung, bitte!",
+        "exampleTranslation": "The bill, please!",
+        "whyItMatters": "Universal restaurant phrase — say it confidently to get the check. 'Zahlen, bitte!' works too. Tip is usually 5-10%."
+      },
+      {
+        "word": "das Getränk",
+        "meaning": "drink, beverage",
+        "partOfSpeech": "noun",
+        "gender": "das",
+        "example": "Welches Getränk möchtest du?",
+        "exampleTranslation": "Which drink would you like?",
+        "whyItMatters": "More formal than 'was zu trinken'. Plural 'die Getränke' is common on menus and in supermarket sections."
+      },
+      {
+        "word": "probieren",
+        "meaning": "to try, to taste",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Möchtest du den Käse probieren?",
+        "exampleTranslation": "Would you like to try the cheese?",
+        "whyItMatters": "Used for food/drink/clothing — anything you sample before buying. Don't say 'versuchen' for tasting food."
+      }
+    ]
+  },
+  {
+    "id": "a1-vocab-time",
+    "level": "A1",
+    "title": "Days, Time & Dates",
+    "description": "Schedules, calendars, frequency — talk about when things happen with precision.",
+    "icon": "🕐",
+    "color": "sky",
+    "words": [
+      {
+        "word": "der Feiertag",
+        "meaning": "holiday, public holiday",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Am 3. Oktober ist ein Feiertag.",
+        "exampleTranslation": "October 3rd is a holiday.",
+        "whyItMatters": "Specifically a public/religious holiday — NOT vacation. For vacation use 'der Urlaub'. Plural 'die Feiertage'."
+      },
+      {
+        "word": "das Datum",
+        "meaning": "date",
+        "partOfSpeech": "noun",
+        "gender": "das",
+        "example": "Welches Datum haben wir heute?",
+        "exampleTranslation": "What's today's date?",
+        "whyItMatters": "Latin-origin noun, neuter. Plural is irregular: 'die Daten' (which also means 'data' in tech contexts — same word!)."
+      },
+      {
+        "word": "die Sekunde",
+        "meaning": "second",
+        "partOfSpeech": "noun",
+        "gender": "die",
+        "example": "Warte eine Sekunde, ich komme gleich!",
+        "exampleTranslation": "Wait a second, I'm coming!",
+        "whyItMatters": "Used like in English — 'a moment'. For real precision: 'in einer Sekunde'. Plural 'die Sekunden'."
+      },
+      {
+        "word": "das Jahrhundert",
+        "meaning": "century",
+        "partOfSpeech": "noun",
+        "gender": "das",
+        "example": "Im 21. Jahrhundert leben wir digital.",
+        "exampleTranslation": "In the 21st century we live digitally.",
+        "whyItMatters": "Compound: 'das Jahr' + 'hundert'. Said as 'einundzwanzigsten Jahrhundert' for the 21st. Plural 'die Jahrhunderte'."
+      },
+      {
+        "word": "rechtzeitig",
+        "meaning": "on time, in time",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Bitte komm rechtzeitig zum Termin.",
+        "exampleTranslation": "Please come on time to the appointment.",
+        "whyItMatters": "Cultural note: Germans take being 'rechtzeitig' very seriously. Slightly different from 'pünktlich' (exactly on time)."
+      },
+      {
+        "word": "selten",
+        "meaning": "rarely, seldom",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "example": "Ich esse selten Fleisch.",
+        "exampleTranslation": "I rarely eat meat.",
+        "whyItMatters": "Frequency spectrum: nie → selten → manchmal → oft → immer. Adjective 'selten' = rare ('eine seltene Sprache')."
+      },
+      {
+        "word": "öfter",
+        "meaning": "more often",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "example": "Wir sollten uns öfter sehen.",
+        "exampleTranslation": "We should see each other more often.",
+        "whyItMatters": "Comparative of 'oft' (often). Note the umlaut. 'Öfter mal was Neues' (try something new more often) is a common saying."
+      },
+      {
+        "word": "der Moment",
+        "meaning": "moment",
+        "partOfSpeech": "noun",
+        "gender": "der",
+        "example": "Einen Moment, bitte!",
+        "exampleTranslation": "One moment, please!",
+        "whyItMatters": "'Einen Moment' is the universal 'just a sec' — say it in shops, on the phone, anywhere you need a brief pause. Plural 'die Momente'."
+      },
+      {
+        "word": "gleich",
+        "meaning": "in a moment, soon (also: equal)",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "example": "Ich komme gleich!",
+        "exampleTranslation": "I'm coming in a moment!",
+        "whyItMatters": "Two meanings: (1) very soon, (2) equal/same. Context tells you which. 'Gleich' for immediate future is more spoken than 'sofort'."
+      },
+      {
+        "word": "schon",
+        "meaning": "already",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "example": "Bist du schon fertig?",
+        "exampleTranslation": "Are you already done?",
+        "whyItMatters": "Beyond 'already' it's also a flavoring particle: 'Das ist schon gut' (that's OK / good enough). Position usually after the verb."
+      },
+      {
+        "word": "noch",
+        "meaning": "still, yet",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "example": "Ich bin noch nicht fertig.",
+        "exampleTranslation": "I'm not yet done.",
+        "whyItMatters": "'Schon' and 'noch' are mirror words. 'Schon fertig' (already done), 'noch nicht fertig' (not yet done), 'noch ein Bier' (one more beer)."
+      },
+      {
+        "word": "manchmal",
+        "meaning": "sometimes",
+        "partOfSpeech": "adverb",
+        "gender": null,
+        "example": "Manchmal arbeite ich am Wochenende.",
+        "exampleTranslation": "Sometimes I work on the weekend.",
+        "whyItMatters": "V2 trigger when first: 'Manchmal arbeite ich...' (verb in position 2). Middle of frequency scale: between 'selten' and 'oft'."
+      }
+    ]
+  },
+  {
+    "id": "a1-vocab-daily",
+    "level": "A1",
+    "title": "Everyday Verbs",
+    "description": "Twelve verbs that go beyond sein/haben — the engines of real A1 conversation.",
+    "icon": "☀️",
+    "color": "emerald",
+    "words": [
+      {
+        "word": "brauchen",
+        "meaning": "to need",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Ich brauche einen neuen Stift.",
+        "exampleTranslation": "I need a new pen.",
+        "whyItMatters": "Takes accusative. With infinitive use 'zu': 'Du brauchst nicht zu kommen' (you don't need to come). Regular conjugation."
+      },
+      {
+        "word": "dauern",
+        "meaning": "to last, to take (time)",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Die Reise dauert drei Stunden.",
+        "exampleTranslation": "The trip takes three hours.",
+        "whyItMatters": "Used for durations: 'Wie lange dauert das?' (how long does this take?). Don't use 'nehmen' for time durations — that's English interference."
+      },
+      {
+        "word": "gehören",
+        "meaning": "to belong to",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Dieses Buch gehört mir.",
+        "exampleTranslation": "This book belongs to me.",
+        "whyItMatters": "Takes DATIVE: 'gehört mir/dir/ihm', not 'mich/dich/ihn'. Don't say 'gehören zu' for possession — just dative directly."
+      },
+      {
+        "word": "passieren",
+        "meaning": "to happen",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Was ist hier passiert?",
+        "exampleTranslation": "What happened here?",
+        "whyItMatters": "Takes 'sein' as auxiliary in Perfekt: 'ist passiert', not 'hat passiert'. Like all '-ieren' verbs, no 'ge-' in Partizip II."
+      },
+      {
+        "word": "scheinen",
+        "meaning": "to shine, to seem",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Die Sonne scheint heute.",
+        "exampleTranslation": "The sun is shining today.",
+        "whyItMatters": "Two meanings: (1) to shine (sun, light), (2) to seem ('Es scheint, dass...'). Context tells you which."
+      },
+      {
+        "word": "glauben",
+        "meaning": "to believe, to think",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Ich glaube, dass er recht hat.",
+        "exampleTranslation": "I think that he's right.",
+        "whyItMatters": "'Ich glaube' is the everyday 'I think/suppose' — softer than 'denken'. Takes dative for people: 'Ich glaube dir' (I believe you)."
+      },
+      {
+        "word": "vergessen",
+        "meaning": "to forget",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Ich habe meinen Schlüssel vergessen.",
+        "exampleTranslation": "I forgot my key.",
+        "whyItMatters": "Vowel-change verb: ich vergesse, du vergisst, er vergisst. Partizip II 'vergessen' (no 'ge-' because of the 've-' prefix)."
+      },
+      {
+        "word": "verlieren",
+        "meaning": "to lose",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Ich verliere oft meinen Schirm.",
+        "exampleTranslation": "I often lose my umbrella.",
+        "whyItMatters": "Strong verb: Partizip II is 'verloren'. Also used for losing a game/match: 'Wir haben das Spiel verloren'."
+      },
+      {
+        "word": "suchen",
+        "meaning": "to search, to look for",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Ich suche meine Brille.",
+        "exampleTranslation": "I'm looking for my glasses.",
+        "whyItMatters": "No preposition needed — takes accusative directly. Don't say 'suchen für' or 'suchen nach' for objects you've lost."
+      },
+      {
+        "word": "finden",
+        "meaning": "to find, to think",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Ich finde diesen Film langweilig.",
+        "exampleTranslation": "I think this film is boring.",
+        "whyItMatters": "Two meanings: (1) to find (a thing), (2) to think/find (opinion). 'Ich finde X gut' is the A1 way to give opinions."
+      },
+      {
+        "word": "bleiben",
+        "meaning": "to stay, to remain",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Ich bleibe heute zu Hause.",
+        "exampleTranslation": "I'm staying home today.",
+        "whyItMatters": "Takes 'sein' in Perfekt: 'Ich bin geblieben'. Strong verb: bleiben → blieb → geblieben."
+      },
+      {
+        "word": "zeigen",
+        "meaning": "to show",
+        "partOfSpeech": "verb",
+        "gender": null,
+        "example": "Kannst du mir den Weg zeigen?",
+        "exampleTranslation": "Can you show me the way?",
+        "whyItMatters": "Takes both dative (person) AND accusative (thing): 'Ich zeige dir das Foto'. Word order: dative person before accusative thing."
+      }
+    ]
+  },
+  {
+    "id": "a1-vocab-adjectives",
+    "level": "A1",
+    "title": "Useful Adjectives",
+    "description": "Twelve adjectives that let you describe people, situations, and things with actual personality.",
+    "icon": "🎨",
+    "color": "violet",
+    "words": [
+      {
+        "word": "freundlich",
+        "meaning": "friendly",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Die Verkäuferin ist sehr freundlich.",
+        "exampleTranslation": "The saleswoman is very friendly.",
+        "whyItMatters": "Often paired with people: 'ein freundlicher Mensch'. Regular comparative: freundlicher, am freundlichsten."
+      },
+      {
+        "word": "fleißig",
+        "meaning": "hard-working, diligent",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Er ist ein fleißiger Student.",
+        "exampleTranslation": "He's a hard-working student.",
+        "whyItMatters": "Classic German virtue word — culturally loaded as positive. Opposite: 'faul' (lazy). Common in school contexts."
+      },
+      {
+        "word": "neugierig",
+        "meaning": "curious",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Kinder sind oft neugierig.",
+        "exampleTranslation": "Children are often curious.",
+        "whyItMatters": "Literally 'new-greedy' — wanting to know new things. Often pairs with 'auf + Akkusativ': 'neugierig auf das Ergebnis'."
+      },
+      {
+        "word": "geduldig",
+        "meaning": "patient",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Mein Lehrer ist sehr geduldig.",
+        "exampleTranslation": "My teacher is very patient.",
+        "whyItMatters": "Noun 'die Geduld' (patience). Opposite 'ungeduldig'. Common phrase: 'Geduld haben' (to have patience)."
+      },
+      {
+        "word": "ehrlich",
+        "meaning": "honest",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Sei ehrlich mit mir!",
+        "exampleTranslation": "Be honest with me!",
+        "whyItMatters": "'Ehrlich gesagt' (honestly speaking) is a daily filler phrase. Noun 'die Ehrlichkeit' = honesty."
+      },
+      {
+        "word": "schüchtern",
+        "meaning": "shy",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Sie ist anfangs etwas schüchtern.",
+        "exampleTranslation": "She's a bit shy at first.",
+        "whyItMatters": "Pronunciation tip: 'SHÜKH-tern'. Often softened with 'etwas' (somewhat) or 'ein bisschen' (a little)."
+      },
+      {
+        "word": "gemütlich",
+        "meaning": "cozy, comfortable",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Unser Wohnzimmer ist sehr gemütlich.",
+        "exampleTranslation": "Our living room is very cozy.",
+        "whyItMatters": "Iconic German word with no exact English match. Describes warmth, comfort, low pressure. Also for people: 'eine gemütliche Person' (relaxed)."
+      },
+      {
+        "word": "anstrengend",
+        "meaning": "exhausting, demanding",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Der Tag war sehr anstrengend.",
+        "exampleTranslation": "The day was very exhausting.",
+        "whyItMatters": "Often pairs with 'Tag', 'Arbeit', 'Reise'. Verb 'sich anstrengen' (to make an effort). Different from 'müde' (tired — describes the person)."
+      },
+      {
+        "word": "lustig",
+        "meaning": "funny, fun",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Der Film war wirklich lustig.",
+        "exampleTranslation": "The film was really funny.",
+        "whyItMatters": "Use for funny things AND fun situations. Different from 'witzig' (witty, clever-funny). 'Spaßig' is a softer alternative."
+      },
+      {
+        "word": "langweilig",
+        "meaning": "boring",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Der Vortrag war langweilig.",
+        "exampleTranslation": "The lecture was boring.",
+        "whyItMatters": "Describes a thing, NOT a person feeling bored. For 'I am bored', use 'Mir ist langweilig' (dative) or 'Ich langweile mich' (reflexive)."
+      },
+      {
+        "word": "wichtig",
+        "meaning": "important",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Das ist eine wichtige Frage.",
+        "exampleTranslation": "That's an important question.",
+        "whyItMatters": "Comparative 'wichtiger', superlative 'am wichtigsten'. Common pairings: 'wichtiger Termin', 'wichtige Entscheidung', 'wichtige Person'."
+      },
+      {
+        "word": "schwierig",
+        "meaning": "difficult",
+        "partOfSpeech": "adjective",
+        "gender": null,
+        "example": "Deutsch ist manchmal schwierig.",
+        "exampleTranslation": "German is sometimes difficult.",
+        "whyItMatters": "Synonym 'schwer' is also common (and means 'heavy' too). 'Schwierig' specifically means challenging/complex — slightly more formal."
+      }
+    ]
+  },
+  {
+    "id": "a1-vocab-separable-verbs",
+    "level": "A1",
+    "title": "Trennbare Verben",
+    "description": "Twelve essential separable verbs — the most common splittable verbs in everyday German.",
+    "icon": "✂️",
+    "color": "teal",
+    "words": [
+      {
+        "word": "aufstehen",
+        "meaning": "to get up",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Ich stehe jeden Morgen um sieben auf.",
+        "exampleTranslation": "I get up at seven every morning.",
+        "whyItMatters": "Splits in present: 'ich stehe um sieben auf'. Perfekt: 'bin aufgestanden' (uses sein!). Strong verb."
+      },
+      {
+        "word": "anrufen",
+        "meaning": "to call (on phone)",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Ich rufe dich morgen an.",
+        "exampleTranslation": "I'll call you tomorrow.",
+        "whyItMatters": "Splits in present: 'er ruft mich an'. Takes ACCUSATIVE (the person you call). Perfekt: 'hat angerufen'."
+      },
+      {
+        "word": "einkaufen",
+        "meaning": "to shop, to go shopping",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Wir kaufen am Samstag ein.",
+        "exampleTranslation": "We go shopping on Saturday.",
+        "whyItMatters": "Splits: 'ich kaufe Brot ein'. 'Einkaufen gehen' is the most common phrase (compound infinitive). Perfekt: 'hat eingekauft'."
+      },
+      {
+        "word": "mitkommen",
+        "meaning": "to come along",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Kommst du mit ins Kino?",
+        "exampleTranslation": "Are you coming along to the cinema?",
+        "whyItMatters": "Splits: 'kommst du mit?'. Takes 'sein' in Perfekt: 'ist mitgekommen'. The yes/no question form is super common."
+      },
+      {
+        "word": "ankommen",
+        "meaning": "to arrive",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Der Zug kommt um drei Uhr an.",
+        "exampleTranslation": "The train arrives at three.",
+        "whyItMatters": "Splits: 'der Zug kommt an'. Takes 'sein' in Perfekt: 'ist angekommen'. 'In + Dativ' for the destination."
+      },
+      {
+        "word": "aussteigen",
+        "meaning": "to get off / out (vehicle)",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Wir steigen am Bahnhof aus.",
+        "exampleTranslation": "We get off at the station.",
+        "whyItMatters": "Splits: 'wir steigen aus'. Opposite: 'einsteigen' (get in/on). Takes 'sein': 'bin ausgestiegen'."
+      },
+      {
+        "word": "fernsehen",
+        "meaning": "to watch TV",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Abends sehe ich gern fern.",
+        "exampleTranslation": "I like watching TV in the evenings.",
+        "whyItMatters": "Splits: 'ich sehe fern'. Vowel change: 'du siehst, er sieht'. Perfekt: 'hat ferngesehen'. The noun is 'der Fernseher' (TV)."
+      },
+      {
+        "word": "anfangen",
+        "meaning": "to start, to begin",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Der Film fängt um acht an.",
+        "exampleTranslation": "The film starts at eight.",
+        "whyItMatters": "Splits: 'der Film fängt an'. Vowel change: 'du fängst, er fängt'. Synonym 'beginnen' (NOT separable). Perfekt: 'hat angefangen'."
+      },
+      {
+        "word": "abholen",
+        "meaning": "to pick up",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Ich hole dich um acht ab.",
+        "exampleTranslation": "I'll pick you up at eight.",
+        "whyItMatters": "Splits: 'ich hole dich ab'. Used for people, packages, or things from a place. Perfekt: 'hat abgeholt'."
+      },
+      {
+        "word": "vorhaben",
+        "meaning": "to plan, to intend",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Was hast du am Wochenende vor?",
+        "exampleTranslation": "What are you planning this weekend?",
+        "whyItMatters": "Splits: 'ich habe etwas vor'. Standard question for asking about plans. Perfekt: 'hat vorgehabt'."
+      },
+      {
+        "word": "aufmachen",
+        "meaning": "to open",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Kannst du das Fenster aufmachen?",
+        "exampleTranslation": "Can you open the window?",
+        "whyItMatters": "Splits: 'ich mache das Fenster auf'. More informal than 'öffnen'. Perfekt: 'hat aufgemacht'."
+      },
+      {
+        "word": "zumachen",
+        "meaning": "to close, to shut",
+        "partOfSpeech": "verb-separable",
+        "gender": null,
+        "example": "Mach bitte die Tür zu.",
+        "exampleTranslation": "Please close the door.",
+        "whyItMatters": "Splits: 'er macht die Tür zu'. Informal alternative to 'schließen'. Perfekt: 'hat zugemacht'. Pair with 'aufmachen' for doors/windows."
+      }
+    ]
+  }
+]
